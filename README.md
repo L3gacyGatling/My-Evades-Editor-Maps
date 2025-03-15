@@ -2,7 +2,11 @@ In order to use any of my map files:
 
 1: open the evades editor that's on the description of this resposit.
 
-2: disable the "Display Legacy Speed Units" in settings (the gear icon).
+2: Depending on the file, you need to enable or disable the "Legacy Speed Units" setting.
+
+    A file that has ".legacy" before ".json" will require the "Legacy Speed Units" setting on (It's on by default).
+
+    A file that doesn't have that requires the "Legacy Speed Units" setting off.
 
 3. Press the import button at the top left corner (the one that looks like a arrow going out of a bracket).
 
