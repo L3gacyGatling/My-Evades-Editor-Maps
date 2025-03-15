@@ -1,1 +1,130 @@
-I'll edit this later
+Welcome to the notes and extras for Reckless Railroad.
+
+Created by L3gAcyGAtLing.
+
+Srry for the wall of text.
+
+So, let's start with a story:
+
+    So, this map used to be called "Switch Station", but I thought that I should create a new name, as that might be in the works (prob it isn't).
+    This map also went through a redo, as xp gain per undiscovered area is all out of place.
+    The theme of the map is railroads, seasons, and the 24 hour day, you go figure out how.
+
+General Enemy layout:
+
+    Bascially, each railroad is comprised of 8 areas, while each railroad section is consists of 4 areas.
+    2 enemies are choosen as constants, which will appear for the entire railroad.
+    and 3 enemies are choosen as temporary enemies, which will nonly appear for only that railroad section.
+
+      Ex. Stalatite and Glowy are choosen as the constant enemies for the entire railroad, while Freezing, Icicle, and Charging are temporary enemies that only appear for the railroad section
+
+    the first area of each railroad section will show the enemy types you'll be facing for the section.
+    the 2nd, 3rd, and 4th areas of each railroad section will be a "boss" for 1 enemy in the temporary enemies.
+
+      Ex. One area has Freezing as the "Boss" of that area, so it'll have a small varient, and a large varient. The next area will have Icicle as the "Boss" or the area, and so forth.
+
+    However, at the last area of the railroad, the constants will also be the "Boss", and will have either a large varient, or a small varient, or both!
+    This trope repeats for the entire map.
+
+Stations and Checkpoints:
+
+    Stations and Checkpoints is the core thing that inspired me to make this map.
+    They only appear at either the start or end of the railroad.
+    Inside of that area contains enemies that you might face for the railroad.
+    Stations will have a "Playground" area, but Checkpoints won't.
+    However, they all have a "debuff" area. But we'll talk about it later.
+
+"Playgrounds":
+
+    Usually, all Railroad Stations have a "Playground" area, which is where players can hang out without the fear of being destroyed by enemies.
+    Playgrounds are areas where childern, teens, and adults can hang out and play without the fear of danger, unless if they make their own.
+    Since I don't want any danger in those areas, I used enemies that don't hurt them or their run (Ghosts, fake Pumpkins, cati, etc.). 
+
+    The "Playground" Areas:
+        I'm going to say how the "Playground" areas are designed:
+
+            "Botanical Gardens":
+                  This area has wind ghosts, and background flowers, with a different colored center (It's not a Undertale Refernce, it's unintentional).
+                  It's the most simple of the "Playground Areas".
+              "Frozen Ponds":
+                  This area is the only area that has low friction (low friction in the winter themed railroad will be a pain to balance).
+                  The area has "Ponds".
+                  The smaller ponds has a large Poison Ghost at the middle (for speed).
+                  The bigger, center pond has a Barrier surrounded by standing Wind Ghosts.
+                      This is intended for Cybot to gain the very powerful Barrier Scan outside of Research Lab or Cyber Castle.
+                  The area also has Cati and Wind Ghosts to add with the fun of low friction.
+              "Cremated Dunes":
+                  This area has the second-most amount of entities.
+                  The brown-like strips on the area are tried to represent the hills on dunes.
+                  The darker-sand-like parts of the map, it's up to interpretation, but it acts like decor.
+                  Similar to "Frozen Ponds", it has a Barrier enemy blocked off by Wind Ghosts, but at the top left corner of the area.
+                  The area has a lot of standing, small cati, and a some larger, moving cati.
+                "Outdoor Park":
+                    This area has the most amount of entities (very laggy).
+                    It has paths that lead to a wooden shack at the other side of the area.
+                    At the Middle of the map, it has a fountain.
+                    Everywhere, there're leaves and Fake Pumpkins, as this railroad is based on Autumn.
+
+"Debuff" Areas:
+However, due to editor limitations, there won't be anything what I said below in the map.
+    These areas are only unlocked when you had beaten this map once.
+    They're important for another area at the end of the map.
+    These areas are comprised of "Basements", and "Handicaps".
+    They appear inside of the Stations and Checkpoints.
+    When entering, the area will give you a set debuff that last as long you're in the map.
+    They also have text to indicate of what debuff you gotten.
+    Let's go over them:
+      Basement 1:
+          "The still air in the floral basement had inflated your lungs"
+            Your max energy capcity has been cut in half (max energy: 150).
+      Handicap 1:
+          "The officers gave you a electric collar around your neck, shortening your time downed"
+            Your Death Timer has been shortened by 33%.
+      Basement 2N:
+          "The frosted air in the icy basement had made your legs sore."
+            Your max speed has been reduced by 2 [(max speed: 15), this won't affect your speed bonus from your abilities (stream, sweet tooth, night, etc.)].
+      Handicap 2N:
+          "Officers wearing fur coats gave you arm braces, which drains some of your energy."
+          Your max regen has been reduced by 2 (max regen: 5).
+      Basement 2S:
+          "The heated air in the hot basement have made you thirsty".
+          All abilities have a extra 1 second cooldown (whenever possible to apply).
+      Handicap 2S:
+          "Officers wearing shorts gave you a blindfold, now you can't know what time is it."
+          You can't see the cooldown of your abilities (the gameplay indications also won't show up).
+      Basement 3:
+          "The scented air of the vibrant basement have made you relaxed."
+          All abilities are now weaker (in any way possible).
+    "So, what does debuffs are used for, when they directly hurt you?", you're saying right now.
+    Well, I'll explain later.
+
+Victory areas:
+    Obvious editor limitations, you won't see this in the editor.
+
+    Obviously, every map must have a end, and this map is no different.
+    So:
+      Victory area for Reckless Railroad:
+        "After crossing the lands the railroads crossed, there'll be more lands that you'll discover beyond your destination"
+          "3 vp awarded"
+          "Unlocked [Hero]" (The [Hero]'s name is meant to be interrperted).
+
+    However, remember the debuff areas I talked about?
+    Well, they're used in a different victory area, next to the general victory area, called "Destination".
+    That victory area can only be entered if you have at least 1 debuff applied.
+    So:
+      Extra Victory area for Reckless Railroad:
+        "You reached your destination, and with a yawn, you slept, dreaming of the lands you might confront"
+        "x vp awarded" (x represents the number of debuffs you have on. Theoatical max is 5, but the true max is 8).
+        Depend on your debuffs you'll be awarded with other stuff, starting at 3 debuffs.
+        (3 debuffs applied): "Unlocked [Hero]"
+        (4 debuffs applied): "Conductor's Hat added to your accessories collection"
+        (5 debuffs applied): "Conductor's Coat added to you accessories collection"
+
+
+Ending:
+    So, one map completed, it's very great to finish it.
+    And I learned how to balance maps, and use the editor.
+    I hope I can continue making maps :).
+
+        Legacy, signing off.
+                    
