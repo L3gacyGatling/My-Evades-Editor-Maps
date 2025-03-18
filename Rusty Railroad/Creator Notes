@@ -26,6 +26,84 @@ General Enemy layout:
     However, at the last area of the railroad, the constants will also be the "Boss", and will have either a large varient, or a small varient, or both!
     This trope repeats for the entire map.
 
+    Themeing:
+       For Amaster (the map maker and Jr. dev of evades, told in the feedback that the enemies were placed are random, which, is actually true for a lot of the time, especially at the Desert Portion of the Railroad)
+        
+        Railroad 1 and 2: 
+                Themed around plants and greenery, which is why it inclues enemies that're green, or plant-like (Grass, Turning, Toxic, Flower, Oscalating, Seedling).
+                As since this part of the Railroad is the start of the day, Fireflies were added (their numbers start to decrease at Railroad 2).
+
+        Northern Tunnel 1 and 2:
+                Themed around you being in a dark tunnel, and approaching the cold tundra.
+                Most enemies relates to said cold, or have shades of blue (Freezing, Icicle, Snowman, Draining, Liquid)
+                While some are relating to the tunnel/darkness (Stalatice, Charging)
+                Since it's the early tunnels, and it's dark, Glowy is added to the mix (my mind at that time was thinking of adding all of the "vanishing" enemies to a map)
+
+        Railroad 3N and 4N:
+                Themed around the cold tundra.
+                Enemies here are related to the snow (Repelling, it's white), shades of blue (Blind, Dasher, Dasher Switch), or generally, just have the meaning of "cold" in it's name (Slippery, Frost Giant, Ice Sniper)
+                Only section where a enemy is reused (Icicle).
+                Wind Ghosts, while doesn't really look cold, and not fitting as it's not a "hard" version of the map, basically represents the cold winds, and wind snipers are a bit worse in my mind.
+
+        Northern Tunnel 3 and 4:
+
+                This is actually where the lack of cold enemies appeared, as me, the creator of the map, only used 1 enemy type (excluding the single instance of the Icicle) per section once...
+                And the frozen looking enemies had run dry.
+                So, This is a random section, especially at Northern Tunnel 4.
+                In Northern Tunnel 3, the Stalatices returned, as you're in a tunnel, but goes away at Northen Tunnel 4.
+                Also contains dark-like enemies (Reducing, and Switch)
+                And Homing, which is there cause I think it fits with the Tunnel.
+
+        Northern Tunnel 4 is where it's enemies are in theme, but it's off-theme of the map.
+                The theme here is pink colors (Infinity, Infinity Switch, Disabler, Poison Sniper).(Also, I just put Infinity there on about the day it is implemented :p)
+                The Homing now also has a Homing Switch, too.
+                Since this areas is the "sequel" to the previous Northern Tunnel, I decided to use Mists.
+
+        Southern Tunnel 1 and 2:
+
+        Fun Fact: The desert section of areas were made after creating Railroad 5 and 6, which actually limits my enemy options.
+
+                Same as Northern Tunnel 1 and 2, this is about approaching the Desert.
+                However, due to the increasing lack of enemies options due to my map making policy on this map, I have to use enemies that don't really fit the theme.
+                The theme, is mostly brown (Blocking, Quicksand, Sniper).
+                While the outliners, mainly at Southern Tunnel 2, are Enlarging (through that enemy is justifyable, as Blocking are nothing without another aura), and Normal.
+                Stalatice and Glowly returns.
+                And Slasher is here to replace "Charging" (used it a few days after Slasher was implemented).
+
+        Railraod 3S and 4S:
+
+                There's more outliers here, as I'm running out of enemies.
+
+                Some that fit the theme of "Desert", or Desert-like colors (Catus, Sand, Sandrock, Crumbling, and probably Static (yellow) ).
+                While others don't (Radar, Exp Drain, Radiating Bullets).
+                (Exp drain is added, probably as players get more xp when going from the Southern areas)
+
+        Southern Tunnel 3 and 4:
+
+                This is actually "in theme" with the previous Railroad, as the desert is hot, so the enemies are fire (not in internet slang).
+                Though, there's some randomness (Lead Sniper, Force Sniper A, Immune).
+                Draining was added in order for Southern Tunnel 4 to be a bit fair.
+                This section has some theme (Fire Trail, Lunging, and Lava).
+                Stalatices are tempoary there.
+                And phantoms are added to mirror Northern Tunnel 3 and 4 (and also to make the desert portion harder).
+
+        Railroad 5 and 6:
+
+                This is created before the deset areas.
+                The theme around this is autumn, usually with enemies that have the color of autumn (Wavy, Spiraling, Zoning, Slowing, Sizing, and the Switch Varients od the first 3)
+                Or having the slight feeling of Autumn (Pumpkins, and Trees)
+                Pumpkins being mixed with fakes is done on purpose.
+
+        Destination:
+
+                There enemies there are meant to show the Railroads you've been. And Barriers for easy crossing.
+
+
+        
+        
+        
+
+
 Stations and Checkpoints:
 
     Stations and Checkpoints is the core thing that inspired me to make this map.
