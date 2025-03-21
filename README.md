@@ -1,3 +1,6 @@
+For any develeopers and Jr developers of Evades.io that read this, you're allowed to use, add, and edit any of my maps, as long as you credit me...
+
+
 In order to use any of my map files:
 
 1: open the evades editor that's on the description of this resposit.
