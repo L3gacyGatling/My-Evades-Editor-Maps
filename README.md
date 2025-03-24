@@ -26,6 +26,6 @@ Press "R" to set your level to 100, and upgrades all stats to max.
 
 Press "N" to enable godmode. It also allows you to revive yourself when you got hit by an enemy.
 
-If done playtesting, press the "Playtesting" button again.
+If done playtesting, press the pause button.
 
 
