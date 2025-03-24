@@ -13,7 +13,7 @@ In order to use any of my map files:
 
 3. Press the import button at the top left corner (the one that looks like a arrow going out of a bracket).
 
-4. Now, you're ready to play! Go to settings, and press the "Playtesting" button to start playing.
+4. Now, you're ready to play! Go to settings, press the Playtesting Tab, and press the play button similar to those on youtube.
 
 
 Tips when playtesting:
