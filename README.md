@@ -30,6 +30,6 @@ Press "U" to resurrect yourself.
 
 Press "N" to enable godmode. It'll also blocks all effects, and resurrect you, if you're downed. Can be toggled
 
-If done playtesting, press the pause button.
+
 
 
