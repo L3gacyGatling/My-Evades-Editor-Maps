@@ -13,7 +13,9 @@ In order to use any of my map files:
 
 3. Press the import button at the top left corner (the one that looks like a arrow going out of a bracket).
 
-4. Now, you're ready to play! Go to settings, press the Playtesting Tab, and press the play button similar to those on youtube.
+4. Now, you're ready to play! At the left of the editor screen, press the white box to start playing. Press it again to stop playtesting.
+
+   (There's also settings for things like visual, gameplay, mouse control, etc. It's in the gear at the bottom right).
 
 
 Tips when playtesting:
@@ -24,7 +26,9 @@ Press "T" to go forrward a area.
 
 Press "R" to set your level to 100, and upgrades all stats to max.
 
-Press "N" to enable godmode. It also allows you to revive yourself when you got hit by an enemy.
+Press "U" to resurrect yourself.
+
+Press "N" to enable godmode. It'll also blocks all effects, and resurrect you, if you're downed. Can be toggled
 
 If done playtesting, press the pause button.
 
