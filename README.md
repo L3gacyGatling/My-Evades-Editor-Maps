@@ -28,7 +28,11 @@ Press "R" to set your level to 100, and upgrades all stats to max.
 
 Press "U" to resurrect yourself.
 
-Press "N" to enable godmode. It'll also blocks all effects, and resurrect you, if you're downed. Can be toggled
+Press "N" to enable godmode. It'll also blocks all effects, and resurrect you, if you're downed. Can be toggled.
+
+
+
+Also, if you want to play any of the offical maps (and deleted maps) from Evades.io, you can press the small rectangle under the import button, and choose a region (Stellar Square Hard reauires a secret).
 
 
 
