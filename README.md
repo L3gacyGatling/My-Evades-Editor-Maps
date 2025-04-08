@@ -1,3 +1,8 @@
+NOTICE: Due to the certain expliot I used on the school chromebook is probably patched, I'll be on a CREATION HIATUS, until I somehow found another expliot, have a friend help me unblock stuff, found a proxy, or until summertime.
+
+You can still ask me any question regarding the Region Editor on Discussions.
+
+
 For any develeopers and Jr developers of Evades.io that read this, feel free to use, add, and edit any of my maps, as long as you credit me...
 
 
