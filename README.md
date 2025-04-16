@@ -1,4 +1,4 @@
-NOTICE: Due to the certain expliot I used on the school chromebook is pretty much patched, I'll be on a CREATION HIATUS, until I somehow found another expliot, have a friend help me unblock stuff, found a proxy, or until summertime.
+
 
 You can still ask me any question regarding the Region Editor on Discussions, or any general questions.
 
