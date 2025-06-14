@@ -1,6 +1,4 @@
-NOTICE: Expliot to unblock sties (including the editor) got patched, I'm NOT active on the editor but...
 
-You can still ask me any question regarding the Region Editor on Discussions, or any general questions.
 
 
 For any develeopers and Jr developers of Evades.io that read this, feel free to use, add, and edit any of my maps, as long as you credit me...
@@ -27,13 +25,11 @@ Tips when playtesting:
 
 Press "E" to go back a area.
 
-Press "T" to go forrward a area.
-
-Press "R" to set your level to 100, and upgrades all stats to max.
+Press "T" to go forward a area.
 
 Press "U" to resurrect yourself.
 
-Press "N" to enable godmode. It'll also blocks all effects, and resurrect you, if you're downed. Can be toggled.
+
 
 
 
