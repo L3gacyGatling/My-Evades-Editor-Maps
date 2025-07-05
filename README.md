@@ -27,7 +27,7 @@ Press "E" to go back a area.
 
 Press "T" to go forward a area.
 
-Press "U" to resurrect yourself.
+If you want to know certain commands type "/help" in the chatbox (chatbox can be opened by pressing "V" on your keyboard)
 
 
 
