@@ -33,7 +33,7 @@ If you want to know certain commands type "/help" in the chatbox (chatbox can be
 
 
 
-Also, if you want to play any of the offical maps (and deleted maps) from Evades.io, you can press the small rectangle under the import button, and choose a region (Stellar Square Hard reauires a secret).
+Also, if you want to play any of the offical maps (and deleted maps) from Evades.io, you can press the small rectangle under the import button, and choose a region (Stellar Square Hard requires a secret).
 
 
 
