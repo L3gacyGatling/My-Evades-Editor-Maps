@@ -1,0 +1,904 @@
+name: Dexterous Dungeon
+properties:
+  title_stroke_color:
+    - 150
+    - 125
+    - 120
+    - 200
+  background_color:
+    - 50
+    - 25
+    - 20
+    - 100
+  lighting: 0.2
+  pellet_multiplier: 20
+areas:
+  - x: -320
+    y: 128
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 0
+        y: 0
+        width: 448
+        height: 608
+      - type: exit
+        x: 4768
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 224
+        width: 64
+        height: 384
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: teleport
+        x: 0
+        y: 512
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 96
+    assets:
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+  - x: 4512
+    y: 128
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 64
+        y: 0
+        width: 544
+        height: 384
+      - type: exit
+        x: 544
+        y: 4480
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 544
+        y: 4320
+        width: 64
+        height: 160
+      - type: safe
+        x: 0
+        y: 4320
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 160
+    assets:
+      - type: light_region
+        x: 0
+        y: 4096
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+  - x: 5120
+    y: 4224
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 384
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 384
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 0
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - x: 9952
+    y: 128
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 64
+        y: 4320
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 4480
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 4320
+        width: 64
+        height: 160
+      - type: safe
+        x: 0
+        y: 0
+        width: 544
+        height: 384
+      - type: exit
+        x: 544
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 544
+        y: 224
+        width: 64
+        height: 160
+    assets:
+      - type: light_region
+        x: 0
+        y: 4096
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+  - x: 10560
+    y: 128
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 384
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 384
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 0
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - x: 15392
+    y: -3968
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 64
+        y: 4320
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 4480
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 4320
+        width: 64
+        height: 160
+      - type: safe
+        x: 0
+        y: 0
+        width: 544
+        height: 384
+      - type: exit
+        x: 544
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 544
+        y: 224
+        width: 64
+        height: 160
+    assets:
+      - type: light_region
+        x: 0
+        y: 4096
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+  - x: 16000
+    y: -3968
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 384
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 224
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - x: 20832
+    y: -3968
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 64
+        y: 0
+        width: 544
+        height: 384
+      - type: safe
+        x: 0
+        y: 4320
+        width: 608
+        height: 480
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 160
+      - type: exit
+        x: 256
+        y: 4512
+        translate:
+          x: 0
+          y: 8570
+        width: 96
+        height: 96
+    assets:
+      - type: light_region
+        x: 0
+        y: 4192
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+  - x: 20832
+    y: 9088
+    zones:
+      - type: active
+        x: 0
+        y: 480
+        width: 608
+        height: 3936
+      - type: safe
+        x: 0
+        y: 0
+        width: 608
+        height: 480
+      - type: safe
+        x: 64
+        y: 4416
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 4576
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 4416
+        width: 64
+        height: 160
+      - type: exit
+        x: 256
+        y: 192
+        translate:
+          x: 0
+          y: -8570
+        width: 96
+        height: 96
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 4192
+        width: 608
+        height: 608
+  - x: 16000
+    y: 13280
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 384
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 384
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 0
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - x: 15392
+    y: 9184
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 0
+        y: 4320
+        width: 544
+        height: 384
+      - type: exit
+        x: 544
+        y: 4480
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 544
+        y: 4320
+        width: 64
+        height: 160
+      - type: safe
+        x: 64
+        y: 0
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 160
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 4096
+        width: 608
+        height: 608
+  - x: 10560
+    y: 9184
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 384
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 224
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - x: 9952
+    y: 5088
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 0
+        y: 4320
+        width: 544
+        height: 384
+      - type: exit
+        x: 544
+        y: 4480
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 544
+        y: 4320
+        width: 64
+        height: 160
+      - type: safe
+        x: 64
+        y: 0
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 160
+    assets:
+      - type: light_region
+        x: 0
+        y: 4096
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+  - x: 5120
+    y: 5088
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 384
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 224
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - x: 4512
+    y: 5088
+    zones:
+      - type: active
+        x: 0
+        y: 384
+        width: 608
+        height: 3936
+      - type: safe
+        x: 0
+        y: 0
+        width: 544
+        height: 384
+      - type: exit
+        x: 0
+        y: 4480
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 4320
+        width: 64
+        height: 160
+      - type: safe
+        x: 64
+        y: 4320
+        width: 544
+        height: 384
+      - type: exit
+        x: 544
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 544
+        y: 224
+        width: 64
+        height: 160
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 0
+        y: 4096
+        width: 608
+        height: 608
+  - x: -320
+    y: 9184
+    zones:
+      - type: active
+        x: 448
+        y: 0
+        width: 3936
+        height: 608
+      - type: safe
+        x: 4384
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -150
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 608
+      - type: exit
+        x: 4768
+        y: 384
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 4768
+        y: 0
+        width: 64
+        height: 384
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 608
+        height: 608
+      - type: light_region
+        x: 4224
+        y: 0
+        width: 608
+        height: 608
+  - properties:
+      lighting: 0.76
+    x: -1312
+    y: 9120
+    zones:
+      - type: removal
+        x: 0
+        y: 0
+        width: 64
+        height: 736
+      - type: victory
+        x: 64
+        y: 0
+        width: 864
+        height: 736
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 928
+        y: 0
+        translate:
+          x: 150
+          y: 0
+        width: 64
+        height: 736
