@@ -15,32 +15,32 @@ properties:
   pellet_multiplier: 10
   crumble_reduced: true
 areas:
-  - x: -320
+  - x: -384
     y: 128
     zones:
       - type: active
-        x: 448
+        x: 512
         y: 0
         width: 3936
         height: 608
         spawner:
           - radius: 40
-            speed: 60
-            count: 30
+            speed: 120
+            count: 15
             types:
               - normal
           - radius: 30
-            speed: 120
-            count: 25
+            speed: 150
+            count: 13
             types:
               - normal
       - type: safe
-        x: 0
+        x: 64
         y: 0
         width: 448
         height: 608
       - type: exit
-        x: 4768
+        x: 4832
         y: 0
         translate:
           x: 150
@@ -48,26 +48,26 @@ areas:
         width: 64
         height: 224
       - type: safe
-        x: 4768
+        x: 4832
         y: 224
         width: 64
         height: 384
       - type: safe
-        x: 4384
+        x: 4448
         y: 0
         width: 384
         height: 608
       - type: teleport
         x: 0
-        y: 160
+        y: 0
         translate:
           x: -150
           y: 0
-        width: 32
-        height: 288
+        width: 64
+        height: 608
     assets:
       - type: light_region
-        x: 4224
+        x: 4288
         y: 0
         width: 608
         height: 608
@@ -85,19 +85,19 @@ areas:
         width: 608
         height: 3936
         spawner:
-          - radius: 35
-            speed: 120
-            count: 25
+          - radius: 27
+            speed: 210
+            count: 20
             types:
               - normal
-          - radius: 50
-            speed: 75
-            count: 25
-            types:
-              - normal
-          - radius: 18
-            speed: 150
+          - radius: 60
+            speed: 180
             count: 9
+            types:
+              - normal
+          - radius: 20
+            speed: 180
+            count: 11
             types:
               - homing
       - type: safe
@@ -156,14 +156,14 @@ areas:
         width: 3936
         height: 608
         spawner:
-          - radius: 30
-            speed: 210
-            count: 17
+          - radius: 27
+            speed: 240
+            count: 16
             types:
               - normal
-          - radius: 65
-            speed: 105
-            count: 19
+          - radius: 75
+            speed: 135
+            count: 7
             types:
               - normal
           - radius: 25
@@ -177,8 +177,8 @@ areas:
             count: 2
             types:
               - wall
-          - radius: 19
-            speed: 180
+          - radius: 18
+            speed: 210
             count: 10
             types:
               - homing
@@ -249,24 +249,24 @@ areas:
             count: 2
             types:
               - wall
-          - radius: 35
-            speed: 90
-            count: 20
+          - radius: 50
+            speed: 150
+            count: 15
             types:
               - normal
-          - radius: 85
-            speed: 90
-            count: 12
+          - radius: 110
+            speed: 120
+            count: 4
             types:
               - normal
           - radius: 21
-            speed: 210
-            count: 19
+            speed: 225
+            count: 20
             types:
               - normal
-          - radius: 37
-            speed: 150
-            count: 5
+          - radius: 29
+            speed: 180
+            count: 8
             types:
               - homing
       - type: safe
@@ -336,16 +336,21 @@ areas:
             count: 4
             types:
               - wall
-          - radius: 43
-            speed: 300
-            count: 34
+          - radius: 69
+            speed: 240
+            count: 10
             types:
               - sandrock
-          - radius: 55
-            speed: 210
-            count: 15
+          - radius: 35
+            speed: 240
+            count: 17
             types:
               - normal
+          - radius: 25
+            speed: 330
+            count: 14
+            types:
+              - sandrock
       - type: safe
         x: 64
         y: 0
@@ -413,21 +418,26 @@ areas:
             count: 4
             types:
               - wall
-          - radius: 90
-            speed: 270
-            count: 10
+          - radius: 85
+            speed: 210
+            count: 6
             types:
               - sandrock
-          - radius: 22
+          - radius: 25
             speed: 300
-            count: 15
+            count: 13
             types:
               - normal
-          - radius: 45
-            speed: 120
-            count: 24
+          - radius: 40
+            speed: 210
+            count: 12
             types:
               - normal
+          - radius: 35
+            speed: 240
+            count: 14
+            types:
+              - sandrock
       - type: safe
         x: 64
         y: 4320
@@ -495,21 +505,26 @@ areas:
             count: 4
             types:
               - wall
-          - radius: 35
-            speed: 300
-            count: 35
+          - radius: 80
+            speed: 240
+            count: 10
             types:
               - sandrock
-          - radius: 75
+          - radius: 22
+            speed: 300
+            count: 13
+            types:
+              - normal
+          - radius: 23
             speed: 210
             count: 8
             types:
-              - normal
-          - radius: 19
-            speed: 240
-            count: 7
-            types:
               - sniper
+          - radius: 37
+            speed: 210
+            count: 17
+            types:
+              - normal
       - type: safe
         x: 64
         y: 0
@@ -577,29 +592,29 @@ areas:
             count: 4
             types:
               - wall
-          - radius: 35
+          - radius: 33
+            speed: 270
+            count: 20
+            types:
+              - sandrock
+          - radius: 22
             speed: 330
-            count: 25
+            count: 14
             types:
               - sandrock
           - radius: 23
-            speed: 390
-            count: 17
-            types:
-              - sandrock
-          - radius: 75
-            speed: 120
-            count: 7
+            speed: 270
+            count: 16
             types:
               - normal
-          - radius: 40
+          - radius: 33
             speed: 180
-            count: 4
+            count: 5
             types:
               - sniper
-          - radius: 95
-            speed: 240
-            count: 4
+          - radius: 100
+            speed: 210
+            count: 3
             types:
               - sandrock
       - type: safe
@@ -664,6 +679,28 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 28
+            speed: 225
+            count: 15
+            types:
+              - immune
+          - radius: 26
+            angle: 90
+            speed: 240
+            count: 15
+            types:
+              - stalactite
+          - radius: 32
+            angle: -90
+            speed: 210
+            count: 13
+            types:
+              - stalactite
+          - radius: 65
+            speed: 165
+            count: 5
+            types:
+              - immune
       - type: safe
         x: 0
         y: 64
@@ -762,6 +799,28 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 20
+            angle: 225
+            speed: 240
+            count: 17
+            types:
+              - stalactite
+          - radius: 45
+            angle: 45
+            speed: 180
+            count: 13
+            types:
+              - stalactite
+          - radius: 75
+            speed: 150
+            count: 5
+            types:
+              - immune
+          - radius: 27
+            speed: 315
+            count: 20
+            types:
+              - immune
     assets:
       - type: light_region
         x: 0
@@ -829,6 +888,28 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 35
+            angle: 0
+            speed: 225
+            count: 18
+            types:
+              - stalactite
+          - radius: 30
+            angle: 180
+            speed: 240
+            count: 18
+            types:
+              - stalactite
+          - radius: 22
+            speed: 360
+            count: 15
+            types:
+              - immune
+          - radius: 40
+            speed: 90
+            count: 15
+            types:
+              - immune
     assets:
       - type: light_region
         x: 0
@@ -896,6 +977,26 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 80
+            speed: 150
+            count: 6
+            types:
+              - stalactite
+          - radius: 40
+            speed: 210
+            count: 17
+            types:
+              - stalactite
+          - radius: 24
+            speed: 330
+            count: 13
+            types:
+              - stalactite
+          - radius: 21
+            speed: 300
+            count: 15
+            types:
+              - immune
     assets:
       - type: light_region
         x: 0
@@ -963,6 +1064,21 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 18
+            speed: 180
+            count: 10
+            types:
+              - phantom
+          - radius: 34
+            speed: 285
+            count: 20
+            types:
+              - immune
+          - radius: 55
+            speed: 150
+            count: 15
+            types:
+              - immune
     assets:
       - type: light_region
         x: 0
@@ -1030,6 +1146,21 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 45
+            speed: 225
+            count: 16
+            types:
+              - immune
+          - radius: 28
+            speed: 300
+            count: 20
+            types:
+              - immune
+          - radius: 35
+            speed: 180
+            count: 14
+            types:
+              - phantom
     assets:
       - type: light_region
         x: 0
@@ -1097,6 +1228,26 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 28
+            speed: 240
+            count: 3
+            types:
+              - lead_sniper
+          - radius: 27
+            speed: 285
+            count: 23
+            types:
+              - immune
+          - radius: 65
+            speed: 150
+            count: 6
+            types:
+              - immune
+          - radius: 28
+            speed: 180
+            count: 9
+            types:
+              - phantom
     assets:
       - type: light_region
         x: 0
@@ -1159,6 +1310,31 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 45
+            speed: 180
+            count: 3
+            types:
+              - lead_sniper
+          - radius: 90
+            speed: 120
+            count: 4
+            types:
+              - immune
+          - radius: 36
+            speed: 285
+            count: 20
+            types:
+              - immune
+          - radius: 25
+            speed: 330
+            count: 14
+            types:
+              - immune
+          - radius: 40
+            speed: 150
+            count: 7
+            types:
+              - phantom
     assets:
       - type: light_region
         x: 0
@@ -1171,7 +1347,7 @@ areas:
         width: 608
         height: 608
   - properties:
-      lighting: 0.76
+      lighting: 0.54
     x: -1312
     y: 9120
     zones:
@@ -1186,17 +1362,6 @@ areas:
         y: 0
         width: 64
         height: 736
-      - type: victory
-        properties:
-          background_color:
-            - 0
-            - 0
-            - 0
-            - 0
-        x: 64
-        y: 0
-        width: 864
-        height: 736
       - type: exit
         properties:
           background_color:
@@ -1210,4 +1375,15 @@ areas:
           x: 150
           y: 0
         width: 64
+        height: 736
+      - type: victory
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 64
+        y: 0
+        width: 864
         height: 736
