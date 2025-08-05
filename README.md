@@ -6,7 +6,7 @@ For any develeopers and Jr developers of Evades.io that read this, feel free to 
 
 In order to use any of my map files:
 
-1: Download the zip file that's in this repository, or use this link that goes to the Evades Sandbox: https://pifary-dev.github.io/ravel/ 
+1: Download the zip file that's in this repository (it'll be the only zip file here), or use this link that goes to the Evades Sandbox: https://pifary-dev.github.io/ravel/ 
 
     
 
