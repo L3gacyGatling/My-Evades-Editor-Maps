@@ -1,0 +1,2059 @@
+name: Waffling Warehouse CLASSIC
+properties:
+  title_stroke_color:
+    - 155
+    - 160
+    - 141
+    - 190
+  background_color:
+    - 185
+    - 180
+    - 171
+    - 120
+  friction: 0.75
+areas:
+  - name: Aisle 1
+    x: 0
+    y: 0
+    zones:
+      - type: safe
+        properties:
+          minimum_speed: 10
+        x: 0
+        y: 0
+        width: 320
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 2
+            count: 6
+            types:
+              - normal
+          - radius: 13
+            speed: 3.5
+            count: 11
+            types:
+              - normal
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - name: Aisle 2
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 40
+            speed: 4.5
+            count: 6
+            types:
+              - normal
+          - radius: 18
+            speed: 3
+            count: 25
+            types:
+              - normal
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - name: Aisle 3
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 17
+            speed: 5.5
+            count: 18
+            types:
+              - normal
+          - radius: 65
+            speed: 4
+            count: 3
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 4
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 5.5
+            count: 9
+            types:
+              - penny
+          - radius: 13
+            speed: 6.5
+            count: 13
+            types:
+              - normal
+          - radius: 55
+            speed: 4
+            count: 3
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 5
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 7
+            count: 9
+            types:
+              - penny
+          - radius: 10
+            speed: 4
+            count: 20
+            types:
+              - normal
+          - radius: 35
+            speed: 1
+            count: 8
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 6
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 5.5
+            count: 20
+            types:
+              - penny
+          - radius: 65
+            speed: 4
+            count: 4
+            types:
+              - normal
+          - radius: 45
+            speed: 3
+            count: 5
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 7
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 10
+            speed: 4
+            count: 35
+            types:
+              - penny
+          - radius: 25
+            speed: 6
+            count: 9
+            types:
+              - penny
+          - radius: 40
+            speed: 5
+            count: 6
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 8
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 17
+            speed: 6
+            count: 50
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Aisle 9
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 100
+            speed: 7
+            count: 3
+            types:
+              - penny
+          - radius: 70
+            speed: 4.5
+            count: 4
+            types:
+              - normal
+          - radius: 20
+            speed: 5
+            count: 23
+            types:
+              - penny
+          - radius: 14
+            speed: 4
+            count: 18
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 10
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 6
+            count: 5
+            effect_radius: 175
+            types:
+              - radar
+          - radius: 30
+            speed: 4.5
+            count: 5
+            types:
+              - normal
+          - radius: 12
+            speed: 6
+            count: 8
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 11
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 24
+            speed: 6
+            count: 3
+            effect_radius: 300
+            types:
+              - radar
+          - radius: 35
+            speed: 6
+            count: 5
+            types:
+              - normal
+          - radius: 16
+            speed: 7
+            count: 6
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 12
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 10
+            speed: 7
+            count: 9
+            effect_radius: 180
+            types:
+              - radar
+          - radius: 25
+            speed: 5
+            count: 15
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 13
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 7
+            count: 10
+            types:
+              - penny
+          - radius: 30
+            speed: 5
+            count: 5
+            types:
+              - penny
+          - radius: 13
+            speed: 4
+            count: 5
+            effect_radius: 325
+            types:
+              - radar
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 14
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 14
+            speed: 6.5
+            count: 13
+            types:
+              - penny
+          - radius: 45
+            speed: 5.5
+            count: 9
+            types:
+              - normal
+          - radius: 15
+            speed: 10
+            count: 5
+            effect_radius: 170
+            types:
+              - radar
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 15
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 2.5
+            count: 2
+            effect_radius: 800
+            types:
+              - radar
+          - radius: 35
+            speed: 7.5
+            count: 6
+            types:
+              - penny
+          - radius: 14
+            speed: 4.5
+            count: 25
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 16
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 10
+            speed: 1.5
+            count: 18
+            effect_radius: 200
+            types:
+              - radar
+          - radius: 25
+            speed: 10
+            count: 8
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 17
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 9
+            speed: 11.666666666666666
+            count: 3
+            effect_radius: 180
+            types:
+              - radar
+          - radius: 18
+            speed: 2.5
+            count: 35
+            types:
+              - normal
+          - radius: 30
+            speed: 9
+            count: 5
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Aisle 18
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 7.5
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 90
+            speed: 4
+            effect_radius: 600
+            types:
+              - radar
+          - radius: 20
+            speed: 8
+            count: 5
+            effect_radius: 200
+            types:
+              - radar
+          - radius: 10
+            speed: 7.5
+            count: 15
+            types:
+              - penny
+          - radius: 60
+            speed: 4.5
+            count: 4
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 19
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 7.5
+            count: 6
+            types:
+              - confectioner
+          - radius: 24
+            speed: 6
+            count: 4
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 20
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 40
+            speed: 8
+            count: 4
+            types:
+              - confectioner
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - penny
+          - radius: 45
+            speed: 5
+            count: 3
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 21
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 13
+            speed: 8
+            count: 9
+            types:
+              - confectioner
+          - radius: 18
+            speed: 3.5
+            count: 4
+            effect_radius: 270
+            types:
+              - radar
+          - radius: 35
+            speed: 10
+            count: 4
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 22
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 10
+            speed: 6
+            count: 16
+            types:
+              - confectioner
+          - radius: 15
+            speed: 8
+            count: 12
+            types:
+              - normal
+          - radius: 65
+            speed: 5
+            count: 3
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 23
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 19
+            speed: 8.5
+            count: 10
+            types:
+              - confectioner
+          - radius: 28
+            speed: 6
+            count: 8
+            types:
+              - penny
+          - radius: 15
+            speed: 8.5
+            count: 10
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 24
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 10
+            count: 2
+            effect_radius: 350
+            types:
+              - radar
+          - radius: 12
+            speed: 8
+            count: 15
+            types:
+              - confectioner
+          - radius: 60
+            speed: 6
+            count: 8
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 23
+            speed: 6.5
+            count: 12
+            types:
+              - penny
+          - radius: 75
+            speed: 4.5
+            count: 4
+            types:
+              - normal
+          - radius: 17
+            speed: 8
+            count: 8
+            types:
+              - confectioner
+          - radius: 18
+            speed: 16.666666666666668
+            effect_radius: 400
+            types:
+              - radar
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 26
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 5
+            count: 5
+            types:
+              - wall
+          - radius: 18
+            speed: 7.5
+            count: 30
+            types:
+              - confectioner
+          - radius: 55
+            speed: 4.5
+            count: 4
+            types:
+              - confectioner
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Aisle 27
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 8
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 80
+            speed: 4
+            count: 4
+            types:
+              - confectioner
+          - radius: 25
+            speed: 7
+            count: 11
+            types:
+              - confectioner
+          - radius: 19
+            speed: 8.5
+            count: 20
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 28
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 5
+            count: 8
+            types:
+              - prediction_sniper
+          - radius: 25
+            speed: 7
+            count: 8
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 29
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 6
+            count: 8
+            types:
+              - prediction_sniper
+          - radius: 15
+            speed: 8
+            count: 8
+            types:
+              - penny
+          - radius: 55
+            speed: 3
+            count: 5
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 30
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 3
+            count: 7
+            types:
+              - prediction_sniper
+          - radius: 13
+            speed: 8.5
+            count: 12
+            types:
+              - confectioner
+          - radius: 20
+            speed: 7
+            count: 9
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 31
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 14
+            speed: 8.5
+            count: 3
+            effect_radius: 230
+            types:
+              - radar
+          - radius: 50
+            speed: 6
+            count: 3
+            types:
+              - prediction_sniper
+          - radius: 18
+            speed: 4
+            count: 20
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 32
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 5
+            count: 5
+            types:
+              - wall
+          - radius: 25
+            speed: 7
+            count: 15
+            types:
+              - normal
+          - radius: 40
+            speed: 7.5
+            count: 6
+            types:
+              - penny
+          - radius: 20
+            speed: 4
+            count: 8
+            types:
+              - prediction_sniper
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 33
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 13
+            speed: 3
+            count: 15
+            types:
+              - prediction_sniper
+          - radius: 22
+            speed: 10
+            count: 5
+            types:
+              - confectioner
+          - radius: 70
+            speed: 6
+            count: 3
+            types:
+              - penny
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 34
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 2
+            count: 10
+            types:
+              - prediction_sniper
+          - radius: 18
+            speed: 26.666666666666668
+            effect_radius: 300
+            types:
+              - radar
+          - radius: 13
+            speed: 8.5
+            count: 7
+            types:
+              - confectioner
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Aisle 35
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 16
+            speed: 6
+            count: 8
+            types:
+              - prediction_sniper
+          - radius: 18
+            speed: 10
+            count: 15
+            types:
+              - penny
+          - radius: 45
+            speed: 5
+            count: 4
+            types:
+              - confectioner
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Aisle 36
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 24
+            speed: 9
+            count: 5
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 70
+            speed: 6
+            count: 3
+            types:
+              - prediction_sniper
+          - radius: 20
+            speed: 7.5
+            count: 10
+            types:
+              - prediction_sniper
+          - radius: 14
+            speed: 9
+            count: 10
+            types:
+              - penny
+          - radius: 55
+            speed: 5
+            count: 4
+            types:
+              - normal
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 70
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: victory
+        x: 64
+        y: 0
+        width: 3072
+        height: 480
+      - type: removal
+        x: 3136
+        y: 0
+        width: 64
+        height: 480
