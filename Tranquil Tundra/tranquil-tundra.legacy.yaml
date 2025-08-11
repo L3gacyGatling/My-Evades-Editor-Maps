@@ -1,0 +1,3265 @@
+name: Tranquil Tundra
+properties:
+  title_stroke_color:
+    - 73
+    - 162
+    - 193
+    - 225
+  background_color:
+    - 73
+    - 162
+    - 193
+    - 75
+  lighting: 0.7
+  snow: 0.5
+areas:
+  - name: Temperature 56°F
+    properties:
+      sakura_leaves: 0
+      snow: 0.5
+    x: -3808
+    y: -128
+    zones:
+      - type: safe
+        x: 0
+        y: 0
+        width: 320
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 25
+            speed: 5
+            count: 10
+            types:
+              - dasher
+          - radius: 16
+            speed: 4
+            count: 12
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 320
+        height: 480
+      - type: exit
+        properties:
+          background_color:
+            - 63
+            - 192
+            - 203
+            - 90
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 52°F
+    properties:
+      snow: 0.5
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 18
+            speed: 8
+            count: 10
+            types:
+              - dasher
+          - radius: 25
+            speed: 4
+            count: 15
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 48°F
+    properties:
+      snow: 0.5
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 6
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 16
+            speed: 7
+            count: 16
+            types:
+              - dasher
+          - radius: 22
+            speed: 5
+            count: 15
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 44°F
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 6
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 23
+            speed: 7
+            count: 23
+            types:
+              - dasher
+          - radius: 35
+            speed: 6
+            count: 13
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 40°F
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 6
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 14
+            speed: 7
+            count: 6
+            types:
+              - icicle
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - icicle
+          - radius: 25
+            speed: 5
+            count: 11
+            types:
+              - icicle
+            horizontal: true
+          - radius: 19
+            speed: 7
+            count: 10
+            types:
+              - icicle
+            horizontal: true
+          - radius: 26
+            speed: 7
+            count: 10
+            types:
+              - dasher
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 36°F
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 6
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 8
+            count: 12
+            types:
+              - dasher
+          - radius: 25
+            speed: 5.5
+            count: 18
+            types:
+              - icicle
+            horizontal: true
+          - radius: 30
+            speed: 6
+            count: 10
+            types:
+              - dasher
+          - radius: 17
+            speed: 7
+            count: 10
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Temperature 32°F
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 6
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 105
+            speed: 5
+            count: 2
+            types:
+              - dasher
+          - radius: 28
+            speed: 9
+            count: 15
+            types:
+              - dasher
+          - radius: 58
+            speed: 5
+            count: 6
+            types:
+              - icicle
+            horizontal: true
+          - radius: 20
+            speed: 8
+            count: 10
+            types:
+              - icicle
+          - radius: 25
+            speed: 7
+            count: 11
+            types:
+              - icicle
+            horizontal: true
+          - radius: 45
+            speed: 4
+            count: 5
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 28°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 5
+            count: 10
+            types:
+              - wind_sniper
+          - radius: 18
+            speed: 6
+            count: 10
+            types:
+              - snowman
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 24°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 24
+            speed: 5.5
+            count: 13
+            types:
+              - wind_sniper
+          - radius: 24
+            speed: 7
+            count: 9
+            types:
+              - snowman
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 20°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 6
+            count: 11
+            types:
+              - icicle
+            horizontal: true
+          - radius: 18
+            speed: 5
+            count: 12
+            types:
+              - wind_sniper
+          - radius: 45
+            speed: 3
+            count: 5
+            types:
+              - wind_sniper
+          - radius: 21
+            speed: 7
+            count: 7
+            types:
+              - icicle
+          - radius: 20
+            speed: 8
+            count: 3
+            types:
+              - snowman
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 16°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 33
+            speed: 4.5
+            count: 12
+            types:
+              - wind_sniper
+          - radius: 22
+            speed: 6
+            count: 8
+            types:
+              - snowman
+          - radius: 20
+            speed: 7.5
+            count: 25
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 12°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 19
+            speed: 3
+            count: 17
+            types:
+              - wind_sniper
+          - radius: 30
+            speed: 4
+            count: 4
+            types:
+              - snowman
+          - radius: 12
+            speed: 7
+            count: 13
+            types:
+              - snowman
+          - radius: 29
+            speed: 5
+            count: 12
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 8°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 23
+            speed: 7
+            count: 11
+            types:
+              - icicle
+          - radius: 27
+            speed: 6
+            count: 12
+            types:
+              - icicle
+            horizontal: true
+          - radius: 21
+            speed: 5
+            count: 10
+            types:
+              - snowman
+          - radius: 17
+            speed: 3
+            count: 16
+            types:
+              - wind_sniper
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Temperature 4°F
+    properties:
+      snow: 0.75
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 7
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 75
+            speed: 6
+            count: 3
+            types:
+              - wind_sniper
+          - radius: 25
+            speed: 7
+            count: 10
+            types:
+              - wind_sniper
+          - radius: 40
+            speed: 4
+            count: 2
+            types:
+              - snowman
+          - radius: 15
+            speed: 9
+            count: 13
+            types:
+              - snowman
+          - radius: 35
+            speed: 7.5
+            count: 15
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature 0°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 5
+            count: 13
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -4°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 4
+            count: 20
+            types:
+              - phantom
+          - radius: 18
+            speed: 6
+            count: 10
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -8°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 20
+            speed: 6.5
+            count: 12
+            types:
+              - phantom
+          - radius: 40
+            speed: 5
+            count: 9
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 32
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 448
+      - type: exit
+        properties:
+          background_color:
+            - 88
+            - 150
+            - 113
+            - 75
+        x: 3136
+        y: 0
+        translate:
+          x: -140
+          y: -1810
+        width: 64
+        height: 32
+  - name: Temperature -12°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 40
+            speed: 6
+            count: 10
+            types:
+              - icicle
+          - radius: 18
+            speed: 5.5
+            count: 25
+            types:
+              - phantom
+          - radius: 25
+            speed: 9
+            count: 10
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -16°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 4
+            count: 15
+            types:
+              - icicle
+          - radius: 28
+            speed: 5
+            count: 19
+            types:
+              - phantom
+          - radius: 23
+            speed: 7
+            count: 10
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -20°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 28
+            speed: 4
+            count: 20
+            types:
+              - icicle
+            horizontal: true
+          - radius: 20
+            speed: 6.5
+            count: 10
+            types:
+              - phantom
+          - radius: 15
+            speed: 4
+            count: 20
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Temperature -24°F
+    properties:
+      snow: 1
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 4.5
+            count: 6
+            types:
+              - phantom
+          - radius: 25
+            speed: 5.5
+            count: 22
+            types:
+              - phantom
+          - radius: 18
+            speed: 5
+            count: 15
+            types:
+              - icicle
+          - radius: 35
+            speed: 4
+            count: 12
+            types:
+              - icicle
+          - radius: 17
+            speed: 7
+            count: 10
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -28°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 23
+            speed: 10
+            count: 16
+            types:
+              - dasher
+          - radius: 13
+            speed: 3
+            count: 14
+            types:
+              - snowman
+          - radius: 20
+            speed: 6
+            count: 10
+            types:
+              - wind_sniper
+          - radius: 17
+            speed: 2
+            count: 15
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -32°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 30
+            speed: 4
+            count: 15
+            types:
+              - wind_sniper
+          - radius: 20
+            speed: 6
+            count: 11
+            types:
+              - snowman
+          - radius: 18
+            speed: 6
+            count: 6
+            types:
+              - phantom
+          - radius: 20
+            speed: 2
+            count: 13
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -36°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 5
+            count: 15
+            types:
+              - phantom
+          - radius: 15
+            speed: 6
+            count: 10
+            types:
+              - phantom
+          - radius: 50
+            speed: 2
+            count: 4
+            types:
+              - wind_sniper
+          - radius: 21
+            speed: 8
+            count: 8
+            types:
+              - dasher
+          - radius: 35
+            speed: 2
+            count: 9
+            types:
+              - icicle
+          - radius: 23
+            speed: 3
+            count: 11
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -40°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - x: 400 , 600
+            y: 140, 370
+            radius: 25
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 700 , 900
+            y: 140, 370
+            radius: 25
+            angle: 270
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 1000 , 1200
+            y: 140, 370
+            radius: 25
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 1300 , 1500
+            y: 140, 370
+            radius: 25
+            angle: 270
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 1600 , 1800
+            y: 140, 370
+            radius: 25
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 1900 , 2100
+            y: 140, 370
+            radius: 25
+            angle: 270
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 2200 , 2400
+            y: 140, 370
+            radius: 25
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 2500 , 2700
+            y: 140, 370
+            radius: 25
+            angle: 270
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - x: 2800
+            y: 140, 370
+            radius: 25
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            projectile_speed: 16.666666666666668
+          - radius: 25
+            speed: 7.5
+            count: 10
+            types:
+              - dasher
+          - radius: 25
+            speed: 6
+            count: 3
+            types:
+              - snowman
+          - radius: 23
+            speed: 5
+            count: 8
+            types:
+              - phantom
+          - radius: 18
+            speed: 6
+            count: 20
+            types:
+              - icicle
+            horizontal: true
+          - radius: 16
+            speed: 6
+            count: 10
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -44°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - x: 500 , 700
+            y: 240
+            radius: 35
+            angle:
+              - 45
+              - 135
+            types:
+              - frost_giant
+            shot_interval: 300
+            pattern: twin
+            projectile_speed: 7
+          - radius: 20
+            speed: 8
+            count: 12
+            types:
+              - dasher
+          - radius: 18
+            speed: 6
+            count: 7
+            types:
+              - snowman
+          - radius: 15
+            speed: 7
+            count: 8
+            types:
+              - phantom
+          - x: 900 , 1100
+            y: 240
+            radius: 35
+            angle:
+              - 225
+              - 315
+            types:
+              - frost_giant
+            shot_interval: 300
+            pattern: twin
+            projectile_speed: 7
+          - x: 1300 , 1500
+            y: 240
+            radius: 35
+            angle:
+              - 45
+              - 135
+            types:
+              - frost_giant
+            shot_interval: 300
+            pattern: twin
+            projectile_speed: 7
+          - x: 1700 , 1900
+            y: 240
+            radius: 35
+            angle:
+              - 225
+              - 315
+            types:
+              - frost_giant
+            shot_interval: 300
+            pattern: twin
+            projectile_speed: 7
+          - x: 2100 , 2300
+            y: 240
+            radius: 35
+            angle:
+              - 45
+              - 135
+            types:
+              - frost_giant
+            shot_interval: 300
+            pattern: twin
+            projectile_speed: 7
+          - x: 2500 , 2700
+            y: 240
+            radius: 35
+            angle:
+              - 225
+              - 315
+            types:
+              - frost_giant
+            shot_interval: 300
+            pattern: twin
+            projectile_speed: 7
+          - radius: 18
+            speed: 4
+            count: 18
+            types:
+              - icicle
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Temperature -48°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - x: 1472
+            y: 240
+            radius: 35
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 100
+            pattern: twin
+            projectile_speed: 33.333333333333336
+          - x: 1728
+            y: 240
+            radius: 35
+            angle: 360
+            types:
+              - frost_giant
+            shot_interval: 100
+            pattern: twin
+            projectile_speed: 33.333333333333336
+          - x: 1168
+            y: 240
+            radius: 20
+            angle: -90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            pause_duration: 2500
+            pause_interval: 3000
+            projectile_speed: 16.666666666666668
+          - x: 2032
+            y: 240
+            radius: 20
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            pause_duration: 2500
+            pause_interval: 3000
+            projectile_speed: 16.666666666666668
+          - x: 1168
+            y: 240
+            radius: 20
+            angle: 90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            pause_duration: 2500
+            pause_interval: 3000
+            projectile_speed: 16.666666666666668
+          - x: 2032
+            y: 240
+            radius: 20
+            angle: -90
+            types:
+              - frost_giant
+            shot_interval: 150
+            pattern: twin
+            pause_duration: 2500
+            pause_interval: 3000
+            projectile_speed: 16.666666666666668
+          - radius: 45
+            speed: 3
+            count: 2
+            types:
+              - wind_sniper
+          - radius: 23
+            speed: 4
+            count: 10
+            types:
+              - icicle
+          - radius: 18
+            speed: 5
+            count: 15
+            types:
+              - icicle
+            horizontal: true
+          - radius: 15
+            speed: 6
+            count: 15
+            types:
+              - phantom
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - boss: true
+    name: Temperature -52°F
+    properties:
+      snow: 1.25
+    x: last_right
+    y: last_y - 96
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 672
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 672
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 672
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - x: 960
+            y: 336
+            radius: 35
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 1000
+            pattern: quadspiral
+            projectile_duration: 3000
+            projectile_speed: 5
+          - x: 2240
+            y: 336
+            radius: 35
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 1000
+            turn_speed: -4
+            pattern: quadspiral
+            projectile_duration: 3000
+            projectile_speed: 5
+          - x: 2240
+            y: 336
+            radius: 35
+            angle: 0
+            types:
+              - frost_giant
+            shot_interval: 700
+            turn_speed: 13.333333333333334
+            pattern: cone_edges
+            projectile_duration: 3000
+            projectile_speed: 4
+          - x: 960
+            y: 336
+            radius: 35
+            angle: 0
+            types:
+              - frost_giant
+            shot_interval: 700
+            turn_speed: 20
+            pattern: cone_edges
+            projectile_duration: 3000
+            projectile_speed: 4
+          - radius: 40
+            speed: 9
+            count: 10
+            types:
+              - dasher
+          - radius: 12
+            speed: 7
+            count: 16
+            types:
+              - snowman
+          - radius: 23
+            speed: 5
+            count: 7
+            types:
+              - phantom
+          - radius: 35
+            speed: 2
+            count: 6
+            types:
+              - wind_sniper
+          - radius: 20
+            speed: 4
+            count: 12
+            types:
+              - icicle
+          - radius: 25
+            speed: 5
+            count: 15
+            types:
+              - icicle
+            horizontal: true
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 672
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 672
+  - properties:
+      snow: 0.77
+      texture: wooden
+      lighting: 0.75
+      pellet_count: 90
+    x: 85792
+    y: -128
+    zones:
+      - type: victory
+        properties:
+          texture: normal
+        x: 64
+        y: 0
+        width: 2496
+        height: 480
+      - type: exit
+        properties:
+          texture: normal
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: removal
+        properties:
+          texture: normal
+        x: 2560
+        y: 0
+        width: 128
+        height: 480
+  - name: Serene Pond
+    properties:
+      snow: 0.52
+      lighting: 0.56
+    x: 49952
+    y: -3232
+    zones:
+      - type: exit
+        x: 352
+        y: 1344
+        translate:
+          x: -20
+          y: 1990
+        width: 224
+        height: 64
+      - type: safe
+        x: 0
+        y: 1056
+        width: 928
+        height: 288
+      - type: active
+        x: 0
+        y: 0
+        width: 928
+        height: 1056
+        spawner:
+          - radius: 20
+            speed: 6
+            count: 25
+            types:
+              - wind_ghost
+      - type: safe
+        x: 576
+        y: 1344
+        width: 352
+        height: 64
+      - type: safe
+        x: 0
+        y: 1344
+        width: 352
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 352
+        y: 416
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 256
+        y: 480
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 416
+        y: 320
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 480
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 416
+        y: 640
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 512
+        y: 352
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 416
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 576
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 512
+        y: 640
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 352
+        y: 640
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 288
+        y: 576
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 288
+        y: 416
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 352
+        y: 352
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 384
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 640
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 320
+        y: 640
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 320
+        y: 384
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 304
+        y: 400
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 336
+        y: 368
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 368
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 608
+        y: 400
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 608
+        y: 640
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 576
+        y: 672
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 336
+        y: 672
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 304
+        y: 640
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 304
+        y: 640
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 400
+        y: 704
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 512
+        y: 704
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 640
+        y: 576
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 640
+        y: 464
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 512
+        y: 336
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 400
+        y: 336
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 272
+        y: 464
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 50
+            - 100
+            - 170
+          friction: 0.1
+        x: 272
+        y: 576
+        width: 16
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 736
+        y: 960
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 896
+        y: 1024
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 768
+        y: 896
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 768
+        y: 928
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 864
+        y: 896
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 832
+        y: 960
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 704
+        y: 1024
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 864
+        y: 928
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 800
+        y: 864
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 160
+        y: 800
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 832
+        y: 768
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 640
+        y: 960
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 768
+        y: 640
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 672
+        y: 928
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 800
+        y: 704
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 704
+        y: 864
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 736
+        y: 416
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 640
+        y: 256
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 672
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 768
+        y: 448
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 672
+        y: 256
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 768
+        y: 736
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 800
+        y: 128
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 224
+        y: 160
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 768
+        y: 96
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 640
+        y: 96
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 704
+        y: 192
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 672
+        y: 96
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 800
+        y: 64
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 896
+        y: 32
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 832
+        y: 32
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 832
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 256
+        y: 192
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 64
+        y: 256
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 128
+        y: 128
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 224
+        y: 128
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 160
+        y: 32
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 160
+        y: 352
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 96
+        y: 896
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 480
+        y: 960
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 160
+        y: 768
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 64
+        y: 544
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 320
+        y: 736
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 32
+        y: 800
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 128
+        y: 928
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 64
+        y: 128
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 256
+        y: 160
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 160
+        y: 320
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 160
+        y: 224
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 704
+        y: 224
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 416
+        y: 96
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 64
+        y: 960
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 416
+        y: 832
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 768
+        y: 480
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 64
+        y: 800
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 64
+        y: 160
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 128
+        y: 0
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 160
+        y: 96
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 96
+        y: 576
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 288
+        y: 992
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 151
+            - 194
+            - 157
+            - 205
+        x: 448
+        y: 832
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 25
+            - 35
+            - 15
+            - 205
+        x: 448
+        y: 128
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 65
+            - 55
+            - 205
+        x: 128
+        y: 736
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 160
+        y: 640
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 224
+        y: 864
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 96
+        y: 736
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 640
+        y: 64
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 16
+            - 36
+            - 39
+            - 205
+        x: 832
+        y: 256
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 448
+        y: 96
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 15
+            - 105
+            - 55
+            - 205
+        x: 480
+        y: 192
+        width: 32
+        height: 32
