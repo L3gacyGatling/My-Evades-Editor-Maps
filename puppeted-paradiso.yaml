@@ -177,7 +177,7 @@ areas:
             - 130
             - 150
             - 150
-            - 55
+            - 85
         x: 0
         y: 256
         translate:
@@ -628,25 +628,25 @@ areas:
         height: 608
         spawner:
           - radius: 30
-            speed: 240
+            speed: 300
             count: 9
             types:
               - wall
-          - radius: 33
-            speed: 210
+          - radius: 30
+            speed: 240
             count: 10
             types:
               - homing
             home_range: 300
             increment: 1.7
           - radius: 25
-            speed: 210
-            count: 18
+            speed: 225
+            count: 20
             types:
               - sand
           - radius: 18
             speed: 150
-            count: 4
+            count: 7
             effect_radius: 225
             types:
               - quicksand
@@ -674,7 +674,7 @@ areas:
             - 130
             - 150
             - 150
-            - 55
+            - 85
         x: 0
         y: 256
         translate:
@@ -714,26 +714,33 @@ areas:
         height: 608
         spawner:
           - radius: 30
-            speed: 240
+            speed: 330
             count: 9
             types:
               - wall
           - radius: 25
-            speed: 330
+            speed: 390
             count: 30
             types:
               - sandrock
           - radius: 75
-            speed: 270
-            count: 6
+            speed: 330
+            count: 8
             types:
               - sandrock
           - radius: 15
-            speed: 270
-            count: 12
+            speed: 240
+            count: 10
             types:
               - homing
             increment: 1.9
+          - radius: 0
+            speed: 300
+            count: 3
+            effect_radius: 300
+            types:
+              - quicksand
+            quicksand_strength: 210
       - type: safe
         x: 3648
         y: 0
@@ -771,26 +778,32 @@ areas:
         height: 608
         spawner:
           - radius: 30
-            speed: 270
+            speed: 360
             count: 9
             types:
               - wall
           - radius: 45
-            speed: 180
-            count: 32
+            speed: 270
+            count: 21
             types:
               - crumbling
           - radius: 18
             speed: 210
             count: 5
-            effect_radius: 220
+            effect_radius: 275
             types:
               - quicksand
+            quicksand_strength: 180
           - radius: 18
-            speed: 360
+            speed: 420
             count: 12
             types:
               - sandrock
+          - radius: 75
+            speed: 210
+            count: 10
+            types:
+              - crumbling
       - type: safe
         x: 3648
         y: 0
@@ -828,33 +841,35 @@ areas:
         height: 608
         spawner:
           - radius: 30
-            speed: 330
+            speed: 390
             count: 9
             types:
               - wall
-          - radius: 25
-            speed: 120
-            count: 10
+          - radius: 35
+            speed: 210
+            count: 13
             effect_radius: 350
             types:
               - quicksand
+            quicksand_strength: 270
           - radius: 65
             speed: 75
-            count: 4
+            count: 5
             effect_radius: 500
             types:
               - quicksand
+            quicksand_strength: 270
           - radius: 28
-            speed: 255
-            count: 13
-            effect_radius: 190
+            speed: 270
+            count: 15
+            effect_radius: 225
             types:
               - slowing
-          - radius: 70
-            speed: 150
+          - radius: 40
+            speed: 210
             count: 13
             types:
-              - crumbling
+              - sand
       - type: safe
         x: 3648
         y: 0
@@ -917,20 +932,27 @@ areas:
             count: 27
             types:
               - cactus
-          - radius: 160
-            speed: 120
+          - radius: 120
+            speed: 240
             types:
               - cactus
-          - radius: 33
+          - radius: 40
             speed: 240
-            count: 20
+            count: 9
             types:
               - sand
-          - radius: 30
-            speed: 360
-            count: 17
+          - radius: 25
+            speed: 300
+            count: 18
             types:
-              - sandrock
+              - sand
+          - radius: 18
+            speed: 390
+            count: 3
+            effect_radius: 300
+            types:
+              - quicksand
+            quicksand_strength: 300
       - type: safe
         x: 3648
         y: 0
@@ -990,20 +1012,31 @@ areas:
               - cactus
           - radius: 80
             speed: 180
-            count: 4
+            count: 2
             types:
               - cactus
-          - radius: 67
-            speed: 300
+          - radius: 25
+            speed: 390
             count: 25
             types:
-              - crumbling
-          - radius: 20
-            speed: 240
-            count: 11
-            effect_radius: 400
+              - sandrock
+          - radius: 0
+            speed: 430
+            count: 6
+            effect_radius: 250
             types:
               - quicksand
+            quicksand_strength: 330
+          - radius: 30
+            speed: 420
+            count: 10
+            types:
+              - crumbling
+          - radius: 65
+            speed: 330
+            count: 8
+            types:
+              - sandrock
       - type: safe
         x: 3648
         y: 0
@@ -1130,13 +1163,13 @@ areas:
             types:
               - enlarging
           - radius: 35
-            speed: 180
-            count: 15
+            speed: 195
+            count: 17
             types:
               - zigzag
           - radius: 25
-            speed: 255
-            count: 17
+            speed: 300
+            count: 16
             types:
               - zigzag
       - type: safe
@@ -1163,7 +1196,7 @@ areas:
             - 130
             - 150
             - 150
-            - 55
+            - 85
         x: 0
         y: 256
         translate:
@@ -1207,9 +1240,9 @@ areas:
             count: 7
             types:
               - poison_sniper
-          - radius: 27
-            speed: 180
-            count: 22
+          - radius: 20
+            speed: 240
+            count: 15
             types:
               - zigzag
           - radius: 0
@@ -1218,9 +1251,14 @@ areas:
             effect_radius: 215
             types:
               - enlarging
-          - radius: 24
-            speed: 240
+          - radius: 25
+            speed: 210
             count: 14
+            types:
+              - mist
+          - radius: 18
+            speed: 270
+            count: 7
             types:
               - mist
       - type: safe
@@ -1260,19 +1298,19 @@ areas:
         height: 608
         spawner:
           - radius: 26
-            speed: 180
+            speed: 195
             count: 20
             types:
               - charging
           - radius: 18
-            speed: 210
+            speed: 225
             count: 10
             types:
               - charging
           - radius: 15
-            speed: 240
-            count: 7
-            effect_radius: 200
+            speed: 300
+            count: 6
+            effect_radius: 250
             types:
               - reducing
       - type: safe
@@ -1312,17 +1350,17 @@ areas:
         height: 608
         spawner:
           - radius: 75
-            speed: 150
+            speed: 210
             count: 10
             types:
               - switch
-          - radius: 35
-            speed: 150
+          - radius: 20
+            speed: 210
             count: 13
             types:
               - charging
-          - radius: 25
-            speed: 270
+          - radius: 30
+            speed: 300
             count: 17
             types:
               - switch
@@ -1332,9 +1370,9 @@ areas:
             effect_radius: 180
             types:
               - reducing
-          - radius: 15
-            speed: 300
-            count: 7
+          - radius: 23
+            speed: 240
+            count: 6
             types:
               - lead_sniper
       - type: safe
@@ -1640,7 +1678,7 @@ areas:
             - 130
             - 150
             - 150
-            - 55
+            - 85
         x: 0
         y: 256
         translate:
@@ -1681,7 +1719,7 @@ areas:
             types:
               - dasher
           - radius: 24
-            speed: 150
+            speed: 60
             count: 17
             types:
               - liquid
@@ -1905,13 +1943,13 @@ areas:
             types:
               - lunging
           - radius: 35
-            speed: 90
+            speed: 120
             count: 10
             types:
               - liquid
-            player_detection_radius: 400
+            player_detection_radius: 300
           - radius: 20
-            speed: 225
+            speed: 180
             count: 7
             types:
               - liquid
@@ -2163,7 +2201,7 @@ areas:
             - 130
             - 150
             - 150
-            - 55
+            - 85
         x: 0
         y: 256
         translate:
@@ -3286,11 +3324,14 @@ areas:
     x: 73792
     y: -17760
     zones:
-      - type: safe
+      - type: exit
         x: 608
         y: 0
+        translate:
+          x: 160
+          y: 0
         width: 64
-        height: 256
+        height: 224
       - type: safe
         x: 0
         y: 3680
@@ -3303,7 +3344,7 @@ areas:
         height: 3040
         spawner:
           - radius: 25
-            speed: 30
+            speed: 60
             count: 15
             types:
               - liquid
@@ -3314,7 +3355,7 @@ areas:
               - immune
           - radius: 5
             speed: 210
-            count: 8
+            count: 10
             effect_radius: 120
             types:
               - gravity
@@ -3342,12 +3383,12 @@ areas:
         height: 64
       - type: exit
         x: 0
-        y: 320
+        y: 352
         translate:
           x: 0
           y: 0
         width: 672
-        height: 320
+        height: 288
       - type: safe
         x: 0
         y: 0
@@ -3355,9 +3396,9 @@ areas:
         height: 320
       - type: safe
         x: 608
-        y: 256
+        y: 224
         width: 64
-        height: 64
+        height: 96
       - type: exit
         x: 0
         y: 640
@@ -3494,6 +3535,22 @@ areas:
           y: 2300
         width: 64
         height: 64
+      - type: exit
+        x: 0
+        y: 320
+        translate:
+          x: 750
+          y: -300
+        width: 352
+        height: 32
+      - type: exit
+        x: 352
+        y: 320
+        translate:
+          x: 450
+          y: -300
+        width: 320
+        height: 32
   - name: Tetartosphere
     properties:
       title_stroke_color:
@@ -3505,30 +3562,54 @@ areas:
         - 38
         - 0
         - 38
-        - 150
+        - 190
       pellet_count: 0
     x: 72800
     y: -9952
     zones:
       - type: exit
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 2016
-        y: 2944
+        y: 3008
         translate:
-          x: -500
-          y: -10726
+          x: -253
+          y: -10825
         width: 64
-        height: 288
+        height: 224
       - type: safe
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 0
         y: 4800
         width: 1760
         height: 352
       - type: safe
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 1760
         y: 2624
         width: 256
         height: 608
       - type: exit
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 288
         y: 5152
         translate:
@@ -3537,11 +3618,35 @@ areas:
         width: 320
         height: 64
       - type: active
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 0
         y: 0
         width: 1760
         height: 4800
+        spawner:
+          - x: 880
+            y: 1000
+            radius: 0
+            effect_radius: 3834
+            types:
+              - disabling
+          - radius: 415
+            speed: 90
+            count: 4
+            types:
+              - wall
       - type: safe
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 608
         y: 5152
         width: 1152
@@ -4132,12 +4237,12 @@ areas:
         height: 96
       - type: exit
         x: 1728
-        y: 2944
+        y: 3008
         translate:
-          x: -500
-          y: -10736
+          x: 100
+          y: -10826
         width: 32
-        height: 288
+        height: 224
       - type: exit
         x: 896
         y: 928
@@ -4446,7 +4551,7 @@ areas:
         x: 864
         y: 3584
         translate:
-          x: 600
+          x: 0
           y: 3617
         width: 896
         height: 1216
@@ -4643,6 +4748,12 @@ areas:
         width: 32
         height: 384
       - type: exit
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 0
         y: 5152
         translate:
@@ -4651,40 +4762,60 @@ areas:
         width: 288
         height: 64
       - type: exit
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 2016
         y: 2624
         translate:
-          x: -500
-          y: -10419
+          x: -253
+          y: -10448
         width: 64
-        height: 256
+        height: 224
       - type: exit
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
         x: 2016
-        y: 2880
+        y: 2848
         translate:
-          x: -500
-          y: -10519
+          x: -253
+          y: -10603
         width: 64
-        height: 64
+        height: 160
       - type: exit
         x: 1728
         y: 2720
         translate:
-          x: -500
-          y: -10519
+          x: 100
+          y: -10539
         width: 32
         height: 224
+      - type: exit
+        x: 1728
+        y: 2944
+        translate:
+          x: 100
+          y: -10663
+        width: 32
+        height: 64
     assets:
       - type: wall
         x: 1760
         y: 3232
-        width: 320
+        width: 416
         height: 1984
         texture: null
       - type: wall
         x: 1760
         y: 0
-        width: 320
+        width: 416
         height: 2624
         texture: null
   - name: Void Storage Unit
@@ -4805,3 +4936,3304 @@ areas:
           y: -3300
         width: 64
         height: 320
+  - name: Bridge 6
+    x: 74464
+    y: -20640
+    zones:
+      - type: exit
+        x: 416
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 256
+      - type: safe
+        x: 64
+        y: 2848
+        width: 416
+        height: 256
+      - type: active
+        x: 0
+        y: 288
+        width: 480
+        height: 2560
+        spawner:
+          - radius: 50
+            speed: 150
+            count: 10
+            types:
+              - immune
+          - radius: 25
+            speed: 240
+            count: 6
+            effect_radius: 300
+            types:
+              - disabling
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+          - radius: 10
+            speed: 210
+            count: 20
+            types:
+              - homing
+            increment: 1.8
+      - type: safe
+        x: 0
+        y: 0
+        width: 416
+        height: 288
+      - type: exit
+        x: 0
+        y: 2880
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 2848
+        width: 64
+        height: 32
+      - type: safe
+        x: 416
+        y: 256
+        width: 64
+        height: 32
+  - name: Sphere 6-1
+    x: 74944
+    y: -20640
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 256
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 34
+            speed: 210
+            count: 8
+            types:
+              - wall
+          - radius: 22
+            speed: 270
+            count: 25
+            types:
+              - blind
+          - radius: 90
+            speed: 210
+            count: 5
+            types:
+              - blind
+          - radius: 10
+            speed: 360
+            count: 17
+            types:
+              - blind
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 0
+        y: 288
+        width: 64
+        height: 320
+      - type: exit
+        x: 32
+        y: 256
+        translate:
+          x: -160
+          y: -150
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 130
+            - 150
+            - 150
+            - 85
+        x: 0
+        y: 256
+        translate:
+          x: 2950
+          y: 1820
+        width: 32
+        height: 32
+    assets:
+      - type: image_background
+        image_name: door_1
+        alpha: 1
+        x: 3744
+        y: 0
+        width: 224
+        height: 608
+  - name: Sphere 6-2
+    properties:
+      background_color:
+        - 120
+        - 150
+        - 130
+        - 100
+      lighting: 0.7
+    x: 78912
+    y: -20640
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 18
+            speed: 270
+            count: 10
+            types:
+              - ninja_star_sniper
+          - radius: 35
+            speed: 210
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 300
+            count: 13
+            types:
+              - blind
+          - radius: 35
+            speed: 210
+            count: 8
+            types:
+              - blind
+          - radius: 75
+            speed: 180
+            count: 3
+            types:
+              - ninja_star_sniper
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: 0
+        y: 0
+        width: 224
+        height: 608
+  - name: Sphere 6-3
+    properties:
+      background_color:
+        - 120
+        - 150
+        - 130
+        - 100
+      lighting: 0.7
+    x: 82880
+    y: -20640
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 35
+            speed: 210
+            count: 8
+            types:
+              - wall
+          - radius: 55
+            speed: 450
+            count: 15
+            types:
+              - summoner
+            spawner:
+              - radius: 10
+                speed: 330
+                count: 2
+                types:
+                  - blind
+              - radius: 22
+                speed: 270
+                count: 2
+                types:
+                  - blind
+          - radius: 20
+            speed: 360
+            count: 10
+            types:
+              - slasher
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+    assets:
+      - type: image_background
+        image_name: door_1
+        alpha: 1
+        x: 3744
+        y: 0
+        width: 224
+        height: 608
+  - name: Sphere 6-4
+    x: 86848
+    y: -20640
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 35
+            speed: 210
+            count: 8
+            types:
+              - wall
+          - radius: 22
+            speed: 300
+            count: 25
+            types:
+              - lotus_flower
+          - radius: 45
+            speed: 210
+            count: 10
+            types:
+              - lotus_flower
+          - radius: 35
+            speed: 270
+            count: 10
+            types:
+              - blind
+          - radius: 18
+            speed: 330
+            count: 7
+            types:
+              - ninja_star_sniper
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3904
+        y: 0
+        width: 64
+        height: 384
+      - type: exit
+        x: 3904
+        y: 384
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: 0
+        y: 0
+        width: 224
+        height: 608
+  - name: Hemisphere 6-1
+    properties:
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+    x: 77696
+    y: -18880
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -2650
+          y: -1760
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 22
+            speed: 330
+            count: 20
+            types:
+              - lotus_flower
+          - radius: 25
+            speed: 360
+            count: 15
+            types:
+              - blind
+          - radius: 35
+            speed: 270
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 420
+            count: 4
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 45
+            speed: 300
+            count: 20
+            types:
+              - lotus_flower
+          - radius: 45
+            speed: 300
+            count: 5
+            types:
+              - blind
+  - name: Hemisphere 6-2
+    properties:
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+    x: 81664
+    y: -18880
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 384
+        translate:
+          x: 5325
+          y: -1760
+        width: 64
+        height: 224
+      - type: exit
+        x: 3904
+        y: 160
+        translate:
+          x: 5325
+          y: -1536
+        width: 64
+        height: 224
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 5325
+          y: -1343
+        width: 64
+        height: 160
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 18
+            speed: 360
+            count: 25
+            types:
+              - lotus_flower
+          - radius: 14
+            speed: 390
+            count: 10
+            types:
+              - slasher
+          - radius: 25
+            speed: 330
+            count: 10
+            types:
+              - blind
+          - radius: 35
+            speed: 270
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 420
+            count: 4
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 300
+            count: 6
+            types:
+              - lotus_flower
+  - name: Bridge 7
+    x: 90816
+    y: -23136
+    zones:
+      - type: safe
+        x: 64
+        y: 2848
+        width: 416
+        height: 256
+      - type: active
+        x: 0
+        y: 288
+        width: 480
+        height: 2560
+        spawner:
+          - radius: 13
+            speed: 210
+            count: 15
+            types:
+              - immune
+          - radius: 10
+            speed: 300
+            count: 5
+            effect_radius: 300
+            types:
+              - disabling
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+          - radius: 15
+            speed: 300
+            count: 25
+            types:
+              - void_crawler
+      - type: safe
+        x: 0
+        y: 0
+        width: 416
+        height: 288
+      - type: exit
+        x: 0
+        y: 2880
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 2848
+        width: 64
+        height: 32
+      - type: safe
+        x: 416
+        y: 256
+        width: 64
+        height: 32
+      - type: exit
+        x: 416
+        y: 0
+        translate:
+          x: 210
+          y: 0
+        width: 64
+        height: 256
+  - name: Sphere 7-1
+    properties:
+      lighting: 0.33
+    x: 91296
+    y: -23136
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 256
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        properties:
+          minimum_speed: 660
+          maximum_speed: 660
+        x: 320
+        y: 0
+        width: 4448
+        height: 608
+        spawner:
+          - radius: 304
+            speed: 420
+            types:
+              - wall
+            move_clockwise: false
+      - type: safe
+        x: 4896
+        y: 0
+        width: 320
+        height: 608
+      - type: exit
+        x: 5216
+        y: 384
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 288
+        width: 64
+        height: 320
+      - type: exit
+        x: 32
+        y: 256
+        translate:
+          x: -160
+          y: -150
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 130
+            - 150
+            - 150
+            - 85
+        x: 0
+        y: 256
+        translate:
+          x: 2950
+          y: 1820
+        width: 32
+        height: 32
+      - type: exit
+        x: 4192
+        y: 288
+        translate:
+          x: 1167
+          y: -7
+        width: 288
+        height: 320
+      - type: exit
+        x: 5216
+        y: 160
+        translate:
+          x: 160
+          y: 223
+        width: 64
+        height: 224
+      - type: exit
+        x: 5216
+        y: 0
+        translate:
+          x: 160
+          y: 415
+        width: 64
+        height: 160
+      - type: exit
+        x: 3328
+        y: 384
+        translate:
+          x: 2149
+          y: 0
+        width: 64
+        height: 224
+      - type: exit
+        x: 3328
+        y: 160
+        translate:
+          x: 2149
+          y: 223
+        width: 64
+        height: 224
+      - type: exit
+        x: 3328
+        y: 0
+        translate:
+          x: 2149
+          y: 415
+        width: 64
+        height: 160
+      - type: exit
+        x: 5056
+        y: 384
+        translate:
+          x: 298
+          y: 0
+        width: 96
+        height: 224
+      - type: exit
+        x: 5056
+        y: 160
+        translate:
+          x: 298
+          y: 223
+        width: 96
+        height: 224
+      - type: exit
+        x: 5056
+        y: 0
+        translate:
+          x: 298
+          y: 415
+        width: 96
+        height: 160
+      - type: exit
+        x: 4192
+        y: 0
+        translate:
+          x: 1167
+          y: 314
+        width: 288
+        height: 288
+      - type: exit
+        x: 4480
+        y: 320
+        translate:
+          x: 878
+          y: -8
+        width: 288
+        height: 288
+      - type: exit
+        x: 4480
+        y: 0
+        translate:
+          x: 878
+          y: 282
+        width: 288
+        height: 320
+      - type: exit
+        x: 4768
+        y: 288
+        translate:
+          x: 590
+          y: -6
+        width: 288
+        height: 320
+      - type: exit
+        x: 4768
+        y: 0
+        translate:
+          x: 590
+          y: 314
+        width: 288
+        height: 288
+      - type: exit
+        x: 320
+        y: 64
+        translate:
+          x: -789
+          y: 0
+        width: 288
+        height: 64
+      - type: exit
+        x: 608
+        y: 256
+        translate:
+          x: -900
+          y: -200
+        width: 64
+        height: 192
+      - type: exit
+        x: 608
+        y: 448
+        translate:
+          x: -1000
+          y: -300
+        width: 288
+        height: 64
+      - type: exit
+        x: 896
+        y: 256
+        translate:
+          x: -1069
+          y: -249
+        width: 64
+        height: 256
+      - type: exit
+        x: 800
+        y: 224
+        translate:
+          x: -1000
+          y: -200
+        width: 96
+        height: 96
+      - type: exit
+        x: 768
+        y: 64
+        translate:
+          x: -1000
+          y: 0
+        width: 64
+        height: 160
+      - type: exit
+        x: 160
+        y: 0
+        translate:
+          x: -500
+          y: 0
+        width: 128
+        height: 256
+      - type: exit
+        x: 800
+        y: 0
+        translate:
+          x: -1252
+          y: 0
+        width: 288
+        height: 64
+      - type: exit
+        x: 1344
+        y: 64
+        translate:
+          x: -1600
+          y: 0
+        width: 64
+        height: 160
+      - type: exit
+        x: 1280
+        y: 224
+        translate:
+          x: -1500
+          y: -200
+        width: 96
+        height: 96
+      - type: exit
+        x: 1216
+        y: 256
+        translate:
+          x: -1500
+          y: -249
+        width: 64
+        height: 224
+      - type: exit
+        x: 1216
+        y: 480
+        translate:
+          x: -1500
+          y: -300
+        width: 192
+        height: 64
+      - type: exit
+        x: 1408
+        y: 512
+        translate:
+          x: -1700
+          y: -400
+        width: 96
+        height: 96
+      - type: exit
+        x: 1504
+        y: 544
+        translate:
+          x: -1900
+          y: -364
+        width: 128
+        height: 64
+      - type: exit
+        x: 1536
+        y: 224
+        translate:
+          x: -1973
+          y: -100
+        width: 160
+        height: 64
+      - type: exit
+        x: 2016
+        y: 96
+        translate:
+          x: -2200
+          y: -97
+        width: 64
+        height: 160
+      - type: exit
+        x: 1952
+        y: 320
+        translate:
+          x: -2300
+          y: -159
+        width: 64
+        height: 64
+      - type: exit
+        x: 1920
+        y: 384
+        translate:
+          x: -2100
+          y: -372
+        width: 64
+        height: 224
+      - type: exit
+        x: 1984
+        y: 544
+        translate:
+          x: -2250
+          y: -500
+        width: 160
+        height: 64
+      - type: exit
+        x: 2048
+        y: 480
+        translate:
+          x: -2300
+          y: -300
+        width: 96
+        height: 64
+      - type: exit
+        x: 2112
+        y: 416
+        translate:
+          x: -2300
+          y: -300
+        width: 64
+        height: 64
+      - type: exit
+        x: 2176
+        y: 352
+        translate:
+          x: -2400
+          y: -300
+        width: 64
+        height: 64
+      - type: exit
+        x: 2240
+        y: 288
+        translate:
+          x: -2500
+          y: -200
+        width: 64
+        height: 64
+      - type: exit
+        x: 2304
+        y: 224
+        translate:
+          x: -2500
+          y: -100
+        width: 64
+        height: 96
+      - type: exit
+        x: 2368
+        y: 288
+        translate:
+          x: -2600
+          y: -200
+        width: 64
+        height: 64
+      - type: exit
+        x: 2432
+        y: 352
+        translate:
+          x: -2800
+          y: -300
+        width: 64
+        height: 64
+      - type: exit
+        x: 2496
+        y: 384
+        translate:
+          x: -2700
+          y: -241
+        width: 64
+        height: 96
+      - type: exit
+        x: 2560
+        y: 352
+        translate:
+          x: -3000
+          y: -300
+        width: 64
+        height: 64
+      - type: exit
+        x: 2624
+        y: 288
+        translate:
+          x: -3000
+          y: -200
+        width: 64
+        height: 64
+      - type: exit
+        x: 2688
+        y: 224
+        translate:
+          x: -3000
+          y: -100
+        width: 64
+        height: 64
+      - type: exit
+        x: 2752
+        y: 160
+        translate:
+          x: -3000
+          y: 0
+        width: 64
+        height: 96
+      - type: exit
+        x: 2816
+        y: 224
+        translate:
+          x: -3000
+          y: -100
+        width: 64
+        height: 64
+      - type: exit
+        x: 2880
+        y: 288
+        translate:
+          x: -3035
+          y: -200
+        width: 64
+        height: 64
+      - type: exit
+        x: 2944
+        y: 0
+        translate:
+          x: -3300
+          y: 0
+        width: 32
+        height: 256
+      - type: exit
+        x: 832
+        y: 64
+        translate:
+          x: -1000
+          y: 0
+        width: 32
+        height: 32
+      - type: exit
+        x: 832
+        y: 192
+        translate:
+          x: -1000
+          y: 0
+        width: 32
+        height: 32
+      - type: exit
+        x: 1312
+        y: 64
+        translate:
+          x: -1560
+          y: 0
+        width: 32
+        height: 32
+      - type: exit
+        x: 1312
+        y: 192
+        translate:
+          x: -1560
+          y: 0
+        width: 32
+        height: 32
+      - type: exit
+        x: 1280
+        y: 320
+        translate:
+          x: -1500
+          y: -105
+        width: 32
+        height: 32
+      - type: exit
+        x: 864
+        y: 320
+        translate:
+          x: -1200
+          y: -105
+        width: 32
+        height: 32
+      - type: exit
+        x: 1376
+        y: 544
+        translate:
+          x: -1500
+          y: -500
+        width: 32
+        height: 32
+      - type: exit
+        x: 2016
+        y: 512
+        translate:
+          x: -2490
+          y: -301
+        width: 32
+        height: 32
+      - type: exit
+        x: 2080
+        y: 448
+        translate:
+          x: -2490
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2144
+        y: 384
+        translate:
+          x: -2490
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2176
+        y: 416
+        translate:
+          x: -2490
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2240
+        y: 352
+        translate:
+          x: -2490
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2208
+        y: 320
+        translate:
+          x: -2490
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2272
+        y: 256
+        translate:
+          x: -2490
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2368
+        y: 256
+        translate:
+          x: -2490
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2400
+        y: 352
+        translate:
+          x: -2874
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2432
+        y: 320
+        translate:
+          x: -2900
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2464
+        y: 416
+        translate:
+          x: -2900
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2560
+        y: 416
+        translate:
+          x: -2900
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2592
+        y: 320
+        translate:
+          x: -2900
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2624
+        y: 352
+        translate:
+          x: -2900
+          y: -300
+        width: 32
+        height: 32
+      - type: exit
+        x: 2656
+        y: 256
+        translate:
+          x: -2900
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2688
+        y: 288
+        translate:
+          x: -2900
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2720
+        y: 192
+        translate:
+          x: -2900
+          y: -100
+        width: 32
+        height: 32
+      - type: exit
+        x: 2816
+        y: 192
+        translate:
+          x: -2990
+          y: -100
+        width: 32
+        height: 32
+      - type: exit
+        x: 2880
+        y: 256
+        translate:
+          x: -2990
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 2848
+        y: 288
+        translate:
+          x: -2979
+          y: -200
+        width: 32
+        height: 32
+      - type: exit
+        x: 1088
+        y: 0
+        translate:
+          x: -1465
+          y: 0
+        width: 288
+        height: 64
+      - type: exit
+        x: 1536
+        y: 96
+        translate:
+          x: -1944
+          y: 0
+        width: 288
+        height: 64
+      - type: exit
+        x: 1824
+        y: 96
+        translate:
+          x: -2093
+          y: 0
+        width: 192
+        height: 64
+      - type: exit
+        x: 608
+        y: 64
+        translate:
+          x: -900
+          y: 0
+        width: 64
+        height: 192
+      - type: exit
+        x: 3904
+        y: 320
+        translate:
+          x: 1450
+          y: -8
+        width: 288
+        height: 288
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 1450
+          y: 282
+        width: 288
+        height: 320
+      - type: exit
+        x: 3616
+        y: 0
+        translate:
+          x: 1737
+          y: 314
+        width: 288
+        height: 288
+      - type: exit
+        x: 3616
+        y: 288
+        translate:
+          x: 1737
+          y: -7
+        width: 288
+        height: 320
+      - type: exit
+        x: 3392
+        y: 320
+        translate:
+          x: 2018
+          y: -8
+        width: 224
+        height: 288
+      - type: exit
+        x: 3392
+        y: 0
+        translate:
+          x: 2018
+          y: 282
+        width: 224
+        height: 320
+      - type: exit
+        x: 2016
+        y: 256
+        translate:
+          x: -2200
+          y: -129
+        width: 64
+        height: 128
+      - type: exit
+        x: 1632
+        y: 288
+        translate:
+          x: -2000
+          y: -202
+        width: 64
+        height: 160
+      - type: exit
+        x: 1632
+        y: 448
+        translate:
+          x: -2000
+          y: -345
+        width: 64
+        height: 160
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 5152
+        y: 0
+        translate:
+          x: 0
+          y: -150
+        width: 64
+        height: 32
+      - type: exit
+        x: 1920
+        y: 352
+        translate:
+          x: -2300
+          y: -159
+        width: 32
+        height: 32
+      - type: exit
+        x: 1984
+        y: 384
+        translate:
+          x: -2300
+          y: -159
+        width: 32
+        height: 32
+      - type: exit
+        x: 2944
+        y: 256
+        translate:
+          x: -3300
+          y: -252
+        width: 32
+        height: 256
+      - type: exit
+        x: 2944
+        y: 512
+        translate:
+          x: -3300
+          y: -350
+        width: 32
+        height: 96
+      - type: exit
+        x: 128
+        y: 0
+        translate:
+          x: -300
+          y: 0
+        width: 32
+        height: 256
+      - type: exit
+        x: 128
+        y: 256
+        translate:
+          x: -300
+          y: -252
+        width: 32
+        height: 256
+      - type: exit
+        x: 128
+        y: 512
+        translate:
+          x: -300
+          y: -350
+        width: 32
+        height: 96
+      - type: exit
+        x: 288
+        y: 0
+        translate:
+          x: -500
+          y: 0
+        width: 32
+        height: 256
+      - type: exit
+        x: 288
+        y: 256
+        translate:
+          x: -500
+          y: -252
+        width: 32
+        height: 256
+      - type: exit
+        x: 288
+        y: 512
+        translate:
+          x: -500
+          y: -350
+        width: 32
+        height: 96
+      - type: exit
+        x: 160
+        y: 256
+        translate:
+          x: -500
+          y: -247
+        width: 128
+        height: 256
+      - type: exit
+        x: 160
+        y: 512
+        translate:
+          x: -500
+          y: -400
+        width: 128
+        height: 96
+      - type: exit
+        x: 1472
+        y: 160
+        translate:
+          x: -1970
+          y: 0
+        width: 128
+        height: 64
+      - type: exit
+        x: 1504
+        y: 128
+        translate:
+          x: -1800
+          y: -105
+        width: 32
+        height: 32
+      - type: exit
+        x: 1504
+        y: 224
+        translate:
+          x: -1800
+          y: -105
+        width: 32
+        height: 32
+    assets:
+      - type: image_background
+        image_name: door_1
+        alpha: 1
+        x: -12576
+        y: 2496
+        width: 160
+        height: 160
+      - type: image_background
+        image_name: door_1
+        alpha: 1
+        x: -12576
+        y: 2496
+        width: 160
+        height: 160
+      - type: torch
+        x: 384
+        y: 80
+      - type: torch
+        x: 640
+        y: 480
+      - type: torch
+        x: 928
+        y: 480
+      - type: torch
+        x: 800
+        y: 192
+      - type: torch
+        x: 1376
+        y: 192
+      - type: torch
+        x: 1632
+        y: 576
+      - type: torch
+        x: 1792
+        y: 128
+      - type: torch
+        x: 1952
+        y: 576
+      - type: torch
+        x: 2336
+        y: 256
+      - type: torch
+        x: 2528
+        y: 448
+      - type: torch
+        x: 2784
+        y: 192
+  - name: 'Sphere 7-1: Unlocked Ladder'
+    properties:
+      lighting: 0.33
+    x: 96224
+    y: -24032
+    zones:
+      - type: safe
+        x: 0
+        y: 640
+        width: 352
+        height: 192
+      - type: active
+        properties:
+          maximum_speed: 5000
+          minimum_speed: 5000
+        x: 0
+        y: 256
+        width: 352
+        height: 384
+        spawner:
+          - x: 175
+            y: 450
+            radius: 174
+            types:
+              - switch
+            switch_interval: 2000
+      - type: safe
+        x: 0
+        y: 64
+        width: 352
+        height: 192
+      - type: exit
+        x: 0
+        y: 832
+        translate:
+          x: 126
+          y: 100
+        width: 96
+        height: 64
+      - type: exit
+        x: 192
+        y: 832
+        translate:
+          x: -67
+          y: 100
+        width: 96
+        height: 64
+      - type: exit
+        x: 96
+        y: 832
+        translate:
+          x: 28
+          y: 100
+        width: 96
+        height: 64
+      - type: exit
+        x: 288
+        y: 832
+        translate:
+          x: -139
+          y: 100
+        width: 64
+        height: 64
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -4914
+          y: 1200
+        width: 96
+        height: 64
+      - type: exit
+        x: 192
+        y: 0
+        translate:
+          x: -5106
+          y: 1200
+        width: 96
+        height: 64
+      - type: exit
+        x: 96
+        y: 0
+        translate:
+          x: -5010
+          y: 1200
+        width: 96
+        height: 64
+      - type: exit
+        x: 288
+        y: 0
+        translate:
+          x: -5182
+          y: 1200
+        width: 64
+        height: 64
+    assets:
+      - type: image_background
+        image_name: door_1
+        alpha: 1
+        x: -17504
+        y: 3392
+        width: 160
+        height: 160
+      - type: image_background
+        image_name: door_1
+        alpha: 1
+        x: -17504
+        y: 3392
+        width: 160
+        height: 160
+      - type: torch
+        x: 176
+        y: 448
+  - name: Sphere 7-2
+    properties:
+      lighting: 0.18
+    x: 96576
+    y: -24640
+    zones:
+      - type: safe
+        x: 64
+        y: 1504
+        width: 320
+        height: 608
+      - type: active
+        x: 384
+        y: 0
+        width: 1696
+        height: 2112
+        spawner:
+          - radius: 30
+            speed: 240
+            count: 15
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 180
+            count: 10
+            types:
+              - homing
+            increment: 2
+          - radius: 18
+            speed: 270
+            count: 15
+            types:
+              - homing
+            increment: 1.7
+          - radius: 5
+            speed: 300
+            count: 13
+            effect_radius: 200
+            types:
+              - slowing
+          - radius: 7
+            speed: 90
+            count: 7
+            types:
+              - fire_trail
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 382
+        width: 64
+        height: 224
+      - type: safe
+        x: 64
+        y: 0
+        width: 320
+        height: 608
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 384
+      - type: exit
+        x: 0
+        y: 1888
+        translate:
+          x: -221
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 1504
+        width: 64
+        height: 384
+      - type: exit
+        x: 0
+        y: 640
+        translate:
+          x: -350
+          y: 900
+        width: 192
+        height: 160
+      - type: exit
+        x: 192
+        y: 640
+        translate:
+          x: -542
+          y: 900
+        width: 192
+        height: 160
+      - type: exit
+        x: 192
+        y: 800
+        translate:
+          x: -542
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 0
+        y: 800
+        translate:
+          x: -350
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 0
+        y: 992
+        translate:
+          x: -350
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 192
+        y: 992
+        translate:
+          x: -542
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 192
+        y: 1184
+        translate:
+          x: -542
+          y: 700
+        width: 192
+        height: 192
+      - type: exit
+        x: 0
+        y: 1184
+        translate:
+          x: -350
+          y: 705
+        width: 192
+        height: 192
+      - type: exit
+        x: 192
+        y: 1376
+        translate:
+          x: -542
+          y: 349
+        width: 192
+        height: 128
+      - type: exit
+        x: 0
+        y: 1376
+        translate:
+          x: -350
+          y: 349
+        width: 192
+        height: 128
+      - type: exit
+        x: 384
+        y: 640
+        translate:
+          x: -720
+          y: 900
+        width: 160
+        height: 128
+      - type: exit
+        x: 384
+        y: 768
+        translate:
+          x: -720
+          y: 900
+        width: 160
+        height: 160
+      - type: exit
+        x: 384
+        y: 928
+        translate:
+          x: -720
+          y: 900
+        width: 160
+        height: 160
+      - type: exit
+        x: 384
+        y: 1088
+        translate:
+          x: -720
+          y: 800
+        width: 160
+        height: 160
+      - type: exit
+        x: 384
+        y: 1248
+        translate:
+          x: -720
+          y: 600
+        width: 160
+        height: 160
+      - type: exit
+        x: 384
+        y: 1408
+        translate:
+          x: -720
+          y: 400
+        width: 160
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 544
+        y: 576
+        width: 960
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 672
+        y: 704
+        width: 704
+        height: 704
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 800
+        y: 832
+        width: 448
+        height: 448
+      - type: exit
+        x: 0
+        y: 608
+        translate:
+          x: -344
+          y: -150
+        width: 192
+        height: 32
+      - type: exit
+        x: 192
+        y: 608
+        translate:
+          x: -461
+          y: -150
+        width: 192
+        height: 32
+      - type: exit
+        x: 384
+        y: 608
+        translate:
+          x: -629
+          y: -150
+        width: 160
+        height: 32
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: -17664
+        y: 4000
+        width: 160
+        height: 160
+      - type: wall
+        x: 544
+        y: 576
+        width: 960
+        height: 960
+        texture: null
+      - type: torch
+        x: 992
+        y: 1632
+      - type: torch
+        x: 768
+        y: 1632
+      - type: torch
+        x: 544
+        y: 1632
+      - type: torch
+        x: 1216
+        y: 1632
+      - type: torch
+        x: 1440
+        y: 1632
+      - type: torch
+        x: 1600
+        y: 1504
+      - type: torch
+        x: 1600
+        y: 1280
+      - type: torch
+        x: 1600
+        y: 1056
+      - type: torch
+        x: 1600
+        y: 832
+      - type: torch
+        x: 1600
+        y: 608
+      - type: torch
+        x: 1440
+        y: 480
+      - type: torch
+        x: 1216
+        y: 480
+      - type: torch
+        x: 992
+        y: 480
+      - type: torch
+        x: 768
+        y: 480
+      - type: torch
+        x: 544
+        y: 480
+  - name: Sphere 7-3
+    properties:
+      lighting: 0.18
+    x: 94496
+    y: -26144
+    zones:
+      - type: exit
+        x: 2016
+        y: 1888
+        translate:
+          x: 160
+          y: -382
+        width: 64
+        height: 224
+      - type: safe
+        x: 1696
+        y: 1504
+        width: 320
+        height: 608
+      - type: active
+        x: 0
+        y: 0
+        width: 1696
+        height: 2112
+        spawner:
+          - radius: 30
+            speed: 240
+            count: 15
+            types:
+              - wall
+          - radius: 20
+            speed: 450
+            count: 25
+            types:
+              - dasher
+          - radius: 55
+            speed: 330
+            count: 10
+            types:
+              - dasher
+          - radius: 22
+            speed: 270
+            count: 10
+            effect_radius: 250
+            types:
+              - enlarging
+          - radius: 10
+            speed: 120
+            count: 8
+            types:
+              - fire_trail
+      - type: exit
+        x: 2016
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 1696
+        y: 0
+        width: 320
+        height: 608
+      - type: safe
+        x: 2016
+        y: 224
+        width: 64
+        height: 384
+      - type: safe
+        x: 2016
+        y: 1504
+        width: 64
+        height: 384
+      - type: exit
+        x: 1888
+        y: 640
+        translate:
+          x: 350
+          y: 900
+        width: 192
+        height: 160
+      - type: exit
+        x: 1696
+        y: 640
+        translate:
+          x: 542
+          y: 900
+        width: 192
+        height: 160
+      - type: exit
+        x: 1696
+        y: 800
+        translate:
+          x: 542
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 1888
+        y: 800
+        translate:
+          x: 350
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 1888
+        y: 992
+        translate:
+          x: 350
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 1696
+        y: 992
+        translate:
+          x: 542
+          y: 900
+        width: 192
+        height: 192
+      - type: exit
+        x: 1696
+        y: 1184
+        translate:
+          x: 542
+          y: 700
+        width: 192
+        height: 192
+      - type: exit
+        x: 1888
+        y: 1184
+        translate:
+          x: 350
+          y: 705
+        width: 192
+        height: 192
+      - type: exit
+        x: 1696
+        y: 1376
+        translate:
+          x: 542
+          y: 349
+        width: 192
+        height: 128
+      - type: exit
+        x: 1888
+        y: 1376
+        translate:
+          x: 350
+          y: 349
+        width: 192
+        height: 128
+      - type: exit
+        x: 1536
+        y: 640
+        translate:
+          x: 720
+          y: 900
+        width: 160
+        height: 128
+      - type: exit
+        x: 1536
+        y: 768
+        translate:
+          x: 720
+          y: 900
+        width: 160
+        height: 160
+      - type: exit
+        x: 1536
+        y: 928
+        translate:
+          x: 720
+          y: 900
+        width: 160
+        height: 160
+      - type: exit
+        x: 1536
+        y: 1088
+        translate:
+          x: 720
+          y: 800
+        width: 160
+        height: 160
+      - type: exit
+        x: 1536
+        y: 1248
+        translate:
+          x: 720
+          y: 600
+        width: 160
+        height: 160
+      - type: exit
+        x: 1536
+        y: 1408
+        translate:
+          x: 720
+          y: 400
+        width: 160
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 576
+        y: 576
+        width: 960
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 704
+        y: 704
+        width: 704
+        height: 704
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 832
+        y: 832
+        width: 448
+        height: 448
+      - type: exit
+        x: 1536
+        y: 608
+        translate:
+          x: 654
+          y: -150
+        width: 192
+        height: 32
+      - type: exit
+        x: 1728
+        y: 608
+        translate:
+          x: 461
+          y: -150
+        width: 192
+        height: 32
+      - type: exit
+        x: 1920
+        y: 608
+        translate:
+          x: 277
+          y: -150
+        width: 160
+        height: 32
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: -15584
+        y: 5504
+        width: 160
+        height: 160
+      - type: wall
+        x: 576
+        y: 576
+        width: 960
+        height: 960
+        texture: null
+  - name: Sphere 7-4
+    properties:
+      lighting: 0.18
+    x: 96576
+    y: -26144
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3296
+        height: 608
+        spawner:
+          - radius: 20
+            speed: 240
+            count: 24
+            types:
+              - sizing
+          - radius: 45
+            speed: 180
+            count: 3
+            types:
+              - sizing
+          - radius: 8
+            speed: 210
+            count: 10
+            effect_radius: 180
+            types:
+              - draining
+          - radius: 18
+            speed: 165
+            count: 5
+            types:
+              - fire_trail
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+      - type: safe
+        x: 3616
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3872
+        y: 0
+        width: 64
+        height: 384
+      - type: exit
+        x: 3872
+        y: 384
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 544
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 576
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 608
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 928
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 960
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 992
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1312
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1344
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1376
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1696
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1728
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1760
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2080
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2112
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2144
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2464
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2496
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2528
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2848
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2880
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2912
+        y: 288
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 3232
+        y: 224
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 3264
+        y: 256
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 3296
+        y: 288
+        width: 32
+        height: 32
+      - type: exit
+        x: 0
+        y: 224
+        translate:
+          x: -160
+          y: -224
+        width: 64
+        height: 224
+      - type: exit
+        x: 0
+        y: 448
+        translate:
+          x: -160
+          y: -418
+        width: 64
+        height: 160
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: -9728
+        y: 5504
+        width: 160
+        height: 160
+      - type: wall
+        x: 544
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 3232
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 2848
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 928
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 1312
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 1696
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 2080
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: wall
+        x: 2464
+        y: 224
+        width: 160
+        height: 160
+        texture: null
+      - type: torch
+        x: 624
+        y: 112
+      - type: torch
+        x: 624
+        y: 496
+      - type: torch
+        x: 1008
+        y: 496
+      - type: torch
+        x: 1008
+        y: 112
+      - type: torch
+        x: 1392
+        y: 112
+      - type: torch
+        x: 1392
+        y: 496
+      - type: torch
+        x: 1776
+        y: 112
+      - type: torch
+        x: 1776
+        y: 496
+      - type: torch
+        x: 2160
+        y: 112
+      - type: torch
+        x: 2160
+        y: 496
+      - type: torch
+        x: 2544
+        y: 112
+      - type: torch
+        x: 2544
+        y: 496
+      - type: torch
+        x: 2928
+        y: 112
+      - type: torch
+        x: 2928
+        y: 496
+      - type: torch
+        x: 3312
+        y: 112
+      - type: torch
+        x: 3312
+        y: 496
+      - type: torch
+        x: 3504
+        y: 304
+      - type: torch
+        x: 432
+        y: 304
+  - name: Hemisphere 7-1
+    properties:
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      lighting: 0.5
+    x: 94048
+    y: -21312
+    zones:
+      - type: safe
+        x: 0
+        y: 64
+        width: 608
+        height: 320
+      - type: active
+        x: 0
+        y: 384
+        width: 2112
+        height: 1696
+        spawner:
+          - radius: 20
+            speed: 225
+            count: 22
+            types:
+              - wall
+            move_clockwise: false
+          - x: 288
+            y: 400
+            radius: 10
+            angle: 90
+            speed: 180
+            effect_radius: 290
+            types:
+              - draining
+          - x: 1824
+            y: 400
+            radius: 10
+            angle: 90
+            speed: 180
+            effect_radius: 290
+            types:
+              - draining
+          - x: 2096
+            y: 1793
+            radius: 10
+            angle: 180
+            speed: 221.1
+            effect_radius: 290
+            types:
+              - draining
+          - x: 16
+            y: 1793
+            radius: 10
+            angle: 0
+            speed: 221.1
+            effect_radius: 290
+            types:
+              - draining
+          - radius: 25
+            speed: 210
+            count: 15
+            effect_radius: 200
+            types:
+              - lava
+          - radius: 18
+            speed: 270
+            count: 15
+            effect_radius: 90
+            types:
+              - lava
+          - radius: 22
+            speed: 300
+            count: 18
+            types:
+              - sizing
+          - radius: 22
+            speed: 210
+            count: 5
+            types:
+              - fire_trail
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -2686
+          y: -1383
+        width: 224
+        height: 64
+      - type: safe
+        x: 1504
+        y: 0
+        width: 544
+        height: 384
+      - type: safe
+        x: 224
+        y: 0
+        width: 384
+        height: 64
+      - type: exit
+        x: 2048
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 2048
+        y: 224
+        width: 64
+        height: 160
+      - type: exit
+        x: 608
+        y: 0
+        translate:
+          x: -3300
+          y: -1500
+        width: 192
+        height: 192
+      - type: exit
+        x: 608
+        y: 192
+        translate:
+          x: -3300
+          y: -1700
+        width: 192
+        height: 192
+      - type: exit
+        x: 800
+        y: 192
+        translate:
+          x: -3500
+          y: -1700
+        width: 192
+        height: 192
+      - type: exit
+        x: 800
+        y: 0
+        translate:
+          x: -3500
+          y: -1500
+        width: 192
+        height: 192
+      - type: exit
+        x: 992
+        y: 0
+        translate:
+          x: -3700
+          y: -1500
+        width: 192
+        height: 192
+      - type: exit
+        x: 992
+        y: 192
+        translate:
+          x: -3700
+          y: -1700
+        width: 192
+        height: 192
+      - type: exit
+        x: 1184
+        y: 192
+        translate:
+          x: -3900
+          y: -1700
+        width: 192
+        height: 192
+      - type: exit
+        x: 1184
+        y: 0
+        translate:
+          x: -3900
+          y: -1500
+        width: 192
+        height: 192
+      - type: exit
+        x: 1376
+        y: 192
+        translate:
+          x: -4100
+          y: -1700
+        width: 96
+        height: 192
+      - type: exit
+        x: 1376
+        y: 0
+        translate:
+          x: -4100
+          y: -1500
+        width: 96
+        height: 192
+      - type: exit
+        x: 608
+        y: 384
+        translate:
+          x: -3300
+          y: -1900
+        width: 160
+        height: 160
+      - type: exit
+        x: 768
+        y: 384
+        translate:
+          x: -3459
+          y: -1900
+        width: 160
+        height: 160
+      - type: exit
+        x: 928
+        y: 384
+        translate:
+          x: -3630
+          y: -1900
+        width: 160
+        height: 160
+      - type: exit
+        x: 1088
+        y: 384
+        translate:
+          x: -3787
+          y: -1900
+        width: 160
+        height: 160
+      - type: exit
+        x: 1248
+        y: 384
+        translate:
+          x: -3957
+          y: -1900
+        width: 160
+        height: 160
+      - type: exit
+        x: 1408
+        y: 384
+        translate:
+          x: -4100
+          y: -1900
+        width: 64
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 576
+        y: 544
+        width: 960
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 704
+        y: 672
+        width: 704
+        height: 704
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 832
+        y: 800
+        width: 448
+        height: 448
+      - type: exit
+        x: 1472
+        y: 0
+        translate:
+          x: 800
+          y: 54
+        width: 32
+        height: 192
+      - type: exit
+        x: 1472
+        y: 192
+        translate:
+          x: 800
+          y: 0
+        width: 32
+        height: 192
+      - type: exit
+        x: 1472
+        y: 384
+        translate:
+          x: 800
+          y: 0
+        width: 32
+        height: 160
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: -15136
+        y: 672
+        width: 160
+        height: 160
+      - type: wall
+        x: 576
+        y: 544
+        width: 960
+        height: 960
+        texture: null
+  - name: Hemisphere 7-2
+    properties:
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      lighting: 0.5
+    x: 96160
+    y: -21312
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3616
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3872
+        y: 384
+        translate:
+          x: 600
+          y: -4842
+        width: 64
+        height: 224
+      - type: exit
+        x: 3872
+        y: 160
+        translate:
+          x: 600
+          y: -4620
+        width: 64
+        height: 224
+      - type: exit
+        x: 3872
+        y: 0
+        translate:
+          x: 600
+          y: -4401
+        width: 64
+        height: 160
+      - type: exit
+        x: 0
+        y: 224
+        translate:
+          x: -160
+          y: -224
+        width: 64
+        height: 224
+      - type: exit
+        x: 0
+        y: 448
+        translate:
+          x: -160
+          y: -414
+        width: 64
+        height: 160
+      - type: active
+        x: 320
+        y: 0
+        width: 3296
+        height: 608
+        spawner:
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+          - x: 624
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 1008
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 1392
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 1776
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 2160
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 2544
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 2928
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 3312
+            y: 304
+            radius: 80
+            types:
+              - wind_ghost
+          - x: 352
+            y: 304
+            radius: 45
+            angle: 0
+            speed: 195
+            effect_radius: 300
+            types:
+              - draining
+          - x: 3584
+            y: 304
+            radius: 45
+            angle: 180
+            speed: 195
+            effect_radius: 300
+            types:
+              - draining
+          - radius: 22
+            speed: 300
+            count: 20
+            effect_radius: 210
+            types:
+              - lava
+          - radius: 16
+            speed: 360
+            count: 21
+            types:
+              - lunging
+          - radius: 35
+            speed: 210
+            count: 7
+            types:
+              - fire_trail
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 1
+        x: -9312
+        y: 672
+        width: 160
+        height: 160
+  - name: Bridge 8
+    x: 100512
+    y: -28640
+    zones:
+      - type: safe
+        x: 64
+        y: 2848
+        width: 416
+        height: 256
+      - type: active
+        x: 0
+        y: 288
+        width: 480
+        height: 2560
+        spawner:
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - immune
+          - radius: 10
+            speed: 300
+            count: 8
+            effect_radius: 125
+            types:
+              - withering
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+          - radius: 9
+            speed: 330
+            count: 15
+            types:
+              - void_crawler
+          - radius: 13
+            speed: 240
+            count: 15
+            types:
+              - immune
+      - type: safe
+        x: 0
+        y: 0
+        width: 416
+        height: 288
+      - type: exit
+        x: 0
+        y: 2880
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 2848
+        width: 64
+        height: 32
+      - type: safe
+        x: 416
+        y: 256
+        width: 64
+        height: 32
+      - type: safe
+        x: 416
+        y: 0
+        width: 64
+        height: 256
