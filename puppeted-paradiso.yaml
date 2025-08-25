@@ -7227,6 +7227,51 @@ areas:
         width: 960
         height: 960
         texture: null
+      - type: torch
+        x: 1088
+        y: 1632
+      - type: torch
+        x: 864
+        y: 1632
+      - type: torch
+        x: 640
+        y: 1632
+      - type: torch
+        x: 1312
+        y: 1632
+      - type: torch
+        x: 448
+        y: 608
+      - type: torch
+        x: 448
+        y: 1504
+      - type: torch
+        x: 448
+        y: 1280
+      - type: torch
+        x: 448
+        y: 1056
+      - type: torch
+        x: 448
+        y: 832
+      - type: torch
+        x: 1536
+        y: 1632
+      - type: torch
+        x: 1536
+        y: 480
+      - type: torch
+        x: 1312
+        y: 480
+      - type: torch
+        x: 1088
+        y: 480
+      - type: torch
+        x: 864
+        y: 480
+      - type: torch
+        x: 640
+        y: 480
   - name: Sphere 7-4
     properties:
       lighting: 0.18
@@ -8237,3 +8282,4193 @@ areas:
         y: 0
         width: 64
         height: 256
+  - name: Sphere 8-1
+    x: 100992
+    y: -28640
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 256
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 864
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 864
+        spawner:
+          - x: 2207
+            y: 50
+            radius: 40
+            angle: 0
+            types:
+              - frost_giant
+            pattern: twin
+            pause_duration: 500
+            pause_interval: 3500
+            projectile_duration: 2700
+            projectile_speed: 200
+          - x: 2207
+            y: 815
+            radius: 40
+            angle: 0
+            types:
+              - frost_giant
+            pattern: twin
+            pause_duration: 500
+            pause_interval: 3500
+            projectile_duration: 2700
+            projectile_speed: 200
+          - x: 1696
+            y: 431
+            radius: 30
+            types:
+              - frost_giant
+            shot_interval: 400
+            turn_speed: 80
+            pattern: quadspiral
+            projectile_duration: 3400
+            projectile_speed: 225
+          - x: 1696
+            y: 431
+            radius: 30
+            types:
+              - frost_giant
+            shot_interval: 550
+            turn_speed: 160
+            pattern: cone_edges
+            projectile_duration: 3400
+            projectile_speed: 150
+          - x: 1696
+            y: 431
+            radius: 30
+            types:
+              - frost_giant
+            shot_interval: 500
+            turn_speed: -200
+            pattern: cone_edges
+            projectile_duration: 3400
+            projectile_speed: 240
+          - x: 3600
+            y: 431
+            radius: 30
+            angle: 180
+            types:
+              - frost_giant
+            pattern: cone
+            projectile_duration: 5000
+            projectile_speed: 240
+          - x: 3600
+            y: 431
+            radius: 30
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 300
+            turn_speed: 50
+            pattern: cone
+            projectile_duration: 2000
+            projectile_speed: 420
+          - x: 3600
+            y: 431
+            radius: 30
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 300
+            turn_speed: 100
+            pattern: cone
+            projectile_duration: 5000
+            projectile_speed: 240
+          - x: 1000
+            y: 431
+            radius: 30
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 300
+            turn_speed: 100
+            pattern: twincone
+            projectile_duration: 5000
+            projectile_speed: 240
+          - x: 1000
+            y: 431
+            radius: 30
+            angle: 180
+            types:
+              - frost_giant
+            shot_interval: 600
+            turn_speed: 40
+            pattern: twincone
+            projectile_duration: 5000
+            projectile_speed: 330
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 864
+      - type: exit
+        x: 3904
+        y: 128
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 0
+        y: 288
+        width: 64
+        height: 576
+      - type: exit
+        x: 32
+        y: 256
+        translate:
+          x: -160
+          y: -150
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 130
+            - 150
+            - 150
+            - 85
+        x: 0
+        y: 256
+        translate:
+          x: 8050
+          y: 7120
+        width: 32
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2464
+        y: 96
+        width: 160
+        height: 672
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2496
+        y: 128
+        width: 96
+        height: 608
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2528
+        y: 160
+        width: 32
+        height: 544
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 130
+        width: 64
+        height: 128
+      - type: exit
+        x: 3904
+        y: 736
+        translate:
+          x: 160
+          y: -130
+        width: 64
+        height: 128
+    assets:
+      - type: wall
+        x: 2464
+        y: 96
+        width: 160
+        height: 672
+        texture: null
+  - name: Sphere 8-2
+    properties:
+      lighting: 0.5
+      background_color:
+        - 140
+        - 170
+        - 150
+        - 130
+    x: 104960
+    y: -28512
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 20
+            speed: 330
+            count: 23
+            types:
+              - snowman
+          - radius: 45
+            speed: 180
+            count: 3
+            types:
+              - snowman
+          - radius: 35
+            speed: 240
+            count: 16
+            types:
+              - icicle
+            horizontal: true
+          - radius: 0
+            speed: 210
+            count: 10
+            effect_radius: 120
+            types:
+              - slippery
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 320
+        height: 608
+  - name: Sphere 8-3
+    properties:
+      lighting: 0.5
+      background_color:
+        - 140
+        - 170
+        - 150
+        - 130
+    x: 108928
+    y: -28512
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 18
+            speed: 300
+            count: 20
+            types:
+              - icicle
+          - radius: 22
+            speed: 270
+            count: 15
+            types:
+              - icicle
+            horizontal: true
+          - radius: 35
+            speed: 210
+            count: 10
+            types:
+              - icicle
+            horizontal: true
+          - radius: 15
+            speed: 330
+            count: 8
+            types:
+              - ice_sniper
+          - radius: 25
+            speed: 270
+            count: 10
+            types:
+              - snowman
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+    assets:
+      - type: light_region
+        x: 3648
+        y: 0
+        width: 320
+        height: 608
+  - name: Sphere 8-4
+    x: 112896
+    y: -29184
+    zones:
+      - type: exit
+        x: 0
+        y: 672
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 1952
+      - type: active
+        x: 320
+        y: 0
+        width: 4896
+        height: 1952
+        spawner:
+          - y: 480, 800
+            radius: 22
+            speed: 330
+            count: 25
+            types:
+              - icicle
+            horizontal: true
+          - y: 1150, 1470
+            radius: 22
+            speed: 330
+            count: 25
+            types:
+              - icicle
+            horizontal: true
+          - radius: 27
+            speed: 330
+            count: 30
+            types:
+              - icicle
+          - radius: 20
+            speed: 420
+            count: 15
+            types:
+              - wall
+          - radius: 10
+            speed: 270
+            count: 17
+            types:
+              - frost_giant
+            shot_interval: 2500
+            pattern: quadspiral
+            projectile_speed: 240
+          - radius: 25
+            speed: 270
+            count: 20
+            types:
+              - snowman
+      - type: safe
+        x: 5216
+        y: 0
+        width: 224
+        height: 1952
+      - type: exit
+        x: 5440
+        y: 704
+        translate:
+          x: 160
+          y: 157
+        width: 64
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 608
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 640
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 672
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2912
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2944
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2976
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1184
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1216
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1248
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1760
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1792
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1824
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2336
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2368
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2400
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 3488
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 3520
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 3552
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 4064
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 4096
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 4128
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 4640
+        y: 64
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 4672
+        y: 96
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 4704
+        y: 128
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 4640
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 4672
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 4704
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2336
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2368
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2400
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 4064
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 4096
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 4128
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 3488
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 3520
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 3552
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2912
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2944
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2976
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1760
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1792
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1824
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1184
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1216
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1248
+        y: 896
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 608
+        y: 832
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 640
+        y: 864
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 672
+        y: 896
+        width: 160
+        height: 160
+      - type: safe
+        x: 5440
+        y: 0
+        width: 64
+        height: 704
+      - type: safe
+        x: 5440
+        y: 1248
+        width: 64
+        height: 704
+      - type: exit
+        x: 0
+        y: 64
+        translate:
+          x: -160
+          y: 606
+        width: 64
+        height: 608
+      - type: exit
+        x: 0
+        y: 1280
+        translate:
+          x: -160
+          y: -606
+        width: 64
+        height: 608
+      - type: exit
+        x: 0
+        y: 1888
+        translate:
+          x: -160
+          y: -679
+        width: 64
+        height: 64
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 679
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 608
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 640
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 672
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2912
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2944
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2976
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1184
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1216
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1248
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 1760
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 1792
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 1824
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 2336
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 2368
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 2400
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 3488
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 3520
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 3552
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 4064
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 4096
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 4128
+        y: 1568
+        width: 160
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 100
+            - 80
+            - 120
+        x: 4640
+        y: 1504
+        width: 288
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 110
+            - 140
+            - 110
+            - 120
+        x: 4672
+        y: 1536
+        width: 224
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 150
+            - 190
+            - 140
+            - 120
+        x: 4704
+        y: 1568
+        width: 160
+        height: 256
+      - type: exit
+        x: 5440
+        y: 928
+        translate:
+          x: 160
+          y: -66
+        width: 64
+        height: 224
+      - type: exit
+        x: 5440
+        y: 1152
+        translate:
+          x: 160
+          y: -219
+        width: 64
+        height: 96
+    assets:
+      - type: wall
+        x: 608
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 1184
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 1760
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 2336
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 2912
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 3488
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 4064
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 4640
+        y: 64
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 608
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 1184
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 1760
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 2336
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 2912
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 3488
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 4064
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 4640
+        y: 832
+        width: 288
+        height: 288
+        texture: null
+      - type: wall
+        x: 608
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 1184
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 1760
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 2336
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 2912
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 3488
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 4064
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+      - type: wall
+        x: 4640
+        y: 1504
+        width: 288
+        height: 384
+        texture: null
+  - name: Hemisphere 8-1
+    properties:
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+      lighting: 0.3
+    x: 108832
+    y: -21632
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -7750
+          y: -7001
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 18
+            speed: 360
+            count: 25
+            types:
+              - icicle
+          - radius: 45
+            speed: 270
+            count: 10
+            types:
+              - icicle
+          - radius: 45
+            speed: 420
+            count: 12
+            types:
+              - ice_ghost
+          - radius: 25
+            speed: 330
+            count: 17
+            types:
+              - icicle
+            horizontal: true
+    assets:
+      - type: light_region
+        x: 0
+        y: 0
+        width: 320
+        height: 608
+      - type: light_region
+        x: 3648
+        y: 0
+        width: 320
+        height: 608
+  - name: Hemisphere 8-2
+    properties:
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+    x: 112800
+    y: -22304
+    zones:
+      - type: exit
+        x: 0
+        y: 672
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 2016
+      - type: safe
+        x: 5024
+        y: 0
+        width: 256
+        height: 2016
+      - type: active
+        x: 320
+        y: 0
+        width: 4704
+        height: 2016
+        spawner:
+          - radius: 20
+            speed: 330
+            count: 25
+            types:
+              - snowman
+          - radius: 15
+            speed: 420
+            count: 35
+            types:
+              - snowman
+          - radius: 12
+            speed: 480
+            count: 45
+            types:
+              - snowman
+          - radius: 10
+            speed: 500
+            count: 15
+            effect_radius: 200
+            types:
+              - slippery
+          - radius: 60
+            speed: 360
+            count: 20
+            types:
+              - ice_ghost
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 544
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 576
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 608
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 992
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1024
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1056
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1440
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1472
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1504
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1888
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1920
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1952
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2336
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2368
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2400
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2784
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2816
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2848
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3232
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3264
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3296
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3680
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3712
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3744
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4128
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4160
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4192
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4576
+        y: 224
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4608
+        y: 256
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4640
+        y: 288
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 544
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 576
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 608
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 992
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1024
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1056
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1440
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1472
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1504
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1888
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1920
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1952
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2336
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2368
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2400
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2784
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2816
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2848
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3232
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3264
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3296
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3680
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3712
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3744
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4128
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4160
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4192
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4576
+        y: 672
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4608
+        y: 704
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4640
+        y: 736
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 544
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 576
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 608
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 992
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1024
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1056
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1440
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1472
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1504
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1888
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1920
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1952
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2336
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2368
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2400
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2784
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2816
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2848
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3232
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3264
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3296
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3680
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3712
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3744
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4128
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4160
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4192
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4576
+        y: 1120
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4608
+        y: 1152
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4640
+        y: 1184
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 544
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 576
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 608
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 992
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1024
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1056
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1440
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1472
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1504
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 1888
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 1920
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 1952
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2336
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2368
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2400
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 2784
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 2816
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 2848
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3232
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3264
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3296
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 3680
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 3712
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 3744
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4128
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4160
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4192
+        y: 1632
+        width: 96
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 180
+        x: 4576
+        y: 1568
+        width: 224
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 28
+            - 0
+            - 28
+            - 170
+        x: 4608
+        y: 1600
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 160
+        x: 4640
+        y: 1632
+        width: 96
+        height: 96
+      - type: exit
+        x: 0
+        y: 1280
+        translate:
+          x: -160
+          y: -607
+        width: 64
+        height: 608
+      - type: exit
+        x: 0
+        y: 64
+        translate:
+          x: -160
+          y: 607
+        width: 64
+        height: 608
+      - type: exit
+        x: 0
+        y: 1888
+        translate:
+          x: -160
+          y: -739
+        width: 64
+        height: 128
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 677
+        width: 64
+        height: 64
+      - type: exit
+        x: 5280
+        y: 0
+        translate:
+          x: 400
+          y: -6019
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 224
+        translate:
+          x: 400
+          y: -6241
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 448
+        translate:
+          x: 400
+          y: -6464
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 672
+        translate:
+          x: 400
+          y: -6691
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 896
+        translate:
+          x: 400
+          y: -6915
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 1120
+        translate:
+          x: 400
+          y: -7140
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 1344
+        translate:
+          x: 400
+          y: -7360
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 1568
+        translate:
+          x: 400
+          y: -7590
+        width: 64
+        height: 224
+      - type: exit
+        x: 5280
+        y: 1792
+        translate:
+          x: 400
+          y: -7818
+        width: 64
+        height: 224
+    assets:
+      - type: wall
+        x: 544
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 992
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1440
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1888
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2336
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2784
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3232
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3680
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4128
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4576
+        y: 224
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 544
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 992
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1440
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1888
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2336
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2784
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3232
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3680
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4128
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4576
+        y: 672
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 544
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 992
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1440
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1888
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2336
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2784
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3232
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3680
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4128
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4576
+        y: 1120
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 544
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 992
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1440
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 1888
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2336
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 2784
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3232
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 3680
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4128
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+      - type: wall
+        x: 4576
+        y: 1568
+        width: 224
+        height: 224
+        texture: null
+  - name: Bridge 9
+    x: 118400
+    y: -31200
+    zones:
+      - type: safe
+        x: 64
+        y: 2848
+        width: 416
+        height: 256
+      - type: active
+        x: 0
+        y: 288
+        width: 480
+        height: 2560
+        spawner:
+          - radius: 18
+            speed: 240
+            count: 10
+            types:
+              - immune
+          - radius: 5
+            speed: 210
+            count: 8
+            effect_radius: 150
+            types:
+              - withering
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+          - radius: 25
+            speed: 240
+            count: 25
+            types:
+              - void_crawler
+          - radius: 13
+            speed: 270
+            count: 15
+            types:
+              - immune
+      - type: safe
+        x: 0
+        y: 0
+        width: 416
+        height: 288
+      - type: exit
+        x: 0
+        y: 2880
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 2848
+        width: 64
+        height: 32
+      - type: safe
+        x: 416
+        y: 256
+        width: 64
+        height: 32
+      - type: exit
+        x: 416
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 256
+  - name: Sphere 9-1
+    x: 118880
+    y: -31200
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 256
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 35
+            speed: 240
+            count: 10
+            types:
+              - wall
+          - radius: 25
+            speed: 270
+            count: 15
+            types:
+              - normal
+          - radius: 15
+            speed: 360
+            count: 24
+            types:
+              - void_crawler
+          - radius: 35
+            speed: 210
+            count: 6
+            types:
+              - void_swarm
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 0
+        y: 288
+        width: 64
+        height: 320
+      - type: exit
+        x: 32
+        y: 256
+        translate:
+          x: -160
+          y: -150
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 130
+            - 150
+            - 150
+            - 105
+        x: 0
+        y: 256
+        translate:
+          x: 2950
+          y: -1820
+        width: 32
+        height: 32
+  - name: Sphere 9-2
+    x: 122848
+    y: -31200
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 35
+            speed: 240
+            count: 10
+            types:
+              - wall
+          - radius: 17
+            speed: 300
+            count: 16
+            types:
+              - void_sniper
+          - radius: 25
+            speed: 300
+            count: 12
+            types:
+              - void_crawler
+          - radius: 15
+            speed: 360
+            count: 16
+            types:
+              - void_crawler
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 448
+      - type: exit
+        properties:
+          background_color:
+            - 130
+            - 150
+            - 150
+            - 65
+        x: 3904
+        y: 448
+        translate:
+          x: -5100
+          y: -1820
+        width: 32
+        height: 32
+      - type: exit
+        x: 3904
+        y: 480
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 128
+      - type: exit
+        x: 3936
+        y: 448
+        translate:
+          x: 160
+          y: 0
+        width: 32
+        height: 32
+  - name: Sphere 9-3
+    x: 126816
+    y: -31200
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 35
+            speed: 240
+            count: 10
+            types:
+              - wall
+          - radius: 8
+            speed: 240
+            count: 20
+            types:
+              - dripping
+          - radius: 4
+            speed: 330
+            count: 25
+            types:
+              - dripping
+          - radius: 18
+            speed: 180
+            count: 8
+            types:
+              - dripping
+          - radius: 30
+            speed: 270
+            count: 15
+            types:
+              - normal
+  - name: Sphere 9-4
+    x: 130784
+    y: -31200
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 35
+            speed: 240
+            count: 10
+            types:
+              - wall
+          - radius: 0
+            speed: 240
+            count: 20
+            effect_radius: 180
+            types:
+              - void_drain
+          - radius: 4
+            speed: 240
+            count: 24
+            types:
+              - dripping
+          - radius: 15
+            speed: 330
+            count: 23
+            types:
+              - void_crawler
+          - radius: 75
+            speed: 180
+            count: 2
+            types:
+              - void_swarm
+          - radius: 40
+            speed: 240
+            count: 3
+            types:
+              - void_sniper
+  - name: Hemisphere 9-1
+    properties:
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+    x: 121632
+    y: -32960
+    zones:
+      - type: exit
+        x: 0
+        y: 96
+        translate:
+          x: -2650
+          y: 1760
+        width: 64
+        height: 512
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 25
+            speed: 360
+            count: 10
+            types:
+              - wall
+          - radius: 10
+            speed: 180
+            count: 15
+            types:
+              - homing
+            increment: 1.6
+          - radius: 9
+            speed: 330
+            count: 20
+            types:
+              - dripping
+          - radius: 12
+            speed: 270
+            count: 14
+            types:
+              - dripping
+          - radius: 6
+            speed: 420
+            count: 25
+            types:
+              - dripping
+          - radius: 3
+            speed: 360
+            count: 16
+            types:
+              - dripping
+          - radius: 30
+            speed: 240
+            count: 15
+            types:
+              - immune
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 200
+          y: -50
+        width: 32
+        height: 32
+      - type: exit
+        x: 32
+        y: 0
+        translate:
+          x: -2600
+          y: 2000
+        width: 32
+        height: 96
+      - type: safe
+        x: 0
+        y: 32
+        width: 32
+        height: 64
+  - name: Hemisphere 9-2
+    properties:
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+    x: 125600
+    y: -32960
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3648
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3904
+        y: 0
+        translate:
+          x: 5350
+          y: 1760
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 3328
+        height: 608
+        spawner:
+          - radius: 25
+            speed: 360
+            count: 10
+            types:
+              - wall
+          - radius: 23
+            speed: 360
+            count: 20
+            types:
+              - immune
+          - radius: 35
+            speed: 300
+            count: 10
+            types:
+              - immune
+          - radius: 16
+            speed: 300
+            count: 17
+            types:
+              - void_crawler
+          - radius: 40
+            speed: 300
+            count: 3
+            types:
+              - void_sniper
+          - radius: 5
+            speed: 210
+            count: 7
+            effect_radius: 200
+            types:
+              - void_drain
+          - radius: 7
+            speed: 150
+            count: 17
+            types:
+              - homing
+            increment: 1.6
+  - name: Sphere 4-4
+    x: 134752
+    y: -31200
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: victory
+        x: 64
+        y: 0
+        width: 3776
+        height: 608
+      - type: removal
+        x: 3840
+        y: 0
+        width: 128
+        height: 608
+  - name: Bridge 10
+    properties:
+      background_color:
+        - 38
+        - 0
+        - 38
+        - 150
+      title_stroke_color:
+        - 128
+        - 70
+        - 128
+        - 250
+    x: 121632
+    y: -36064
+    zones:
+      - type: safe
+        x: 0
+        y: 2848
+        width: 480
+        height: 256
+      - type: active
+        x: 0
+        y: 288
+        width: 480
+        height: 2560
+        spawner:
+          - radius: 18
+            speed: 270
+            count: 10
+            types:
+              - immune
+          - radius: 0
+            speed: 420
+            count: 8
+            effect_radius: 150
+            types:
+              - withering
+          - radius: 25
+            speed: 210
+            count: 10
+            types:
+              - wall
+          - radius: 5
+            speed: 270
+            count: 15
+            types:
+              - void_crawler
+          - radius: 10
+            speed: 300
+            count: 15
+            types:
+              - immune
+          - radius: 5
+            speed: 150
+            count: 10
+            effect_radius: 180
+            types:
+              - void_drain
+      - type: safe
+        x: 0
+        y: 0
+        width: 416
+        height: 288
+      - type: safe
+        x: 416
+        y: 256
+        width: 64
+        height: 32
+      - type: exit
+        x: 416
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 256
+  - name: Empyrean
+    properties:
+      background_color:
+        - 108
+        - 0
+        - 108
+        - 100
+      title_stroke_color:
+        - 108
+        - 0
+        - 108
+        - 255
+    x: 122112
+    y: -36064
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 256
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 2720
+        height: 608
+        spawner:
+          - radius: 18
+            speed: 360
+            count: 20
+            types:
+              - normal
+          - radius: 30
+            speed: 300
+            count: 15
+            types:
+              - normal
+          - radius: 10
+            speed: 420
+            count: 8
+            types:
+              - withering
+      - type: safe
+        x: 3040
+        y: 0
+        width: 192
+        height: 608
+      - type: exit
+        x: 3232
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 0
+        y: 256
+        width: 64
+        height: 352
+  - name: Empyrean?
+    properties:
+      background_color:
+        - 108
+        - 0
+        - 108
+        - 100
+      title_stroke_color:
+        - 108
+        - 0
+        - 108
+        - 255
+    x: 125408
+    y: -36064
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3040
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3296
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 2720
+        height: 608
+        spawner:
+          - radius: 25
+            speed: 420
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 360
+            count: 25
+            types:
+              - withering
+          - radius: 25
+            speed: 300
+            count: 15
+            types:
+              - immune
+  - name: E m p y r e a n ?
+    properties:
+      background_color:
+        - 108
+        - 0
+        - 108
+        - 100
+      title_stroke_color:
+        - 108
+        - 0
+        - 108
+        - 255
+    x: 128768
+    y: -36064
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3040
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3296
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: active
+        x: 320
+        y: 0
+        width: 2720
+        height: 608
+        spawner:
+          - radius: 25
+            speed: 450
+            count: 8
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 45
+            speed: 270
+            count: 14
+            types:
+              - immune
+          - radius: 25
+            speed: 330
+            count: 20
+            types:
+              - normal
+          - radius: 15
+            speed: 270
+            count: 15
+            types:
+              - normal
+          - radius: 0
+            speed: 500
+            count: 10
+            types:
+              - withering
+  - name: . . . . . . . . ?
+    properties:
+      background_color:
+        - 108
+        - 0
+        - 108
+        - 100
+      title_stroke_color:
+        - 108
+        - 0
+        - 108
+        - 255
+    x: 132128
+    y: -36064
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 608
+      - type: safe
+        x: 3040
+        y: 0
+        width: 256
+        height: 608
+      - type: exit
+        x: 3296
+        y: 384
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 3296
+        y: 0
+        width: 64
+        height: 384
+      - type: active
+        x: 320
+        y: 0
+        width: 2720
+        height: 608
+        spawner:
+          - radius: 25
+            speed: 480
+            count: 6
+            types:
+              - wall
+          - radius: 25
+            speed: 480
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 18
+            speed: 360
+            count: 22
+            types:
+              - immune
+          - radius: 25
+            speed: 300
+            count: 17
+            types:
+              - immune
+          - radius: 90
+            speed: 120
+            count: 4
+            types:
+              - normal
+          - radius: 0
+            speed: 270
+            count: 15
+            types:
+              - withering
