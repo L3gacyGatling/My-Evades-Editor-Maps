@@ -4101,12 +4101,12 @@ areas:
         height: 96
       - type: exit
         x: 576
-        y: 896
+        y: 928
         translate:
           x: 700
           y: 7000
         width: 32
-        height: 96
+        height: 64
       - type: exit
         x: 576
         y: 1088
@@ -4117,12 +4117,12 @@ areas:
         height: 96
       - type: exit
         x: 576
-        y: 1280
+        y: 1312
         translate:
           x: 500
           y: 7000
         width: 32
-        height: 96
+        height: 64
       - type: exit
         x: 992
         y: 0
@@ -7728,6 +7728,11 @@ areas:
             count: 15
             types:
               - lunging
+          - radius: 28
+            speed: 300
+            count: 11
+            types:
+              - sizing
       - type: exit
         x: 0
         y: 0
@@ -11413,9 +11418,9 @@ areas:
       - type: exit
         properties:
           background_color:
-            - 130
             - 150
             - 150
+            - 190
             - 65
         x: 3904
         y: 448
@@ -12180,10 +12185,10 @@ areas:
   - name: '! ! ! ! ! ! ! !'
     properties:
       background_color:
-        - 38
+        - 108
         - 0
-        - 38
-        - 150
+        - 108
+        - 100
       title_stroke_color:
         - 128
         - 70
@@ -12445,17 +12450,20 @@ areas:
             count: 15
             types:
               - disabling_ghost
-          - radius: 25
+          - x: 0, 6130
+            radius: 25
             speed: 450
             count: 20
             types:
               - dasher
-          - radius: 4
+          - x: 0, 6130
+            radius: 4
             speed: 480
             count: 25
             types:
               - dripping
-          - radius: 6
+          - x: 0, 6130
+            radius: 6
             speed: 390
             count: 25
             types:
@@ -12466,7 +12474,8 @@ areas:
             types:
               - wall
             move_clockwise: false
-          - radius: 22
+          - x: 0, 6130
+            radius: 22
             speed: 360
             count: 28
             types:
@@ -12550,12 +12559,12 @@ areas:
         height: 512
       - type: exit
         x: 2048
-        y: 0
+        y: 128
         translate:
           x: -2315
           y: 238
         width: 192
-        height: 512
+        height: 384
       - type: exit
         x: 2240
         y: 0
@@ -12814,12 +12823,12 @@ areas:
         height: 160
       - type: exit
         x: 4544
-        y: 672
+        y: 704
         translate:
           x: -4790
           y: -261
         width: 160
-        height: 160
+        height: 128
       - type: exit
         x: 5184
         y: 512
@@ -12884,6 +12893,66 @@ areas:
           y: 193
         width: 64
         height: 192
+      - type: exit
+        x: 4544
+        y: 672
+        translate:
+          x: -4790
+          y: -261
+        width: 64
+        height: 32
+      - type: exit
+        x: 4640
+        y: 672
+        translate:
+          x: -4790
+          y: -261
+        width: 64
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 95
+            - 0
+            - 95
+            - 178
+        x: 4608
+        y: 672
+        translate:
+          x: 5459
+          y: -589
+        width: 32
+        height: 32
+      - type: exit
+        x: 2208
+        y: 0
+        translate:
+          x: -2315
+          y: 238
+        width: 32
+        height: 128
+      - type: exit
+        properties:
+          background_color:
+            - 108
+            - 0
+            - 98
+            - 170
+        x: 2112
+        y: 64
+        translate:
+          x: -8597
+          y: 800
+        width: 32
+        height: 32
+      - type: exit
+        x: 2048
+        y: 0
+        translate:
+          x: -2315
+          y: 238
+        width: 160
+        height: 32
   - name: Eternal Descent
     properties:
       background_color:
@@ -12919,12 +12988,12 @@ areas:
         height: 608
       - type: exit
         x: 3296
-        y: 0
+        y: 320
         translate:
           x: 160
-          y: 0
+          y: 136
         width: 64
-        height: 608
+        height: 288
       - type: active
         x: 320
         y: 0
@@ -12968,6 +13037,14 @@ areas:
             count: 10
             types:
               - sand
+      - type: exit
+        x: 3296
+        y: 0
+        translate:
+          x: 160
+          y: 444
+        width: 64
+        height: 320
   - name: Eternal Descent
     properties:
       background_color:
@@ -12993,6 +13070,44 @@ areas:
         y: 0
         width: 2464
         height: 3008
+        spawner:
+          - radius: 23
+            speed: 450
+            count: 20
+            types:
+              - void_crawler
+          - radius: 35
+            speed: 390
+            count: 15
+            types:
+              - void_crawler
+          - radius: 15
+            speed: 300
+            count: 20
+            types:
+              - void_sniper
+          - radius: 35
+            speed: 300
+            count: 15
+            types:
+              - sizing
+          - radius: 20
+            speed: 330
+            count: 12
+            effect_radius: 300
+            types:
+              - draining
+          - radius: 45
+            speed: 330
+            count: 15
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 35
+            speed: 210
+            count: 8
+            types:
+              - fire_trail
       - type: exit
         x: 0
         y: 0
@@ -13025,28 +13140,28 @@ areas:
         width: 64
         height: 384
       - type: exit
-        x: 0
+        x: 64
         y: 1344
         translate:
           x: -279
           y: 1055
-        width: 192
-        height: 192
+        width: 64
+        height: 64
       - type: exit
         x: 192
-        y: 1344
+        y: 1408
         translate:
           x: -472
           y: 1055
-        width: 192
-        height: 192
+        width: 160
+        height: 64
       - type: exit
-        x: 192
+        x: 256
         y: 1536
         translate:
           x: -472
           y: 900
-        width: 192
+        width: 128
         height: 192
       - type: exit
         x: 0
@@ -13055,15 +13170,15 @@ areas:
           x: -279
           y: 900
         width: 192
-        height: 192
+        height: 96
       - type: exit
-        x: 0
+        x: 64
         y: 1728
         translate:
           x: -279
           y: 900
-        width: 192
-        height: 192
+        width: 128
+        height: 96
       - type: exit
         x: 192
         y: 1728
@@ -13071,23 +13186,23 @@ areas:
           x: -472
           y: 900
         width: 192
-        height: 192
+        height: 96
       - type: exit
         x: 192
-        y: 1920
+        y: 1888
         translate:
           x: -472
           y: 700
-        width: 192
-        height: 192
+        width: 160
+        height: 128
       - type: exit
-        x: 0
-        y: 1920
+        x: 96
+        y: 1984
         translate:
           x: -279
           y: 705
-        width: 192
-        height: 192
+        width: 32
+        height: 128
       - type: exit
         x: 192
         y: 2112
@@ -13097,29 +13212,29 @@ areas:
         width: 192
         height: 128
       - type: exit
-        x: 0
+        x: 96
         y: 2112
         translate:
           x: -279
           y: 349
-        width: 192
+        width: 96
         height: 128
       - type: exit
-        x: 384
+        x: 448
         y: 1344
         translate:
           x: -653
           y: 983
-        width: 160
-        height: 160
+        width: 96
+        height: 192
       - type: exit
         x: 384
-        y: 1504
+        y: 1536
         translate:
           x: -653
           y: 1055
         width: 160
-        height: 160
+        height: 128
       - type: exit
         x: 384
         y: 1664
@@ -13129,20 +13244,20 @@ areas:
         width: 160
         height: 160
       - type: exit
-        x: 384
+        x: 448
         y: 1824
         translate:
           x: -653
           y: 800
-        width: 160
+        width: 96
         height: 160
       - type: exit
-        x: 384
+        x: 448
         y: 1984
         translate:
           x: -653
           y: 600
-        width: 160
+        width: 96
         height: 160
       - type: exit
         x: 384
@@ -13210,12 +13325,12 @@ areas:
         width: 768
         height: 768
       - type: exit
-        x: 0
+        x: 64
         y: 1152
         translate:
           x: -279
           y: 1149
-        width: 192
+        width: 128
         height: 192
       - type: exit
         x: 0
@@ -13224,7 +13339,7 @@ areas:
           x: -279
           y: 1400
         width: 192
-        height: 192
+        height: 96
       - type: exit
         x: 0
         y: 800
@@ -13248,7 +13363,7 @@ areas:
           x: -472
           y: 1400
         width: 192
-        height: 192
+        height: 128
       - type: exit
         x: 192
         y: 800
@@ -13321,6 +13436,236 @@ areas:
           y: 1742
         width: 192
         height: 32
+      - type: exit
+        x: 0
+        y: 2176
+        translate:
+          x: -279
+          y: 349
+        width: 64
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 352
+        y: 1344
+        width: 96
+        height: 128
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 96
+        y: 1920
+        width: 96
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 128
+        y: 1984
+        width: 64
+        height: 128
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 192
+        y: 2016
+        width: 160
+        height: 96
+      - type: exit
+        x: 384
+        y: 2144
+        translate:
+          x: -653
+          y: 600
+        width: 64
+        height: -32
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 352
+        y: 1824
+        width: 96
+        height: 288
+      - type: exit
+        x: 0
+        y: 1888
+        translate:
+          x: -283
+          y: 700
+        width: 192
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 0
+        y: 1824
+        width: 352
+        height: 64
+      - type: exit
+        x: 64
+        y: 2176
+        translate:
+          x: -279
+          y: 349
+        width: 32
+        height: 64
+      - type: exit
+        x: 0
+        y: 1472
+        translate:
+          x: -279
+          y: 849
+        width: 192
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 88
+            - 0
+            - 88
+            - 190
+        x: 352
+        y: 1088
+        translate:
+          x: -4200
+          y: 1151
+        width: 32
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 0
+        y: 1632
+        width: 64
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 64
+        y: 1632
+        width: 192
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 192
+        y: 1472
+        width: 64
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 256
+        y: 1472
+        width: 192
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 128
+        y: 1344
+        width: 224
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 0
+        y: 1408
+        width: 192
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 0
+        y: 1152
+        width: 64
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 0
+        y: 1056
+        width: 192
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 192
+        y: 1088
+        width: 160
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 104
+            - 25
+            - 28
+            - 188
+        x: 0
+        y: 1920
+        width: 96
+        height: 256
     assets:
       - type: wall
         x: 736
@@ -13331,10 +13676,10 @@ areas:
   - name: Pristine Fall
     properties:
       background_color:
-        - 38
+        - 88
         - 0
-        - 38
-        - 150
+        - 88
+        - 170
       title_stroke_color:
         - 128
         - 70
@@ -13346,14 +13691,14 @@ areas:
     zones:
       - type: active
         x: 0
-        y: 64
+        y: 0
         width: 480
-        height: 3104
+        height: 3168
         spawner:
           - radius: 0
             speed: 240
             count: 10
-            effect_radius: 190
+            effect_radius: 240
             types:
               - void_drain
           - radius: 0
@@ -13361,30 +13706,41 @@ areas:
             count: 15
             effect_radius: 170
             types:
-              - withering
-          - radius: 10
-            speed: 210
+              - disabling
+          - radius: 45
+            speed: 500
             count: 15
             effect_radius: 160
             types:
-              - magnetic_reduction
+              - repelling_ghost
           - radius: 75
             speed: 500
-            count: 25
+            count: 15
             types:
               - negative_magnetic_ghost
       - type: exit
         x: 0
         y: 3168
         translate:
-          x: 0
-          y: 0
-        width: 480
+          x: 99
+          y: 150
+        width: 192
         height: 64
-      - type: safe
-        x: 0
-        y: 0
-        width: 480
+      - type: exit
+        x: 288
+        y: 3168
+        translate:
+          x: -188
+          y: 150
+        width: 192
+        height: 64
+      - type: exit
+        x: 192
+        y: 3168
+        translate:
+          x: -40
+          y: 150
+        width: 96
         height: 64
   - name: Pristine Sphere 1
     properties:
@@ -13411,12 +13767,9 @@ areas:
         y: 0
         width: 256
         height: 928
-      - type: exit
+      - type: safe
         x: 5280
         y: 0
-        translate:
-          x: 160
-          y: 0
         width: 64
         height: 928
       - type: active
@@ -13424,6 +13777,79 @@ areas:
         y: 0
         width: 4704
         height: 928
+    assets:
+      - type: wall
+        x: 1408
+        y: 128
+        width: 96
+        height: 512
+        texture: ice
+      - type: wall
+        x: 1696
+        y: 256
+        width: 96
+        height: 384
+        texture: ice
+      - type: wall
+        x: 1984
+        y: 128
+        width: 96
+        height: 512
+        texture: ice
+      - type: wall
+        x: 1408
+        y: 640
+        width: 672
+        height: 96
+        texture: ice
+      - type: wall
+        x: 2336
+        y: 640
+        width: 96
+        height: 96
+        texture: ice
+      - type: wall
+        x: 2656
+        y: 128
+        width: 96
+        height: 96
+        texture: ice
+      - type: wall
+        x: 2656
+        y: 352
+        width: 96
+        height: 384
+        texture: ice
+      - type: wall
+        x: 2976
+        y: 640
+        width: 96
+        height: 96
+        texture: ice
+      - type: wall
+        x: 3296
+        y: 128
+        width: 96
+        height: 608
+        texture: ice
+      - type: wall
+        x: 3392
+        y: 128
+        width: 320
+        height: 96
+        texture: ice
+      - type: wall
+        x: 3616
+        y: 224
+        width: 96
+        height: 224
+        texture: ice
+      - type: wall
+        x: 3392
+        y: 352
+        width: 224
+        height: 96
+        texture: ice
   - name: Pristine Sphere 2
     properties:
       background_color:
