@@ -2884,7 +2884,7 @@ areas:
           - radius: 10
             speed: 300
             count: 15
-            effect_radius: 300
+            effect_radius: 350
             types:
               - disabling
           - radius: 33
@@ -2954,7 +2954,7 @@ areas:
           x: 2131
           y: 556
         width: 96
-        height: 160
+        height: 96
       - type: exit
         x: 8480
         y: 480
@@ -2978,26 +2978,26 @@ areas:
           x: 3763
           y: 559
         width: 96
-        height: 224
+        height: 160
       - type: exit
         x: 6848
-        y: 736
+        y: 896
         translate:
           x: 4307
           y: 395
         width: 96
-        height: 192
+        height: 32
       - type: exit
         x: 6304
-        y: 896
+        y: 736
         translate:
           x: 4853
           y: 200
         width: 96
-        height: 32
+        height: 192
       - type: exit
         x: 5760
-        y: 608
+        y: 480
         translate:
           x: 5395
           y: 446
@@ -3005,15 +3005,15 @@ areas:
         height: 320
       - type: exit
         x: 5216
-        y: 672
+        y: 736
         translate:
           x: 5941
           y: 395
         width: 96
-        height: 256
+        height: 192
       - type: exit
         x: 4672
-        y: 480
+        y: 608
         translate:
           x: 6482
           y: 593
@@ -3037,7 +3037,7 @@ areas:
         height: 256
       - type: exit
         x: 3040
-        y: 608
+        y: 480
         translate:
           x: 8115
           y: 446
@@ -3050,26 +3050,26 @@ areas:
           x: 8662
           y: 540
         width: 96
-        height: 320
+        height: 224
       - type: exit
         x: 1952
-        y: 672
+        y: 640
         translate:
           x: 9203
           y: 446
         width: 96
-        height: 256
+        height: 288
       - type: exit
         x: 1408
-        y: 640
+        y: 736
         translate:
           x: 9748
           y: 446
         width: 96
-        height: 288
+        height: 192
       - type: exit
         x: 864
-        y: 480
+        y: 608
         translate:
           x: 10290
           y: 583
@@ -3109,20 +3109,20 @@ areas:
         height: 288
       - type: exit
         x: 9024
-        y: 768
+        y: 704
         translate:
           x: 2131
           y: 348
         width: 96
-        height: 160
+        height: 224
       - type: exit
         x: 7392
-        y: 832
+        y: 768
         translate:
           x: 3763
           y: 215
         width: 96
-        height: 96
+        height: 160
       - type: exit
         x: 6848
         y: 480
@@ -3130,7 +3130,7 @@ areas:
           x: 4307
           y: 585
         width: 96
-        height: 128
+        height: 288
       - type: exit
         x: 6304
         y: 480
@@ -3138,7 +3138,7 @@ areas:
           x: 4853
           y: 602
         width: 96
-        height: 288
+        height: 128
       - type: exit
         x: 5216
         y: 480
@@ -3146,7 +3146,7 @@ areas:
           x: 5941
           y: 600
         width: 96
-        height: 64
+        height: 128
       - type: exit
         x: 4128
         y: 480
@@ -3170,7 +3170,7 @@ areas:
           x: 9203
           y: 550
         width: 96
-        height: 64
+        height: 32
       - type: exit
         x: 1408
         y: 480
@@ -3178,13 +3178,13 @@ areas:
           x: 9748
           y: 600
         width: 96
-        height: 32
+        height: 128
       - type: exit
         x: 10304
         y: 0
         translate:
           x: 670
-          y: 700
+          y: 1000
         width: 576
         height: 480
       - type: exit
@@ -3192,7 +3192,7 @@ areas:
         y: 0
         translate:
           x: 1262
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3200,7 +3200,7 @@ areas:
         y: 0
         translate:
           x: 1870
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3208,7 +3208,7 @@ areas:
         y: 0
         translate:
           x: 2478
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3216,7 +3216,7 @@ areas:
         y: 0
         translate:
           x: 3086
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3224,7 +3224,7 @@ areas:
         y: 0
         translate:
           x: 3694
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3232,7 +3232,7 @@ areas:
         y: 0
         translate:
           x: 4302
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3240,7 +3240,7 @@ areas:
         y: 0
         translate:
           x: 4910
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3248,7 +3248,7 @@ areas:
         y: 0
         translate:
           x: 5517
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3256,7 +3256,7 @@ areas:
         y: 0
         translate:
           x: 6126
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3264,7 +3264,7 @@ areas:
         y: 0
         translate:
           x: 6734
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3272,7 +3272,7 @@ areas:
         y: 0
         translate:
           x: 7341
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3280,7 +3280,7 @@ areas:
         y: 0
         translate:
           x: 7949
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3288,7 +3288,7 @@ areas:
         y: 0
         translate:
           x: 8557
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3296,7 +3296,7 @@ areas:
         y: 0
         translate:
           x: 9165
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3304,7 +3304,7 @@ areas:
         y: 0
         translate:
           x: 9773
-          y: 700
+          y: 1000
         width: 608
         height: 480
       - type: exit
@@ -3312,7 +3312,7 @@ areas:
         y: 0
         translate:
           x: 10304
-          y: 700
+          y: 1000
         width: 416
         height: 480
       - type: exit
@@ -3336,6 +3336,62 @@ areas:
           y: -723
         width: 32
         height: 256
+      - type: exit
+        x: 9312
+        y: 576
+        translate:
+          x: 1887
+          y: 544
+        width: 64
+        height: 352
+      - type: exit
+        x: 7680
+        y: 480
+        translate:
+          x: 3763
+          y: 559
+        width: 64
+        height: 352
+      - type: exit
+        x: 6048
+        y: 576
+        translate:
+          x: 5395
+          y: 446
+        width: 64
+        height: 352
+      - type: exit
+        x: 4416
+        y: 480
+        translate:
+          x: 7027
+          y: 395
+        width: 64
+        height: 352
+      - type: exit
+        x: 2784
+        y: 576
+        translate:
+          x: 8662
+          y: 540
+        width: 64
+        height: 352
+      - type: exit
+        x: 2496
+        y: 832
+        translate:
+          x: 8662
+          y: 540
+        width: 96
+        height: 96
+      - type: exit
+        x: 1152
+        y: 480
+        translate:
+          x: 10290
+          y: 583
+        width: 64
+        height: 352
   - name: Sphere 5-4
     x: 73792
     y: -17760
@@ -3359,9 +3415,9 @@ areas:
         width: 672
         height: 3040
         spawner:
-          - radius: 25
+          - radius: 20
             speed: 60
-            count: 15
+            count: 18
             types:
               - liquid
           - radius: 14
@@ -3369,13 +3425,12 @@ areas:
             count: 25
             types:
               - immune
-          - radius: 5
-            speed: 210
-            count: 10
-            effect_radius: 120
+          - radius: 7
+            speed: 225
+            count: 7
+            effect_radius: 130
             types:
               - gravity
-            gravity: 135
       - type: safe
         x: 0
         y: 320
@@ -3401,10 +3456,10 @@ areas:
         x: 0
         y: 352
         translate:
-          x: 0
-          y: 0
-        width: 672
-        height: 288
+          x: 800
+          y: -371
+        width: 288
+        height: 224
       - type: safe
         x: 0
         y: 0
@@ -3425,52 +3480,52 @@ areas:
         height: 32
       - type: exit
         x: 288
-        y: 3168
+        y: 3232
         translate:
           x: 4
-          y: 1200
+          y: 1189
         width: 96
-        height: 512
+        height: 448
       - type: exit
         x: 384
         y: 3168
         translate:
           x: -156
           y: 1500
-        width: 224
+        width: 160
         height: 64
       - type: exit
-        x: 64
+        x: 128
         y: 3168
         translate:
           x: 159
           y: 1500
-        width: 224
+        width: 160
         height: 64
       - type: exit
         x: 64
         y: 2368
         translate:
           x: 245
-          y: 1971
+          y: 1954
         width: 64
         height: 800
       - type: exit
-        x: 416
+        x: 512
         y: 2336
         translate:
           x: -170
           y: 2349
-        width: 192
-        height: 32
+        width: 32
+        height: 64
       - type: exit
-        x: 64
+        x: 128
         y: 2336
         translate:
           x: 181
           y: 2349
-        width: 192
-        height: 32
+        width: 32
+        height: 64
       - type: exit
         x: 160
         y: 864
@@ -3492,7 +3547,7 @@ areas:
         y: 2368
         translate:
           x: -235
-          y: 1971
+          y: 1954
         width: 64
         height: 800
       - type: exit
@@ -3510,23 +3565,23 @@ areas:
           x: 166
           y: 2700
         width: 32
-        height: 704
+        height: 736
       - type: exit
-        x: 160
+        x: 128
         y: 896
         translate:
           x: 165
-          y: 3500
+          y: 3455
         width: 32
-        height: 736
+        height: 768
       - type: exit
-        x: 480
+        x: 512
         y: 896
         translate:
           x: -155
-          y: 3500
+          y: 3455
         width: 32
-        height: 736
+        height: 768
       - type: exit
         x: 480
         y: 1632
@@ -3534,23 +3589,7 @@ areas:
           x: -156
           y: 2700
         width: 32
-        height: 704
-      - type: exit
-        x: 416
-        y: 2272
-        translate:
-          x: -98
-          y: 2300
-        width: 64
-        height: 64
-      - type: exit
-        x: 192
-        y: 2272
-        translate:
-          x: 109
-          y: 2300
-        width: 64
-        height: 64
+        height: 736
       - type: exit
         x: 0
         y: 320
@@ -3567,6 +3606,62 @@ areas:
           y: -300
         width: 320
         height: 32
+      - type: exit
+        x: 96
+        y: 3168
+        translate:
+          x: 181
+          y: 1349
+        width: 32
+        height: 32
+      - type: exit
+        x: 544
+        y: 3168
+        translate:
+          x: -181
+          y: 1349
+        width: 32
+        height: 32
+      - type: exit
+        x: 256
+        y: 3232
+        translate:
+          x: 181
+          y: 1349
+        width: 32
+        height: 32
+      - type: exit
+        x: 384
+        y: 3232
+        translate:
+          x: 181
+          y: 1349
+        width: 32
+        height: 32
+      - type: exit
+        x: 288
+        y: 352
+        translate:
+          x: 466
+          y: -371
+        width: 384
+        height: 224
+      - type: exit
+        x: 0
+        y: 576
+        translate:
+          x: 800
+          y: -500
+        width: 288
+        height: 64
+      - type: exit
+        x: 288
+        y: 576
+        translate:
+          x: 466
+          y: -500
+        width: 384
+        height: 64
   - name: Tetartosphere
     properties:
       title_stroke_color:
@@ -12823,7 +12918,7 @@ areas:
         height: 160
       - type: exit
         x: 4544
-        y: 704
+        y: 672
         translate:
           x: -4790
           y: -261
@@ -12895,7 +12990,7 @@ areas:
         height: 192
       - type: exit
         x: 4544
-        y: 672
+        y: 800
         translate:
           x: -4790
           y: -261
@@ -12903,7 +12998,7 @@ areas:
         height: 32
       - type: exit
         x: 4640
-        y: 672
+        y: 800
         translate:
           x: -4790
           y: -261
@@ -12917,10 +13012,10 @@ areas:
             - 95
             - 178
         x: 4608
-        y: 672
+        y: 800
         translate:
           x: 5459
-          y: -589
+          y: -766
         width: 32
         height: 32
       - type: exit
@@ -13754,6 +13849,7 @@ areas:
         - 100
         - 168
         - 230
+      lighting: 0.75
     x: 147744
     y: -29056
     zones:
@@ -13767,9 +13863,12 @@ areas:
         y: 0
         width: 256
         height: 928
-      - type: safe
+      - type: exit
         x: 5280
         y: 0
+        translate:
+          x: 160
+          y: 0
         width: 64
         height: 928
       - type: active
@@ -13777,79 +13876,33 @@ areas:
         y: 0
         width: 4704
         height: 928
-    assets:
-      - type: wall
-        x: 1408
-        y: 128
-        width: 96
-        height: 512
-        texture: ice
-      - type: wall
-        x: 1696
-        y: 256
-        width: 96
-        height: 384
-        texture: ice
-      - type: wall
-        x: 1984
-        y: 128
-        width: 96
-        height: 512
-        texture: ice
-      - type: wall
-        x: 1408
-        y: 640
-        width: 672
-        height: 96
-        texture: ice
-      - type: wall
-        x: 2336
-        y: 640
-        width: 96
-        height: 96
-        texture: ice
-      - type: wall
-        x: 2656
-        y: 128
-        width: 96
-        height: 96
-        texture: ice
-      - type: wall
-        x: 2656
-        y: 352
-        width: 96
-        height: 384
-        texture: ice
-      - type: wall
-        x: 2976
-        y: 640
-        width: 96
-        height: 96
-        texture: ice
-      - type: wall
-        x: 3296
-        y: 128
-        width: 96
-        height: 608
-        texture: ice
-      - type: wall
-        x: 3392
-        y: 128
-        width: 320
-        height: 96
-        texture: ice
-      - type: wall
-        x: 3616
-        y: 224
-        width: 96
-        height: 224
-        texture: ice
-      - type: wall
-        x: 3392
-        y: 352
-        width: 224
-        height: 96
-        texture: ice
+        spawner:
+          - radius: 25
+            speed: 270
+            count: 20
+            types:
+              - firefly
+          - radius: 65
+            speed: 420
+            count: 10
+            types:
+              - wall
+          - radius: 35
+            speed: 570
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 50
+            speed: 270
+            count: 15
+            types:
+              - mutating
+          - radius: 18
+            speed: 330
+            count: 20
+            types:
+              - firefly
   - name: Pristine Sphere 2
     properties:
       background_color:
@@ -13862,6 +13915,7 @@ areas:
         - 100
         - 168
         - 230
+      lighting: 0.75
     x: 153088
     y: -29056
     zones:
@@ -13908,6 +13962,7 @@ areas:
         - 100
         - 168
         - 230
+      lighting: 0.75
     x: 158432
     y: -29056
     zones:
@@ -13954,6 +14009,7 @@ areas:
         - 100
         - 168
         - 230
+      lighting: 0.75
     x: 163776
     y: -29056
     zones:
@@ -14000,6 +14056,7 @@ areas:
         - 100
         - 168
         - 230
+      lighting: 0.75
     x: 169120
     y: -29056
     zones:
@@ -14046,99 +14103,8 @@ areas:
         - 100
         - 168
         - 230
+      lighting: 0.75
     x: 174464
-    y: -29056
-    zones:
-      - type: safe
-        x: 64
-        y: 0
-        width: 256
-        height: 928
-      - type: safe
-        x: 5024
-        y: 0
-        width: 256
-        height: 928
-      - type: exit
-        x: 5280
-        y: 0
-        translate:
-          x: 160
-          y: 0
-        width: 64
-        height: 928
-      - type: active
-        x: 320
-        y: 0
-        width: 4704
-        height: 928
-      - type: exit
-        x: 0
-        y: 0
-        translate:
-          x: -160
-          y: 0
-        width: 64
-        height: 928
-  - name: Pristine Sphere 7
-    properties:
-      background_color:
-        - 138
-        - 100
-        - 168
-        - 130
-      title_stroke_color:
-        - 138
-        - 100
-        - 168
-        - 230
-    x: 179808
-    y: -29056
-    zones:
-      - type: safe
-        x: 64
-        y: 0
-        width: 256
-        height: 928
-      - type: safe
-        x: 5024
-        y: 0
-        width: 256
-        height: 928
-      - type: exit
-        x: 5280
-        y: 0
-        translate:
-          x: 160
-          y: 0
-        width: 64
-        height: 928
-      - type: active
-        x: 320
-        y: 0
-        width: 4704
-        height: 928
-      - type: exit
-        x: 0
-        y: 0
-        translate:
-          x: -160
-          y: 0
-        width: 64
-        height: 928
-  - name: Pristine Sphere 8
-    properties:
-      background_color:
-        - 138
-        - 100
-        - 168
-        - 130
-      title_stroke_color:
-        - 138
-        - 100
-        - 168
-        - 230
-    x: 185152
     y: -29056
     zones:
       - type: safe
@@ -14206,7 +14172,7 @@ areas:
         - 100
         - 168
         - 230
-    x: 190496
+    x: 179808
     y: -29056
     zones:
       - type: teleport
