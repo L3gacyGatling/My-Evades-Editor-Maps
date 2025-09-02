@@ -18,9 +18,9 @@ areas:
       - type: safe
         properties:
           minimum_speed: 300
-        x: 32
+        x: 0
         y: 0
-        width: 224
+        width: 256
         height: 480
       - type: active
         x: last_right
@@ -56,20 +56,6 @@ areas:
         y: 0
         width: 64
         height: 256
-      - type: teleport
-        properties:
-          background_color:
-            - 138
-            - 100
-            - 168
-            - 130
-        x: 0
-        y: 0
-        translate:
-          x: 3734
-          y: -2563
-        width: 32
-        height: 480
   - name: Bridge 1
     x: 3200
     y: -2624
@@ -2050,7 +2036,7 @@ areas:
             types:
               - ice_ghost
           - radius: 22
-            speed: 255
+            speed: 270
             count: 14
             effect_radius: 235
             types:
@@ -2061,6 +2047,7 @@ areas:
             count: 26
             types:
               - slowing
+            slow: 0.2
           - radius: 45
             speed: 210
             count: 10
@@ -11981,9 +11968,9 @@ areas:
         - 108
         - 100
       title_stroke_color:
-        - 108
+        - 135
         - 0
-        - 108
+        - 135
         - 255
     x: 122112
     y: -36064
@@ -11993,9 +11980,9 @@ areas:
         y: 0
         translate:
           x: -160
-          y: 0
+          y: 1
         width: 64
-        height: 256
+        height: 224
       - type: safe
         x: 64
         y: 0
@@ -12041,6 +12028,22 @@ areas:
         y: 256
         width: 64
         height: 352
+      - type: exit
+        x: 32
+        y: 224
+        translate:
+          x: -160
+          y: -32
+        width: 32
+        height: 32
+      - type: exit
+        x: 0
+        y: 224
+        translate:
+          x: 2368
+          y: -3785
+        width: 32
+        height: 32
   - name: Empyrean?
     properties:
       background_color:
@@ -12049,9 +12052,9 @@ areas:
         - 108
         - 100
       title_stroke_color:
-        - 108
+        - 135
         - 0
-        - 108
+        - 135
         - 255
     x: 125408
     y: -36064
@@ -12099,12 +12102,12 @@ areas:
             types:
               - withering
           - radius: 35
-            speed: 330
+            speed: 390
             count: 15
             types:
               - immune
           - radius: 23
-            speed: 300
+            speed: 330
             count: 15
             types:
               - normal
@@ -12116,9 +12119,9 @@ areas:
         - 108
         - 100
       title_stroke_color:
-        - 108
+        - 135
         - 0
-        - 108
+        - 135
         - 255
     x: 128768
     y: -36064
@@ -12162,12 +12165,12 @@ areas:
               - wall
             move_clockwise: false
           - radius: 39
-            speed: 325
+            speed: 345
             count: 14
             types:
               - immune
           - radius: 25
-            speed: 345
+            speed: 375
             count: 20
             types:
               - normal
@@ -12189,9 +12192,9 @@ areas:
         - 108
         - 100
       title_stroke_color:
-        - 108
+        - 135
         - 0
-        - 108
+        - 135
         - 255
     x: 132128
     y: -36064
@@ -12237,8 +12240,8 @@ areas:
               - wall
             move_clockwise: false
             spawn_top: false
-          - radius: 21
-            speed: 350
+          - radius: 19
+            speed: 420
             count: 22
             types:
               - immune
@@ -13036,9 +13039,9 @@ areas:
       - type: exit
         properties:
           background_color:
-            - 95
+            - 84
             - 0
-            - 95
+            - 84
             - 178
         x: 4608
         y: 800
@@ -14142,6 +14145,21 @@ areas:
             types:
               - wall
             move_clockwise: false
+          - radius: 35
+            speed: 390
+            count: 15
+            types:
+              - normal
+          - radius: 25
+            speed: 465
+            count: 20
+            types:
+              - normal
+          - radius: 26
+            speed: 450
+            count: 30
+            types:
+              - pumpkin
   - name: Pristine Sphere 4
     properties:
       background_color:
@@ -14201,65 +14219,26 @@ areas:
             types:
               - wall
             move_clockwise: false
-  - name: Pristine Sphere 5
-    properties:
-      background_color:
-        - 138
-        - 100
-        - 168
-        - 130
-      title_stroke_color:
-        - 138
-        - 100
-        - 168
-        - 230
-      lighting: 0.75
-    x: 169120
-    y: -28608
-    zones:
-      - type: safe
-        x: 64
-        y: 0
-        width: 256
-        height: 768
-      - type: safe
-        x: 5024
-        y: 0
-        width: 256
-        height: 768
-      - type: exit
-        x: 5280
-        y: 0
-        translate:
-          x: 160
-          y: 0
-        width: 64
-        height: 768
-      - type: exit
-        x: 0
-        y: 0
-        translate:
-          x: -160
-          y: 0
-        width: 64
-        height: 768
-      - type: active
-        x: 320
-        y: 0
-        width: 4704
-        height: 768
-        spawner:
-          - radius: 45
-            speed: 420
-            count: 10
+          - radius: 30
+            speed: 240
+            count: 20
             types:
-              - wall
+              - teleporting
+          - radius: 25
+            speed: 480
+            count: 25
+            types:
+              - pumpkin
           - radius: 20
-            speed: 570
-            count: 6
+            speed: 390
+            count: 20
             types:
-              - wall
-            move_clockwise: false
+              - normal
+          - radius: 20
+            speed: 480
+            count: 20
+            types:
+              - normal
   - name: Sphere 9-4
     x: 134752
     y: -31200
@@ -14294,17 +14273,9 @@ areas:
         - 100
         - 168
         - 230
-    x: 174464
+    x: 169120
     y: -28608
     zones:
-      - type: teleport
-        x: 5216
-        y: 704
-        translate:
-          x: -5500
-          y: 0
-        width: 128
-        height: 64
       - type: victory
         x: 64
         y: 0
@@ -14322,4 +14293,282 @@ areas:
         x: 5216
         y: 0
         width: 128
-        height: 704
+        height: 768
+  - name: smores-84
+    properties:
+      background_color:
+        - 108
+        - 0
+        - 108
+        - 100
+      title_stroke_color:
+        - 135
+        - 0
+        - 135
+        - 255
+      pellet_count: 0
+    x: 124256
+    y: -40160
+    zones:
+      - type: active
+        properties:
+          background_color:
+            - 108
+            - 0
+            - 108
+            - 100
+        x: 0
+        y: 0
+        width: 1888
+        height: 480
+        spawner:
+          - y: 0, 275
+            radius: 22
+            speed: 210
+            count: 23
+            types:
+              - wind_ghost
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 0
+        y: 320
+        width: 160
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 320
+        y: 352
+        width: 160
+        height: 128
+      - type: dummy
+        properties:
+          background_color:
+            - 90
+            - 40
+            - 20
+            - 255
+        x: 160
+        y: 352
+        width: 160
+        height: 16
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 480
+        y: 256
+        width: 128
+        height: 224
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 608
+        y: 288
+        width: 352
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 960
+        y: 384
+        width: 352
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 1312
+        y: 352
+        width: 192
+        height: 128
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 190
+            - 255
+            - 255
+        x: 960
+        y: 352
+        translate:
+          x: -3000
+          y: 4200
+        width: 160
+        height: 32
+      - type: dummy
+        properties:
+          background_color:
+            - 138
+            - 110
+            - 150
+            - 255
+        x: 1504
+        y: 96
+        width: 64
+        height: 384
+      - type: dummy
+        properties:
+          background_color:
+            - 120
+            - 60
+            - 20
+            - 255
+        x: 1568
+        y: 320
+        width: 16
+        height: 64
+      - type: safe
+        x: 1888
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 2144
+        y: 0
+        translate:
+          x: -4139
+          y: 4185
+        width: 64
+        height: 480
+      - type: safe
+        x: 160
+        y: 480
+        width: 160
+        height: 128
+      - type: exit
+        x: 160
+        y: 608
+        translate:
+          x: -2281
+          y: 3900
+        width: 160
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 190
+            - 255
+            - 255
+        x: 1120
+        y: 352
+        translate:
+          x: -3226
+          y: 4200
+        width: 192
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 190
+            - 255
+            - 255
+        x: 1312
+        y: 320
+        translate:
+          x: -3428
+          y: 4232
+        width: 160
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 190
+            - 255
+            - 255
+        x: 1504
+        y: 64
+        translate:
+          x: -3514
+          y: 4488
+        width: 64
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 0
+            - 190
+            - 255
+            - 255
+        x: 1568
+        y: 96
+        translate:
+          x: -3564
+          y: 4400
+        width: 32
+        height: 96
+    assets:
+      - type: wall
+        x: 0
+        y: 320
+        width: 160
+        height: 384
+        texture: null
+      - type: wall
+        x: 320
+        y: 352
+        width: 640
+        height: 352
+        texture: null
+      - type: wall
+        x: 960
+        y: 384
+        width: 608
+        height: 320
+        texture: null
+      - type: wall
+        x: 480
+        y: 288
+        width: 480
+        height: 64
+        texture: null
+      - type: wall
+        x: 1504
+        y: 96
+        width: 64
+        height: 288
+        texture: null
+      - type: wall
+        x: 1312
+        y: 352
+        width: 192
+        height: 32
+        texture: null
+      - type: wall
+        x: 480
+        y: 256
+        width: 128
+        height: 32
+        texture: null
+      - type: wall
+        x: 1568
+        y: 480
+        width: 640
+        height: 224
+        texture: null
