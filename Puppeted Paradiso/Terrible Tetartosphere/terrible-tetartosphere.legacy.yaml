@@ -1,0 +1,1455 @@
+name: Terrible Tetartosphere
+properties:
+  title_stroke_color:
+    - 108
+    - 0
+    - 108
+    - 250
+  background_color:
+    - 18
+    - 0
+    - 18
+    - 190
+  minimum_speed: 17
+  maximum_speed: 33.333333333333336
+  death_timer: 60000
+areas:
+  - name: This. One. Challenge
+    properties:
+      background_color:
+        - 18
+        - 0
+        - 18
+        - 190
+    x: 0
+    y: 0
+    zones:
+      - type: exit
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
+        x: 2016
+        y: 2624
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 608
+      - type: safe
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
+        x: 0
+        y: 4800
+        width: 1760
+        height: 416
+      - type: safe
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
+        x: 1760
+        y: 2624
+        width: 256
+        height: 608
+      - type: active
+        properties:
+          background_color:
+            - 38
+            - 0
+            - 38
+            - 150
+        x: 0
+        y: 0
+        width: 1760
+        height: 4800
+        spawner:
+          - x: 880
+            y: 1000
+            radius: 0
+            effect_radius: 3900
+            types:
+              - disabling
+          - radius: 415
+            speed: 3
+            count: 4
+            types:
+              - wall
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 480
+        y: 4736
+        translate:
+          x: 500
+          y: 3000
+        width: 384
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 0
+        y: 4736
+        translate:
+          x: 1500
+          y: 3000
+        width: 384
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 0
+        y: 4576
+        translate:
+          x: 1000
+          y: 3500
+        width: 768
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 96
+        y: 4416
+        translate:
+          x: 1000
+          y: 2803
+        width: 768
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 800
+        y: 4160
+        translate:
+          x: 300
+          y: 3100
+        width: 64
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 832
+        y: 4192
+        translate:
+          x: 500
+          y: 3200
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 736
+        y: 3968
+        translate:
+          x: 1000
+          y: 4000
+        width: 32
+        height: 160
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 800
+        y: 3904
+        translate:
+          x: 1100
+          y: 3500
+        width: 64
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 832
+        y: 3872
+        translate:
+          x: 1000
+          y: 3500
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 640
+        y: 3904
+        translate:
+          x: 500
+          y: 3500
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 512
+        y: 3648
+        translate:
+          x: 350
+          y: 3700
+        width: 352
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 0
+        y: 3648
+        translate:
+          x: 1500
+          y: 3700
+        width: 416
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 64
+        y: 3552
+        translate:
+          x: 1000
+          y: 4500
+        width: 224
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 96
+        y: 3520
+        translate:
+          x: 1000
+          y: 4500
+        width: 192
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 128
+        y: 3488
+        translate:
+          x: 1000
+          y: 4500
+        width: 160
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 160
+        y: 3456
+        translate:
+          x: 1000
+          y: 4500
+        width: 128
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 192
+        y: 3424
+        translate:
+          x: 1000
+          y: 4500
+        width: 96
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 224
+        y: 3392
+        translate:
+          x: 1000
+          y: 4500
+        width: 64
+        height: 32
+      - type: exit
+        x: 256
+        y: 3360
+        translate:
+          x: 1000
+          y: 4500
+        width: 32
+        height: 32
+      - type: exit
+        x: 0
+        y: 3456
+        translate:
+          x: 1100
+          y: 4500
+        width: 32
+        height: 32
+      - type: exit
+        x: 0
+        y: 3424
+        translate:
+          x: 1100
+          y: 4500
+        width: 64
+        height: 32
+      - type: exit
+        x: 0
+        y: 3392
+        translate:
+          x: 1100
+          y: 4500
+        width: 96
+        height: 32
+      - type: exit
+        x: 0
+        y: 3360
+        translate:
+          x: 1100
+          y: 4500
+        width: 128
+        height: 32
+      - type: exit
+        x: 0
+        y: 3328
+        translate:
+          x: 1100
+          y: 4500
+        width: 160
+        height: 32
+      - type: exit
+        x: 288
+        y: 3200
+        translate:
+          x: 1000
+          y: 4000
+        width: 192
+        height: 128
+      - type: exit
+        x: 0
+        y: 2784
+        translate:
+          x: 1054
+          y: 5000
+        width: 192
+        height: 544
+      - type: exit
+        x: 192
+        y: 2464
+        translate:
+          x: 1000
+          y: 4982
+        width: 576
+        height: 672
+      - type: exit
+        x: 544
+        y: 3136
+        translate:
+          x: 500
+          y: 5150
+        width: 224
+        height: 128
+      - type: exit
+        x: 64
+        y: 2240
+        translate:
+          x: 1000
+          y: 6000
+        width: 800
+        height: 128
+      - type: exit
+        x: 64
+        y: 2368
+        translate:
+          x: 1200
+          y: 5000
+        width: 32
+        height: 320
+      - type: exit
+        x: 768
+        y: 3232
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 832
+        y: 3040
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 768
+        y: 2848
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 832
+        y: 2656
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 192
+        y: 2368
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 384
+        y: 2432
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 576
+        y: 2368
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 736
+        y: 2432
+        translate:
+          x: 1000
+          y: 5000
+        width: 32
+        height: 32
+      - type: exit
+        x: 192
+        y: 1984
+        translate:
+          x: 1000
+          y: 6000
+        width: 672
+        height: 256
+      - type: exit
+        x: 160
+        y: 2080
+        translate:
+          x: 1000
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 128
+        y: 2048
+        translate:
+          x: 1000
+          y: 6000
+        width: 64
+        height: 32
+      - type: exit
+        x: 64
+        y: 1984
+        translate:
+          x: 1200
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 0
+        y: 2112
+        translate:
+          x: 1000
+          y: 6000
+        width: 64
+        height: 32
+      - type: exit
+        x: 0
+        y: 1824
+        translate:
+          x: 1000
+          y: 6000
+        width: 768
+        height: 64
+      - type: exit
+        x: 480
+        y: 1664
+        translate:
+          x: 1000
+          y: 6500
+        width: 384
+        height: 64
+      - type: exit
+        x: 0
+        y: 1664
+        translate:
+          x: 1000
+          y: 6500
+        width: 384
+        height: 64
+      - type: exit
+        x: 96
+        y: 1504
+        translate:
+          x: 1000
+          y: 6000
+        width: 768
+        height: 64
+      - type: exit
+        x: 96
+        y: 512
+        translate:
+          x: 1100
+          y: 6800
+        width: 64
+        height: 992
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 1500
+          y: 8000
+        width: 352
+        height: 416
+      - type: exit
+        x: 224
+        y: 416
+        translate:
+          x: 1674
+          y: 7000
+        width: 128
+        height: 992
+      - type: exit
+        x: 352
+        y: 1376
+        translate:
+          x: 1200
+          y: 6100
+        width: 416
+        height: 32
+      - type: exit
+        x: 448
+        y: 1248
+        translate:
+          x: 1100
+          y: 6100
+        width: 416
+        height: 32
+      - type: exit
+        x: 352
+        y: 1120
+        translate:
+          x: 1000
+          y: 6100
+        width: 416
+        height: 32
+      - type: exit
+        x: 448
+        y: 992
+        translate:
+          x: 500
+          y: 7200
+        width: 416
+        height: 32
+      - type: exit
+        x: 352
+        y: 864
+        translate:
+          x: 1100
+          y: 6500
+        width: 416
+        height: 32
+      - type: exit
+        x: 448
+        y: 736
+        translate:
+          x: 500
+          y: 7000
+        width: 416
+        height: 32
+      - type: exit
+        x: 352
+        y: 608
+        translate:
+          x: 1000
+          y: 7000
+        width: 416
+        height: 32
+      - type: exit
+        x: 448
+        y: 480
+        translate:
+          x: 500
+          y: 7000
+        width: 416
+        height: 32
+      - type: exit
+        x: 352
+        y: 0
+        translate:
+          x: 500
+          y: 7500
+        width: 416
+        height: 384
+      - type: exit
+        x: 448
+        y: 640
+        translate:
+          x: 1000
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 736
+        y: 448
+        translate:
+          x: 500
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 736
+        y: 704
+        translate:
+          x: 116
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 736
+        y: 512
+        translate:
+          x: 700
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 448
+        y: 576
+        translate:
+          x: 900
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 448
+        y: 384
+        translate:
+          x: 500
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 736
+        y: 960
+        translate:
+          x: 300
+          y: 6500
+        width: 32
+        height: 32
+      - type: exit
+        x: 448
+        y: 896
+        translate:
+          x: 500
+          y: 6400
+        width: 32
+        height: 32
+      - type: exit
+        x: 448
+        y: 832
+        translate:
+          x: 1000
+          y: 6900
+        width: 32
+        height: 32
+      - type: exit
+        x: 736
+        y: 768
+        translate:
+          x: 500
+          y: 7000
+        width: 32
+        height: 32
+      - type: exit
+        x: 992
+        y: 0
+        translate:
+          x: 50
+          y: 7500
+        width: 32
+        height: 416
+      - type: exit
+        x: 1120
+        y: 96
+        translate:
+          x: 100
+          y: 7500
+        width: 32
+        height: 416
+      - type: exit
+        x: 1248
+        y: 0
+        translate:
+          x: 0
+          y: 8000
+        width: 512
+        height: 416
+      - type: exit
+        x: 896
+        y: 512
+        translate:
+          x: 300
+          y: 7600
+        width: 800
+        height: 96
+      - type: exit
+        x: 896
+        y: 928
+        translate:
+          x: 0
+          y: 6300
+        width: 64
+        height: 64
+      - type: exit
+        x: 896
+        y: 992
+        translate:
+          x: 500
+          y: 6500
+        width: 128
+        height: 64
+      - type: exit
+        x: 896
+        y: 1056
+        translate:
+          x: 600
+          y: 6700
+        width: 192
+        height: 64
+      - type: exit
+        x: 896
+        y: 1120
+        translate:
+          x: 0
+          y: 7000
+        width: 256
+        height: 128
+      - type: exit
+        x: 896
+        y: 1248
+        translate:
+          x: 0
+          y: 7100
+        width: 288
+        height: 32
+      - type: exit
+        x: 896
+        y: 1280
+        translate:
+          x: 0
+          y: 7000
+        width: 320
+        height: 32
+      - type: exit
+        x: 896
+        y: 1312
+        translate:
+          x: 700
+          y: 6900
+        width: 352
+        height: 32
+      - type: exit
+        x: 896
+        y: 1344
+        translate:
+          x: 400
+          y: 6500
+        width: 384
+        height: 32
+      - type: exit
+        x: 896
+        y: 1376
+        translate:
+          x: 0
+          y: 5900
+        width: 416
+        height: 32
+      - type: exit
+        x: 896
+        y: 1408
+        translate:
+          x: 700
+          y: 6500
+        width: 448
+        height: 192
+      - type: exit
+        x: 1248
+        y: 1184
+        translate:
+          x: 0
+          y: 7100
+        width: 160
+        height: 32
+      - type: exit
+        x: 1280
+        y: 1216
+        translate:
+          x: 0
+          y: 6900
+        width: 128
+        height: 32
+      - type: exit
+        x: 1312
+        y: 1248
+        translate:
+          x: 0
+          y: 6700
+        width: 96
+        height: 32
+      - type: exit
+        x: 1344
+        y: 1280
+        translate:
+          x: 0
+          y: 6500
+        width: 64
+        height: 32
+      - type: exit
+        x: 1376
+        y: 1312
+        translate:
+          x: 0
+          y: 6100
+        width: 32
+        height: 32
+      - type: exit
+        x: 1408
+        y: 704
+        translate:
+          x: 0
+          y: 6500
+        width: 352
+        height: 672
+      - type: exit
+        x: 1344
+        y: 1440
+        translate:
+          x: 0
+          y: 6500
+        width: 352
+        height: 96
+      - type: exit
+        x: 1408
+        y: 1600
+        translate:
+          x: 200
+          y: 5700
+        width: 352
+        height: 96
+      - type: exit
+        x: 992
+        y: 1664
+        translate:
+          x: 270
+          y: 6000
+        width: 416
+        height: 384
+      - type: exit
+        x: 896
+        y: 2144
+        translate:
+          x: 0
+          y: 5500
+        width: 800
+        height: 96
+      - type: exit
+        x: 1472
+        y: 1792
+        translate:
+          x: -500
+          y: 5500
+        width: 32
+        height: 352
+      - type: exit
+        x: 1568
+        y: 1696
+        translate:
+          x: 0
+          y: 5700
+        width: 32
+        height: 352
+      - type: exit
+        x: 1664
+        y: 1792
+        translate:
+          x: 0
+          y: 5500
+        width: 32
+        height: 352
+      - type: exit
+        x: 992
+        y: 2336
+        translate:
+          x: 0
+          y: 5000
+        width: 768
+        height: 96
+      - type: exit
+        x: 992
+        y: 2432
+        translate:
+          x: 0
+          y: 5000
+        width: 32
+        height: 224
+      - type: exit
+        x: 1088
+        y: 2496
+        translate:
+          x: 0
+          y: 5000
+        width: 32
+        height: 224
+      - type: exit
+        x: 1184
+        y: 2432
+        translate:
+          x: 0
+          y: 5000
+        width: 32
+        height: 224
+      - type: exit
+        x: 1280
+        y: 2496
+        translate:
+          x: 0
+          y: 5000
+        width: 32
+        height: 224
+      - type: exit
+        x: 1376
+        y: 2432
+        translate:
+          x: 0
+          y: 5000
+        width: 32
+        height: 224
+      - type: exit
+        x: 1472
+        y: 2496
+        translate:
+          x: 0
+          y: 5000
+        width: 32
+        height: 224
+      - type: exit
+        x: 1568
+        y: 2432
+        translate:
+          x: 0
+          y: 4879
+        width: 192
+        height: 192
+      - type: exit
+        x: 896
+        y: 1760
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 960
+        y: 1888
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 896
+        y: 2016
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 992
+        y: 2112
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 1120
+        y: 2048
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 1248
+        y: 2112
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 1376
+        y: 2048
+        translate:
+          x: 0
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 864
+        y: 3584
+        translate:
+          x: 0
+          y: 3617
+        width: 896
+        height: 1216
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 0
+        y: 3776
+        translate:
+          x: 900
+          y: 3700
+        width: 640
+        height: 544
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 640
+        y: 3776
+        translate:
+          x: 1000
+          y: 4000
+        width: 96
+        height: 96
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 736
+        y: 3776
+        translate:
+          x: 500
+          y: 3500
+        width: 32
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 640
+        y: 3872
+        translate:
+          x: 219
+          y: 3500
+        width: 64
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 640
+        y: 4224
+        translate:
+          x: 1000
+          y: 4000
+        width: 96
+        height: 96
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 736
+        y: 4256
+        translate:
+          x: 1000
+          y: 3000
+        width: 32
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 640
+        y: 4192
+        translate:
+          x: 500
+          y: 3500
+        width: 64
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 640
+        y: 4160
+        translate:
+          x: 500
+          y: 3500
+        width: 32
+        height: 32
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 768
+        y: 3936
+        translate:
+          x: 500
+          y: 4000
+        width: 96
+        height: 224
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 288
+        y: 3328
+        translate:
+          x: 700
+          y: 4000
+        width: 576
+        height: 256
+      - type: exit
+        x: 96
+        y: 1984
+        translate:
+          x: 1100
+          y: 6000
+        width: 96
+        height: 64
+      - type: exit
+        x: 160
+        y: 2144
+        translate:
+          x: 1000
+          y: 6000
+        width: 32
+        height: 32
+      - type: exit
+        x: 128
+        y: 2176
+        translate:
+          x: 1000
+          y: 6000
+        width: 64
+        height: 32
+      - type: exit
+        x: 96
+        y: 2208
+        translate:
+          x: 1000
+          y: 6000
+        width: 96
+        height: 32
+      - type: exit
+        x: 1216
+        y: 704
+        translate:
+          x: 0
+          y: 7000
+        width: 192
+        height: 480
+      - type: exit
+        x: 1152
+        y: 704
+        translate:
+          x: 0
+          y: 7000
+        width: 64
+        height: 352
+      - type: exit
+        x: 1088
+        y: 704
+        translate:
+          x: 0
+          y: 7000
+        width: 64
+        height: 288
+      - type: exit
+        x: 1024
+        y: 704
+        translate:
+          x: 0
+          y: 7000
+        width: 64
+        height: 224
+      - type: exit
+        x: 960
+        y: 704
+        translate:
+          x: 0
+          y: 7000
+        width: 64
+        height: 160
+      - type: exit
+        x: 864
+        y: 1600
+        translate:
+          x: 0
+          y: 5700
+        width: 32
+        height: 1120
+      - type: exit
+        x: 864
+        y: 480
+        translate:
+          x: 0
+          y: 6700
+        width: 32
+        height: 1120
+      - type: exit
+        x: 864
+        y: 96
+        translate:
+          x: 500
+          y: 7500
+        width: 32
+        height: 384
+      - type: exit
+        properties:
+          background_color:
+            - 18
+            - 0
+            - 18
+            - 190
+        x: 864
+        y: 2720
+        translate:
+          x: 0
+          y: 4583
+        width: 896
+        height: 864
+    assets:
+      - type: wall
+        x: 1760
+        y: 3232
+        width: 416
+        height: 1984
+        texture: null
+      - type: wall
+        x: 1760
+        y: 0
+        width: 416
+        height: 2624
+        texture: null
+  - name: Failure Box
+    properties:
+      spawns_pellets: false
+      pellet_count: 0
+    x: 704
+    y: 7136
+    zones:
+      - type: safe
+        x: 64
+        y: 0
+        width: 1376
+        height: 1376
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -300
+          y: -2292
+        width: 64
+        height: 352
+      - type: exit
+        x: 0
+        y: 352
+        translate:
+          x: -300
+          y: -2646
+        width: 64
+        height: 352
+      - type: exit
+        x: 0
+        y: 704
+        translate:
+          x: -300
+          y: -2999
+        width: 64
+        height: 352
+      - type: exit
+        x: 0
+        y: 1056
+        translate:
+          x: -300
+          y: -3355
+        width: 64
+        height: 320
+      - type: exit
+        x: 1440
+        y: 0
+        translate:
+          x: -1740
+          y: -2292
+        width: 64
+        height: 352
+      - type: exit
+        x: 1440
+        y: 352
+        translate:
+          x: -1740
+          y: -2646
+        width: 64
+        height: 352
+      - type: exit
+        x: 1440
+        y: 704
+        translate:
+          x: -1740
+          y: -2999
+        width: 64
+        height: 352
+      - type: exit
+        x: 1440
+        y: 1056
+        translate:
+          x: -1740
+          y: -3355
+        width: 64
+        height: 320
+  - x: 2080
+    y: 2624
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 608
+      - type: victory
+        x: 64
+        y: 0
+        width: 3008
+        height: 608
+      - type: removal
+        x: 3072
+        y: 0
+        width: 128
+        height: 608
