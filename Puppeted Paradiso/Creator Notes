@@ -1,7 +1,7 @@
 Hello...
 This is the Creator Notes for Puppeted Paradiso
 
-Created in 9/2/2025:
+Created in 9/3/2025:
 
 By: Legacy Gatling
 
@@ -34,6 +34,26 @@ They're seperate and unrelated to the Spheres, since their purpose is to bring y
 
 Anyways...
 
+Gated Entrance:
+  This single area is the starting area of the map.
+  Same goes with Cyber Castle.
+  If I were know how to code things in, or if I were a dev, I would've put a requirement to enter into Bridge 1
+  It'll say:
+  "The closed gate has a lock that spelled out"
+    "Ca/bo/then/ent / Mi/ono / Igni/jo/dris"
+
+  Each batch of letters seperated by slashes represents a part of a Hero's name, being:
+    "Ca"ndy
+    "Bo"ldrock
+    S"then"o
+    C"ent"
+    "Mi"rage
+    Le"ono"
+    "Igni"s
+    "jo"tunn
+    Vey"dris"
+The reason why it's those heroes is that the Spheres represent the maps that each hero is from.
+And to keep track of progress, if you have the heroes listed, the batch of letters corresponding to the hero will be turn green.
 
 Sphere 1: Wacky Wonderland
   This section is the most average experience with Wacky Wonderland, toned down to fit the early areas.
@@ -230,3 +250,104 @@ Hemisphere 9: Vast Void
   Hemisphere 9-2 contains Void Swarm, Homing, Immune, Void Crawler, and Void Drain.
   You may notice a weird teleporter in Hemisphere 9-1. 
   That is the way into the second ending of the map.
+  There's a way in, but you need to search around Sphere 9.
+
+
+
+
+
+
+
+
+
+
+
+
+
+So, you found out?
+So, the teleporter, well, if in game, would say (if requirement isn't met)
+"The Empyrean demands that 4 halves of a Sphere needs to be explored"
+Which means, to enter the alternate path, you need to complete 4 entire Hemispheres (Tetartosphere is considered one).
+But since this is just a map with no mechanics, it just works like a normal Teleporter.
+
+
+
+Empyrean:
+  All enemies here are Immune, Normal, and Withering in different sizes and speed.
+
+  This section is basically the reason why I called the map "Puppeted Paradiso"
+  As in my story, the "Void", which is Vast Void, has taken over Hell (Inferno), Purgatory (Purgatorio), and Heaven (Paradiso).
+  They're the ones that created the Hemispheres.
+  And they use Paradiso and changed it to a huge degree, which resulted in this map.
+  And Empyrean is just the last Breadcrumb before the actual trap, which is the part where the Void tries to kill you.
+
+Eternal Descent:
+  This section is a homage to the removed "Eternal Descent" from Pristine Purgatory.
+  In which there're 5 areas, which reference the Spheres, but manipulated to include enemies from Ancient Abyss and Pristine Purgatory.
+  And after the last area of the Descent, you loop back into the first area of the Descent, a never ending loop.
+  So, is this a softlock?
+  Well, no, there's a way out.
+  You just need to look around the descent, and see anything that looked a bit different.
+  If you have trouble, try using the tools of the Region Editor.
+
+
+
+
+
+Pristine Sphere:
+
+  Well, I assume you find the way out of the Descent, and now, you're in Pristine Sphere.
+  Which is one of the original Spheres before the Void transformed it.
+  Though you're not free, as the Void knows you've escaped "the part where they kill you", and now slightly transforms Pristine Sphere with random stuff they find, and tries to kill you in desperation.
+
+The thing that stuck to me for this section is the comment that Joni, one of the users in Discord I frequently asked to playtest my map, said in the feedback about Pristine Sphere:
+  "Pristine spheres difficulty is tricky to say, those areas are special, if someone is focused all the time then i dont think there is a way to die, but a moment of distraction and the area can catch you off guard"
+  -Joni
+In short, you have to focus very hard to complete this last section.
+
+Pristine Sphere 1 contains Firefly, and Normal.
+Pristine Sphere 2 contains Teleporting at high teleporting rate, and Normal.
+Pristine Sphere 3 contains Pumpkin and Normal.
+Pristine Sphere 4 contains Teleporting, Pumpkin, and Normal (though no Firefly, as it feels unfair with the stuff you have to deal with).
+And after that, the victory area.
+
+Victory Area (Pristine Path)
+
+ "You gaze up towards the fraudulant Spheres, as you descend down from them"
+  "6 vp awarded"
+  "Broken Halo added to your accessory collection".
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+Conclusion:
+  So, that's all I have to say for these notes.
+  Special thanks to Joni, and DarkPhoenix for giving feedback and playtesting on my map.
+  I think I'll take a slight break from map-making, as I have alot of stuff to do (screw the SAT)
+  And, SILKSONG TOMORROW yeahhhhhhhhh
+
+Legacy Out.
