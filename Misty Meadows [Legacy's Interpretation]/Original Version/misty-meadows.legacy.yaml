@@ -1,0 +1,2275 @@
+name: Misty Meadows
+properties:
+  background_color:
+    - 176
+    - 222
+    - 127
+    - 150
+  friction: 0.75
+areas:
+  - x: 0
+    y: 0
+    zones:
+      - type: safe
+        properties:
+          minimum_speed: 10
+        x: 0
+        y: 0
+        width: 320
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 10
+            count: 10
+            types:
+              - grass
+          - radius: 15
+            speed: 8
+            count: 3
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 11
+            count: 10
+            types:
+              - grass
+          - radius: 15
+            speed: 8
+            count: 4
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 12
+            count: 10
+            types:
+              - grass
+          - radius: 15
+            speed: 8
+            count: 5
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 13
+            count: 10
+            types:
+              - grass
+          - radius: 20
+            speed: 6
+            count: 5
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 14
+            count: 10
+            types:
+              - grass
+          - radius: 25
+            speed: 4
+            count: 7
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 15
+            count: 10
+            types:
+              - grass
+          - radius: 30
+            speed: 4
+            count: 7
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 15
+            count: 10
+            types:
+              - grass
+          - radius: 15
+            speed: 5
+            count: 10
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 15
+            count: 10
+            types:
+              - grass
+          - radius: 15
+            speed: 5
+            count: 12
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 15
+            count: 10
+            types:
+              - grass
+          - radius: 15
+            speed: 5
+            count: 15
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - boss: true
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 80
+            speed: 10
+            count: 5
+            types:
+              - grass
+          - radius: 50
+            speed: 10
+            count: 8
+            types:
+              - mist
+          - radius: 30
+            speed: 5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 8
+            speed: 5
+            count: 30
+            types:
+              - grass
+          - radius: 20
+            speed: 5
+            count: 8
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 8
+            count: 8
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 8
+            speed: 7
+            count: 30
+            types:
+              - grass
+          - radius: 20
+            speed: 6
+            count: 8
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 8
+            count: 9
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 8
+            speed: 9
+            count: 30
+            types:
+              - grass
+          - radius: 20
+            speed: 7
+            count: 8
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 8
+            count: 10
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 8
+            speed: 11
+            count: 30
+            types:
+              - grass
+          - radius: 20
+            speed: 8
+            count: 8
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 8
+            count: 11
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 8
+            speed: 13
+            count: 30
+            types:
+              - grass
+          - radius: 20
+            speed: 9
+            count: 8
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 8
+            count: 12
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 13
+            count: 30
+            types:
+              - grass
+          - radius: 15
+            speed: 5
+            count: 10
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 8
+            count: 10
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 13
+            count: 30
+            types:
+              - grass
+          - radius: 15
+            speed: 6
+            count: 10
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 13
+            count: 30
+            types:
+              - grass
+          - radius: 15
+            speed: 7
+            count: 10
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 10
+            count: 10
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 13
+            count: 30
+            types:
+              - grass
+          - radius: 15
+            speed: 8
+            count: 10
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - boss: true
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 25
+            speed: 15
+            count: 20
+            types:
+              - grass
+          - radius: 50
+            speed: 10
+            count: 5
+            types:
+              - mist
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 75
+            speed: 3
+            count: 4
+            types:
+              - flower
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.85
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 9
+            count: 6
+            types:
+              - dasher
+          - radius: 45
+            speed: 20
+            count: 4
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 7
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.7
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 11
+            count: 6
+            types:
+              - dasher
+          - radius: 50
+            speed: 24
+            count: 4
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 7
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.55
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 13
+            count: 7
+            types:
+              - dasher
+          - radius: 55
+            speed: 28
+            count: 4
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 8
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.4
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 15
+            count: 7
+            types:
+              - dasher
+          - radius: 60
+            speed: 32
+            count: 3
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 8
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.25
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 17
+            count: 8
+            types:
+              - dasher
+          - radius: 65
+            speed: 36
+            count: 3
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 9
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.25
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 19
+            count: 8
+            types:
+              - dasher
+          - radius: 70
+            speed: 40
+            count: 3
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 9
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.25
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 30
+            speed: 21
+            count: 9
+            types:
+              - dasher
+          - radius: 70
+            speed: 40
+            count: 2
+            types:
+              - repelling_ghost
+          - radius: 20
+            speed: 10
+            count: 10
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.25
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 23
+            count: 12
+            types:
+              - dasher
+          - radius: 14
+            speed: 8
+            count: 10
+            types:
+              - repelling_ghost
+          - radius: 15
+            speed: 12
+            count: 12
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.25
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 25
+            count: 12
+            types:
+              - dasher
+          - radius: 14
+            speed: 12
+            count: 15
+            types:
+              - repelling_ghost
+          - radius: 15
+            speed: 15
+            count: 12
+            types:
+              - mist
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - boss: true
+    properties:
+      lighting: 0.1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 4
+            count: 150
+            types:
+              - grass
+          - radius: 30
+            speed: 15
+            count: 8
+            types:
+              - wall
+          - radius: 110
+            speed: 10
+            count: 4
+            types:
+              - dasher
+          - radius: 30
+            speed: 10
+            count: 5
+            types:
+              - repelling_ghost
+          - radius: 10
+            speed: 15
+            count: 18
+            types:
+              - mist
+          - radius: 27
+            speed: 20
+            count: 6
+            types:
+              - dasher
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.3
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 10
+            count: 50
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 20
+            count: 10
+            types:
+              - mist
+          - radius: 20
+            speed: 2
+            count: 5
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.5
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 15
+            count: 50
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 10
+            count: 15
+            types:
+              - mist
+          - radius: 15
+            speed: 3
+            count: 6
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.7
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 12
+            speed: 18
+            count: 30
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 10
+            count: 20
+            types:
+              - mist
+          - radius: 10
+            speed: 4
+            count: 7
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.85
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 14
+            speed: 17
+            count: 30
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 10
+            count: 20
+            types:
+              - mist
+          - radius: 12
+            speed: 4
+            count: 7
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 0.93
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 16
+            speed: 16
+            count: 30
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 10
+            count: 20
+            types:
+              - mist
+          - radius: 14
+            speed: 4
+            count: 7
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 20
+            speed: 10
+            count: 60
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 8
+            speed: 6
+            count: 30
+            types:
+              - mist
+          - radius: 50
+            speed: 2
+            count: 5
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 18
+            speed: 9
+            count: 70
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 10
+            speed: 6
+            count: 30
+            types:
+              - mist
+          - radius: 30
+            speed: 3
+            count: 10
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 85
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 12
+            speed: 6
+            count: 30
+            types:
+              - mist
+          - radius: 30
+            speed: 3
+            count: 10
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 12
+            speed: 6
+            count: 100
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 14
+            speed: 6
+            count: 30
+            types:
+              - mist
+          - radius: 30
+            speed: 3
+            count: 10
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - boss: true
+    properties:
+      lighting: 1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 10
+            speed: 8
+            count: 160
+            types:
+              - grass
+          - radius: 30
+            speed: 20
+            count: 8
+            types:
+              - wall
+          - radius: 20
+            speed: 10
+            count: 25
+            types:
+              - mist
+          - radius: 75
+            speed: 6
+            count: 6
+            types:
+              - liquid
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+  - properties:
+      lighting: 1
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: victory
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: victory
+        x: last_right
+        y: 0
+        width: 2816
+        height: 480
+      - type: victory
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: removal
+        x: last_right
+        y: 0
+        width: 64
+        height: last_height
