@@ -1,0 +1,2401 @@
+name: Glimmering Grotto
+properties:
+  title_stroke_color:
+    - 43
+    - 93
+    - 126
+    - 255
+  background_color:
+    - 43
+    - 113
+    - 126
+    - 120
+  lighting: 0.4
+areas:
+  - x: 0
+    y: 0
+    zones:
+      - type: safe
+        properties:
+          minimum_speed: 10
+        x: 0
+        y: 64
+        width: 320
+        height: 352
+      - type: active
+        x: last_right
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 14
+            speed: 5
+            count: 5
+            types:
+              - snowman
+      - type: safe
+        x: last_right
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 160
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 320
+        height: 64
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 13
+            speed: 6
+            count: 10
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 21
+            speed: 6.5
+            count: 7
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 10
+            speed: 9
+            count: 7
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 5
+            count: 6
+            types:
+              - snowman
+          - radius: 9
+            speed: 7
+            count: 10
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 7
+            speed: 8.5
+            count: 20
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 28
+            speed: 6
+            count: 10
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 30
+            speed: 6.5
+            count: 4
+            types:
+              - snowman
+          - radius: 14
+            speed: 8
+            count: 14
+            types:
+              - snowman
+  - boss: true
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+          - radius: 65
+            speed: 5
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 7
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 11
+            count: 16
+            types:
+              - snowman
+          - radius: 18
+            speed: 8
+            count: 8
+            types:
+              - snowman
+          - radius: 27
+            speed: 7
+            count: 5
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 25
+            speed: 5.5
+            count: 20
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 18
+            speed: 7.5
+            count: 15
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 10
+            speed: 7
+            count: 22
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 22
+            speed: 9
+            count: 7
+            types:
+              - snowman
+          - radius: 15
+            speed: 7
+            count: 15
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 27
+            speed: 8
+            count: 20
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 18
+            speed: 7.5
+            count: 14
+            types:
+              - glowy
+          - radius: 18
+            speed: 8
+            count: 10
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 7
+            speed: 7.5
+            count: 17
+            types:
+              - glowy
+          - radius: 14
+            speed: 5.5
+            count: 17
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 42
+            speed: 7.5
+            count: 13
+            types:
+              - glowy
+          - radius: 12
+            speed: 12
+            count: 13
+            types:
+              - snowman
+  - boss: true
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 7
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 32
+            speed: 8
+            count: 32
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 23
+            angle:
+              - 90
+              - 270
+            speed: 7
+            count: 9
+            types:
+              - stalactite
+          - radius: 14
+            speed: 9
+            count: 5
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 15
+            angle:
+              - 0
+              - 180
+            speed: 9
+            count: 14
+            types:
+              - stalactite
+          - radius: 9
+            speed: 13
+            count: 8
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 30
+            angle:
+              - 90
+              - 270
+            speed: 10
+            count: 10
+            types:
+              - stalactite
+          - radius: 14
+            speed: 9
+            count: 9
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 14
+            angle:
+              - 0
+              - 180
+            speed: 10
+            count: 25
+            types:
+              - stalactite
+          - radius: 25
+            angle:
+              - 90
+              - 270
+            speed: 7
+            count: 12
+            types:
+              - stalactite
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            angle:
+              - 0
+              - 180
+            speed: 8.5
+            count: 20
+            types:
+              - stalactite
+          - radius: 16
+            speed: 8
+            count: 13
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 25
+            angle:
+              - 45
+              - 225
+            speed: 10
+            count: 14
+            types:
+              - stalactite
+          - radius: 15
+            speed: 9
+            count: 10
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 13
+            angle:
+              - 135
+              - 315
+            speed: 9.5
+            count: 20
+            types:
+              - stalactite
+          - radius: 30
+            speed: 7
+            count: 11
+            types:
+              - glowy
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 73
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 40
+            angle:
+              - 135
+              - 315
+              - 45
+              - 225
+            speed: 8.5
+            count: 10
+            types:
+              - stalactite
+          - radius: 18
+            speed: 8
+            count: 9
+            types:
+              - glowy
+          - radius: 20
+            speed: 7.5
+            count: 9
+            types:
+              - snowman
+  - boss: true
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 65
+            speed: 9
+            types:
+              - wall
+          - radius: 65
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 11
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 9
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 65
+            speed: 9
+            types:
+              - wall
+            spawn_top: false
+          - radius: 65
+            angle:
+              - 45
+              - 225
+              - 135
+              - 315
+            speed: 9.5
+            count: 3
+            types:
+              - stalactite
+          - radius: 18
+            angle:
+              - 90
+              - 270
+            speed: 11.5
+            count: 6
+            types:
+              - stalactite
+          - radius: 23
+            angle:
+              - 0
+              - 180
+            speed: 14.5
+            count: 10
+            types:
+              - stalactite
+          - radius: 20
+            angle:
+              - 45
+              - 225
+              - 135
+              - 315
+            speed: 13.5
+            count: 10
+            types:
+              - stalactite
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 18
+            speed: 7.5
+            count: 10
+            types:
+              - firefly
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 12
+            speed: 8
+            count: 15
+            types:
+              - firefly
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 8
+            speed: 9
+            count: 18
+            types:
+              - firefly
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 15
+            speed: 8.5
+            count: 14
+            types:
+              - firefly
+          - radius: 28
+            angle:
+              - 0
+              - 180
+            speed: 11
+            count: 10
+            types:
+              - stalactite
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 20
+            speed: 9
+            count: 13
+            types:
+              - firefly
+          - radius: 12
+            angle:
+              - 90
+              - 270
+            speed: 11
+            count: 13
+            types:
+              - stalactite
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 13
+            speed: 10
+            count: 15
+            types:
+              - firefly
+          - radius: 25
+            speed: 7
+            count: 4
+            types:
+              - ice_sniper
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 30
+            speed: 9.5
+            count: 9
+            types:
+              - firefly
+          - radius: 15
+            speed: 10
+            count: 5
+            types:
+              - ice_sniper
+          - radius: 13
+            speed: 11
+            count: 8
+            types:
+              - snowman
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 15
+            speed: 9.5
+            count: 18
+            types:
+              - firefly
+          - radius: 10
+            speed: 15
+            count: 3
+            types:
+              - ice_sniper
+          - radius: 23
+            angle:
+              - 45
+              - 225
+              - 135
+              - 315
+            speed: 11
+            count: 12
+            types:
+              - stalactite
+  - boss: true
+    x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: last_height
+      - type: exit
+        x: last_right
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: last_height
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 20
+            speed: 14
+            count: 10
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 47
+            speed: 11
+            types:
+              - wall
+            spawn_top: false
+          - radius: 15
+            speed: 9
+            count: 16
+            types:
+              - firefly
+          - radius: 25
+            speed: 7
+            count: 17
+            types:
+              - firefly
+          - radius: 40
+            speed: 7
+            count: 3
+            types:
+              - ice_sniper
+  - x: last_right
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: victory
+        x: 64
+        y: 0
+        width: 2816
+        height: 480
+      - type: removal
+        x: 2880
+        y: 0
+        width: 128
+        height: 480
