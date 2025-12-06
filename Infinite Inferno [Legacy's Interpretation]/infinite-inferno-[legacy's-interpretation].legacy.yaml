@@ -1,0 +1,3114 @@
+name: Infinite Inferno [Legacy's Interpretation]
+properties:
+  title_stroke_color:
+    - 170
+    - 30
+    - 10
+    - 220
+  background_color:
+    - 100
+    - 0
+    - 0
+    - 120
+  friction: 0.75
+areas:
+  - name: Prayer's Passage
+    properties:
+      background_color:
+        - 11
+        - 32
+        - 14
+        - 155
+      title_stroke_color:
+        - 66
+        - 30
+        - 29
+        - 255
+    x: 0
+    y: 0
+    zones:
+      - type: safe
+        properties:
+          minimum_speed: 10
+        x: 0
+        y: 64
+        width: 320
+        height: 352
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 12
+            speed: 4
+            count: 17
+            types:
+              - normal
+          - radius: 40
+            speed: 2.5
+            count: 15
+            types:
+              - grass
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 160
+        width: 320
+        height: 64
+  - name: Infinite Elevator
+    x: 3200
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 3456
+        height: 480
+        spawner:
+          - radius: 20
+            speed: 7
+            count: 25
+            types:
+              - normal
+          - radius: 10
+            speed: 8
+            count: 9
+            effect_radius: 170
+            types:
+              - slowing
+      - type: safe
+        x: 3776
+        y: 0
+        width: 256
+        height: 480
+      - type: teleport
+        x: 4032
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 4032
+        y: 192
+        width: 64
+        height: 288
+  - name: Elevator 1
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 7296
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 12
+            speed: 5
+            count: 8
+            types:
+              - normal
+          - radius: 25
+            speed: 3
+            count: 5
+            types:
+              - normal
+          - radius: 18
+            speed: 4
+            count: 6
+            types:
+              - wall
+      - type: safe
+        x: 0
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 384
+        y: 1536
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 384
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle 1-1
+    x: 7744
+    y: 1248
+    zones:
+      - type: exit
+        x: 0
+        y: 288
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 45
+            speed: 5
+            count: 7
+            types:
+              - normal
+          - radius: 18
+            speed: 7.5
+            count: 15
+            types:
+              - normal
+          - radius: 12
+            speed: 8.5
+            count: 4
+            types:
+              - slowing
+          - radius: 30
+            speed: 7
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 1-2
+    x: 11328
+    y: 1248
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 45
+            speed: 7
+            count: 7
+            types:
+              - normal
+          - radius: 20
+            speed: 11
+            count: 20
+            types:
+              - dasher
+          - radius: 30
+            speed: 8
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Circle 1-3
+    x: 14912
+    y: 1248
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 25
+            speed: 7
+            count: 9
+            types:
+              - normal
+          - radius: 15
+            speed: 9
+            count: 12
+            types:
+              - homing
+            increment: 0.05333333333333334
+          - radius: 30
+            speed: 9
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 7
+            count: 5
+            effect_radius: 170
+            types:
+              - draining
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Circle 1-4
+    x: 18496
+    y: 1248
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 53
+            speed: 5
+            count: 10
+            types:
+              - normal
+          - radius: 18
+            speed: 6
+            count: 17
+            effect_radius: 170
+            types:
+              - slowing
+            slow: 0.25
+          - radius: 30
+            speed: 10
+            count: 8
+            types:
+              - wall
+          - radius: 15
+            speed: 7.5
+            count: 15
+            effect_radius: 170
+            types:
+              - draining
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3520
+        y: 192
+        width: 64
+        height: 288
+  - name: Elevator 2
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 22080
+    y: 1248
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 25
+            speed: 4
+            count: 9
+            types:
+              - normal
+          - radius: 20
+            speed: 6
+            count: 10
+            types:
+              - grass
+          - radius: 35
+            speed: 4.5
+            count: 4
+            types:
+              - wall
+      - type: safe
+        x: 64
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 0
+        y: 1536
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 0
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle 2-1
+    x: 18496
+    y: 2496
+    zones:
+      - type: exit
+        x: 3520
+        y: 288
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 33
+            speed: 8
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 7
+            count: 16
+            types:
+              - turning
+            circle_size: 200
+          - radius: 40
+            speed: 6
+            count: 20
+            types:
+              - grass
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3520
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 2-2
+    x: 14912
+    y: 2496
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 33
+            speed: 9
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 40
+            speed: 6
+            count: 7
+            types:
+              - flower
+          - radius: 25
+            speed: 8
+            count: 12
+            types:
+              - flower
+          - radius: 50
+            speed: 9.5
+            count: 12
+            types:
+              - grass
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Circle 2-3
+    x: 11328
+    y: 2496
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 33
+            speed: 10
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 18
+            speed: 9
+            count: 17
+            types:
+              - seedling
+          - radius: 30
+            speed: 11
+            count: 25
+            types:
+              - grass
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Circle 2-4
+    x: 7744
+    y: 2496
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 33
+            speed: 11
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 8.5
+            count: 12
+            types:
+              - seedling
+          - radius: 65
+            speed: 6
+            count: 15
+            types:
+              - grass
+          - radius: 30
+            speed: 7.5
+            count: 10
+            types:
+              - flower
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 288
+  - name: Elevator 3
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 7296
+    y: 2496
+    zones:
+      - type: exit
+        x: 384
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 40
+            speed: 4
+            count: 5
+            types:
+              - normal
+          - radius: 10
+            speed: 5
+            count: 12
+            types:
+              - icicle
+            horizontal: true
+          - radius: 18
+            speed: 4.5
+            count: 8
+            types:
+              - wall
+      - type: safe
+        x: 0
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 384
+        y: 1536
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 384
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 384
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle 3-1
+    x: 7744
+    y: 3744
+    zones:
+      - type: exit
+        x: 0
+        y: 288
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 23
+            speed: 6
+            count: 10
+            types:
+              - wall
+          - radius: 18
+            speed: 3
+            count: 13
+            types:
+              - liquid
+            player_detection_radius: 210
+          - radius: 45
+            speed: 2
+            count: 6
+            types:
+              - liquid
+            player_detection_radius: 300
+          - radius: 5
+            speed: 10.5
+            count: 3
+            effect_radius: 165
+            types:
+              - slippery
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 3-2
+    x: 11328
+    y: 3744
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 23
+            speed: 7
+            count: 10
+            types:
+              - wall
+          - radius: 30
+            speed: 8
+            count: 15
+            types:
+              - icicle
+          - radius: 16
+            speed: 10
+            count: 16
+            types:
+              - icicle
+            horizontal: true
+          - radius: 25
+            speed: 2
+            count: 6
+            types:
+              - liquid
+            player_detection_radius: 260
+  - name: Circle 3-3
+    x: 14912
+    y: 3744
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 23
+            speed: 8
+            count: 10
+            types:
+              - wall
+          - radius: 20
+            speed: 9.5
+            count: 15
+            effect_radius: 115
+            types:
+              - slippery
+          - radius: 40
+            speed: 7.5
+            count: 10
+            types:
+              - icicle
+            horizontal: true
+  - name: Circle 3-4
+    x: 18496
+    y: 3744
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3520
+        y: 192
+        width: 64
+        height: 288
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 23
+            speed: 9
+            count: 10
+            types:
+              - wall
+          - radius: 13
+            speed: 11
+            count: 6
+            types:
+              - ice_sniper
+          - radius: 20
+            speed: 9
+            count: 19
+            types:
+              - icicle
+          - radius: 25
+            speed: 1.6666666666666667
+            count: 8
+            types:
+              - liquid
+            player_detection_radius: 300
+  - name: Elevator 4
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 22080
+    y: 3744
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 8
+            speed: 5
+            count: 12
+            types:
+              - normal
+          - radius: 15
+            speed: 4
+            count: 2
+            types:
+              - radiating_bullets
+          - radius: 10
+            speed: 8
+            count: 6
+            types:
+              - wall
+      - type: safe
+        x: 64
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 0
+        y: 1536
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 0
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle 4-1
+    x: 18496
+    y: 4992
+    zones:
+      - type: exit
+        x: 3520
+        y: 288
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 8
+            count: 14
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 9
+            count: 17
+            types:
+              - normal
+          - radius: 25
+            speed: 7.5
+            count: 5
+            types:
+              - radiating_bullets
+            release_interval: 3000
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3520
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 4-2
+    x: 14912
+    y: 4992
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 9
+            count: 14
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 22
+            speed: 8
+            count: 12
+            types:
+              - normal
+          - radius: 10
+            speed: 7
+            count: 3
+            types:
+              - radiating_bullets
+          - radius: 15
+            speed: 11
+            count: 6
+            types:
+              - speed_sniper
+  - name: Circle 4-3
+    x: 11328
+    y: 4992
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 10
+            count: 14
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 7
+            count: 4
+            types:
+              - radiating_bullets
+            release_interval: 6000
+          - radius: 40
+            speed: 6
+            count: 6
+            types:
+              - regen_sniper
+          - radius: 15
+            speed: 8.5
+            count: 11
+            types:
+              - normal
+  - name: Circle 4-4
+    x: 7744
+    y: 4992
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 288
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 15
+            speed: 11
+            count: 14
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 10
+            speed: 9
+            count: 5
+            types:
+              - radiating_bullets
+            release_time: 1000
+            release_interval: 4500
+          - radius: 25
+            speed: 7
+            count: 13
+            effect_radius: 240
+            types:
+              - disabling
+          - radius: 18
+            speed: 8.5
+            count: 10
+            types:
+              - normal
+  - name: Elevator 5
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 7296
+    y: 4992
+    zones:
+      - type: exit
+        x: 384
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 20
+            speed: 5
+            count: 6
+            types:
+              - normal
+          - radius: 55
+            speed: 8.5
+            count: 2
+            types:
+              - wall
+          - radius: 16
+            speed: 7
+            count: 8
+            types:
+              - pumpkin
+              - dasher
+              - toxic
+      - type: safe
+        x: 0
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 384
+        y: 1536
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 384
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 384
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle 5-1
+    x: 7744
+    y: 6240
+    zones:
+      - type: exit
+        x: 0
+        y: 288
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 60
+            speed: 10
+            count: 4
+            types:
+              - wall
+          - radius: 22
+            speed: 9
+            count: 20
+            types:
+              - normal
+              - switch
+              - dasher
+          - radius: 10
+            speed: 7
+            count: 10
+            effect_radius: 170
+            types:
+              - slowing
+              - toxic
+              - enlarging
+            slow: 0.4
+          - radius: 23
+            speed: 7
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 5-2
+    x: 11328
+    y: 6240
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 60
+            speed: 11
+            count: 4
+            types:
+              - wall
+          - radius: 15
+            speed: 7.5
+            count: 15
+            types:
+              - homing
+              - turning
+              - icicle
+            circle_size: 200
+            home_range: 250
+          - radius: 10
+            speed: 7
+            count: 10
+            types:
+              - repelling
+              - draining
+              - freezing
+          - radius: 25
+            speed: 6
+            count: 10
+            types:
+              - homing
+              - turning
+              - sizing
+            circle_size: 250
+            increment: 0.06666666666666667
+          - radius: 25
+            speed: 7.5
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Circle 5-3
+    x: 14912
+    y: 6240
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 60
+            speed: 12
+            count: 4
+            types:
+              - wall
+          - radius: 17
+            speed: 11
+            count: 22
+            types:
+              - dasher
+              - immune
+              - pumpkin
+          - radius: 22
+            speed: 8
+            count: 9
+            types:
+              - cycling
+          - radius: 25
+            speed: 8
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Circle 5-4
+    x: 18496
+    y: 6240
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 60
+            speed: 13
+            count: 4
+            types:
+              - wall
+          - radius: 17
+            speed: 10
+            count: 5
+            types:
+              - corrosive_sniper
+              - sniper
+            recharge: 2000
+          - radius: 20
+            speed: 9.5
+            count: 22
+            types:
+              - cycling
+          - radius: 25
+            speed: 8.5
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3520
+        y: 192
+        width: 64
+        height: 288
+  - name: Elevator 6
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 22080
+    y: 6240
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 5
+            speed: 5.5
+            count: 10
+            types:
+              - normal
+          - radius: 10
+            speed: 4
+            count: 4
+            effect_radius: 70
+            types:
+              - freezing
+          - radius: 10
+            speed: 4
+            count: 15
+            types:
+              - wall
+      - type: safe
+        x: 64
+        y: 1408
+        width: 384
+        height: 320
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 0
+        y: 1408
+        width: 64
+        height: 128
+      - type: exit
+        x: 0
+        y: 1536
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+  - name: Circle 6-1
+    x: 18496
+    y: 7488
+    zones:
+      - type: exit
+        x: 3520
+        y: 288
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 10
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 10
+            count: 13
+            types:
+              - sizing
+          - radius: 45
+            speed: 7
+            count: 4
+            types:
+              - sizing
+          - radius: 0
+            speed: 17
+            count: 3
+            effect_radius: 180
+            types:
+              - draining
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3520
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 6-2
+    x: 14912
+    y: 7488
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 11
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 24
+            speed: 8
+            count: 15
+            types:
+              - turning
+            circle_size: 300
+          - radius: 15
+            speed: 10.5
+            count: 10
+            types:
+              - normal
+          - radius: 0
+            speed: 8
+            count: 5
+            effect_radius: 180
+            types:
+              - slowing
+  - name: Circle 6-3
+    x: 11328
+    y: 7488
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 12
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 8.5
+            count: 9
+            types:
+              - homing
+            home_range: 250
+            increment: 0.055
+          - radius: 8
+            speed: 10
+            count: 13
+            effect_radius: 74
+            types:
+              - freezing
+  - name: Circle 6-4
+    x: 7744
+    y: 7488
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 13
+            count: 7
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 15
+            speed: 10
+            count: 6
+            types:
+              - sniper
+            recharge: 2000
+          - radius: 55
+            speed: 4
+            count: 3
+            types:
+              - sniper
+          - radius: 0
+            speed: 8.5
+            count: 7
+            effect_radius: 45
+            types:
+              - freezing
+          - radius: 10
+            speed: 7
+            count: 5
+            types:
+              - homing
+            home_range: 250
+            increment: 0.060000000000000005
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 288
+  - name: Elevator 7
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 7296
+    y: 7488
+    zones:
+      - type: exit
+        x: 384
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 18
+            speed: 5
+            count: 7
+            types:
+              - wall
+          - radius: 13
+            speed: 5
+            count: 6
+            types:
+              - normal
+          - radius: 10
+            speed: 3
+            count: 5
+            types:
+              - teleporting
+      - type: safe
+        x: 0
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 384
+        y: 1536
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 384
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 384
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle 7-1
+    x: 7744
+    y: 8736
+    zones:
+      - type: exit
+        x: 0
+        y: 288
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 20
+            speed: 7
+            count: 13
+            types:
+              - wall
+          - radius: 30
+            speed: 4.5
+            count: 15
+            types:
+              - teleporting
+          - radius: 40
+            speed: 2.066666666666667
+            count: 10
+            types:
+              - teleporting
+          - radius: 15
+            speed: 11
+            count: 5
+            types:
+              - slowing
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 7-2
+    x: 11328
+    y: 8736
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 20
+            speed: 8
+            count: 13
+            types:
+              - wall
+          - radius: 15
+            speed: 8.5
+            count: 6
+            types:
+              - homing
+            home_range: 250
+          - radius: 20
+            speed: 8.5
+            count: 8
+            effect_radius: 200
+            types:
+              - gravity
+            gravity: 8.5
+          - radius: 30
+            speed: 6.5
+            count: 4
+            effect_radius: 300
+            types:
+              - gravity
+            gravity: 7
+          - radius: 23
+            speed: 4
+            count: 10
+            types:
+              - teleporting
+  - name: Circle 7-3
+    x: 14912
+    y: 8736
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 20
+            speed: 9
+            count: 13
+            types:
+              - wall
+          - radius: 18
+            speed: 9
+            count: 10
+            effect_radius: 210
+            types:
+              - repelling
+            repulsion: 10
+          - radius: 37
+            speed: 2.6666666666666665
+            count: 10
+            types:
+              - teleporting
+          - radius: 25
+            speed: 10.333333333333334
+            count: 7
+            effect_radius: 200
+            types:
+              - draining
+  - name: Circle 7-4
+    x: 18496
+    y: 8736
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 20
+            speed: 10
+            count: 13
+            types:
+              - wall
+          - radius: 16
+            speed: 9
+            count: 8
+            effect_radius: 190
+            types:
+              - repelling
+            repulsion: 8
+          - radius: 27
+            speed: 8
+            count: 6
+            effect_radius: 250
+            types:
+              - gravity
+            gravity: 10
+          - radius: 17
+            speed: 9
+            count: 5
+            types:
+              - sniper
+          - radius: 10
+            speed: 2
+            count: 8
+            types:
+              - teleporting
+      - type: safe
+        x: 3520
+        y: 192
+        width: 64
+        height: 288
+  - name: Elevator 8
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 22080
+    y: 8736
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 18
+            speed: 4
+            count: 12
+            types:
+              - normal
+          - radius: 10
+            speed: 4
+            count: 3
+            effect_radius: 70
+            types:
+              - force_sniper_a
+          - radius: 5
+            speed: 3
+            count: 20
+            types:
+              - wall
+            move_clockwise: false
+      - type: safe
+        x: 64
+        y: 1408
+        width: 384
+        height: 320
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 0
+        y: 1408
+        width: 64
+        height: 128
+      - type: exit
+        x: 0
+        y: 1536
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+  - name: Circle 8-1
+    x: 18496
+    y: 9984
+    zones:
+      - type: exit
+        x: 3520
+        y: 288
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 11
+            count: 6
+            types:
+              - wall
+          - radius: 23
+            speed: 11
+            count: 14
+            types:
+              - normal
+          - radius: 33
+            speed: 8.5
+            count: 8
+            types:
+              - normal
+          - radius: 42
+            speed: 7.5
+            count: 6
+            types:
+              - experience_drain
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3520
+        y: 0
+        width: 64
+        height: 288
+  - name: Circle 8-2
+    x: 14912
+    y: 9984
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 12
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 27
+            speed: 7
+            count: 12
+            effect_radius: 500
+            types:
+              - blocking
+          - radius: 17
+            speed: 11.5
+            count: 13
+            types:
+              - normal
+          - radius: 0
+            speed: 8
+            count: 9
+            effect_radius: 40
+            types:
+              - slowing
+            slow: 0.39
+          - radius: 0
+            speed: 9.5
+            count: 9
+            effect_radius: 27
+            types:
+              - disabling
+          - radius: 0
+            speed: 6
+            count: 4
+            effect_radius: 87
+            types:
+              - quicksand
+            quicksand_strength: 10
+  - name: Circle 8-3
+    x: 11328
+    y: 9984
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 13
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 17
+            speed: 8
+            count: 7
+            effect_radius: 170
+            types:
+              - slowing
+          - radius: 19
+            speed: 8.5
+            count: 12
+            types:
+              - force_sniper_a
+          - radius: 21
+            speed: 9.5
+            count: 13
+            types:
+              - normal
+          - radius: 45
+            speed: 7
+            count: 8
+            types:
+              - normal
+  - name: Circle 8-4
+    x: 7744
+    y: 9984
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 3264
+        y: 0
+        width: 256
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3520
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 0
+        y: 192
+        width: 64
+        height: 288
+      - type: active
+        x: 320
+        y: 0
+        width: 2944
+        height: 480
+        spawner:
+          - radius: 30
+            speed: 14
+            count: 6
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 22
+            speed: 8.5
+            count: 7
+            types:
+              - force_sniper_a
+          - radius: 25
+            speed: 8
+            count: 7
+            types:
+              - force_sniper_b
+          - radius: 17
+            speed: 10.5
+            count: 17
+            types:
+              - normal
+  - name: Elevator ∞
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 7296
+    y: 9984
+    zones:
+      - type: exit
+        x: 384
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 0
+        y: 0
+        width: 384
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 448
+        height: 1088
+        spawner:
+          - radius: 10
+            speed: 6
+            count: 9
+            types:
+              - wall
+          - radius: 10
+            speed: 6
+            count: 13
+            types:
+              - immune
+          - radius: 55
+            speed: 3
+            count: 3
+            types:
+              - normal
+      - type: safe
+        x: 0
+        y: 1408
+        width: 384
+        height: 320
+      - type: exit
+        x: 384
+        y: 1536
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 384
+        y: 192
+        width: 64
+        height: 128
+      - type: safe
+        x: 384
+        y: 1408
+        width: 64
+        height: 128
+  - name: Circle ∞-1
+    x: 7744
+    y: 11328
+    zones:
+      - type: exit
+        x: 0
+        y: 192
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 384
+      - type: active
+        x: 320
+        y: 0
+        width: 4096
+        height: 384
+        spawner:
+          - radius: 25
+            speed: 13
+            count: 3
+            types:
+              - wall
+          - radius: 25
+            speed: 13
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 25
+            speed: 13
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 13
+            count: 3
+            types:
+              - wall
+            spawn_top: false
+          - radius: 14
+            speed: 10.5
+            count: 30
+            types:
+              - normal
+          - radius: 13
+            speed: 9
+            count: 11
+            effect_radius: 180
+            types:
+              - slowing
+            slow: 0.2
+      - type: safe
+        x: 4416
+        y: 0
+        width: 256
+        height: 384
+      - type: exit
+        x: 4672
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 0
+        y: 0
+        width: 64
+        height: 192
+  - name: Circle ∞-2
+    x: 12480
+    y: 11328
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 384
+      - type: active
+        x: 320
+        y: 0
+        width: 4096
+        height: 384
+        spawner:
+          - radius: 25
+            speed: 13.5
+            count: 3
+            types:
+              - wall
+          - radius: 25
+            speed: 13.5
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 25
+            speed: 13.5
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 13.5
+            count: 3
+            types:
+              - wall
+            spawn_top: false
+          - radius: 27
+            speed: 9
+            count: 10
+            types:
+              - normal
+          - radius: 14
+            speed: 10
+            count: 17
+            types:
+              - normal
+          - radius: 10
+            speed: 8
+            count: 7
+            types:
+              - sniper
+            recharge: 2500
+      - type: safe
+        x: 4416
+        y: 0
+        width: 256
+        height: 384
+      - type: exit
+        x: 4672
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 384
+  - name: Circle ∞-3
+    x: 17216
+    y: 11328
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 384
+      - type: active
+        x: 320
+        y: 0
+        width: 4096
+        height: 384
+        spawner:
+          - radius: 25
+            speed: 14
+            count: 3
+            types:
+              - wall
+          - radius: 25
+            speed: 14
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 25
+            speed: 14
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 14
+            count: 3
+            types:
+              - wall
+            spawn_top: false
+          - radius: 15
+            speed: 12
+            count: 25
+            types:
+              - immune
+          - radius: 7
+            speed: 7
+            count: 10
+            effect_radius: 170
+            types:
+              - disabling
+      - type: safe
+        x: 4416
+        y: 0
+        width: 256
+        height: 384
+      - type: exit
+        x: 4672
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 384
+  - name: Circle ∞-4
+    x: 21952
+    y: 11328
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 384
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 384
+      - type: active
+        x: 320
+        y: 0
+        width: 4096
+        height: 384
+        spawner:
+          - radius: 25
+            speed: 14.5
+            count: 3
+            types:
+              - wall
+          - radius: 25
+            speed: 14.5
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+            spawn_top: false
+          - radius: 25
+            speed: 14.5
+            count: 3
+            types:
+              - wall
+            move_clockwise: false
+          - radius: 25
+            speed: 14.5
+            count: 3
+            types:
+              - wall
+            spawn_top: false
+          - radius: 11
+            speed: 9.5
+            count: 30
+            types:
+              - immune
+          - radius: 23
+            speed: 8.5
+            count: 12
+            types:
+              - immune
+          - radius: 7
+            speed: 7
+            count: 8
+            effect_radius: 170
+            types:
+              - draining
+          - radius: 10
+            speed: 7
+            count: 7
+            effect_radius: 160
+            types:
+              - slowing
+            slow: 0.23
+      - type: safe
+        x: 4416
+        y: 0
+        width: 256
+        height: 384
+      - type: exit
+        x: 4672
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 192
+      - type: safe
+        x: 4672
+        y: 192
+        width: 64
+        height: 192
+  - name: Endless Elevator
+    properties:
+      background_color:
+        - 41
+        - 12
+        - 14
+        - 155
+      title_stroke_color:
+        - 81
+        - 12
+        - 14
+        - 255
+    x: 26688
+    y: 11328
+    zones:
+      - type: victory
+        properties:
+          background_color:
+            - 91
+            - 12
+            - 54
+            - 155
+        x: 0
+        y: 0
+        width: 448
+        height: 2208
+      - type: removal
+        properties:
+          background_color:
+            - 91
+            - 12
+            - 54
+            - 155
+        x: 0
+        y: 2208
+        width: 448
+        height: 128
+      - type: exit
+        properties:
+          background_color:
+            - 91
+            - 12
+            - 54
+            - 155
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 192
