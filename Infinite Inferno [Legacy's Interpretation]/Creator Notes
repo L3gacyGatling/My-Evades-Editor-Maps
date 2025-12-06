@@ -20,7 +20,7 @@ Anyways, after "yapping" about where I've been let's get to "why" I decided to r
 
 My Criticism of Infinite Inferno:
 (Please note that this criticism may be outdated as soon Infinite Inferno gets a rework)
-    So, Infinite Inferno, a map based on the Divine Comedy, specifically the Inferno.
+    So, Infinite Inferno, a map based on the Divine Comedy, specifically the Inferno part of the story, is created by Kaluub of the Evades Junior Dev Team.
     It has 9 Circles of Hell, where each Circle is dedicated to each sin, where they punish you for.
 
     Well, in Evades, the "Circles" in Infinite Inferno are sections of 4 areas based on a map that currently exists in game.
@@ -70,5 +70,57 @@ My Reinterpretation of the Map, and (trying) to Adress my own Criticism.
     which then the Cycle starts again.
     This is used to maintain the same height of the map.
     However, for me, I didn't consider that.
-    Take a look: 
+    If you look at my map through the Region editor, I decided to have a vertical "transition" area to go from one Circle to the next.
+    And the 4 areas in the Circle either go right, or left, which alternates between the directions.
+    The transition areas also use one enemy type to show the next map you'll be seeing once you leave that area.
+    Which addresses one of the criticisms mentioned, as now all 4 areas are now normal instead of one being reservered as a "transition" area and all three being normal.
+
+    Now, I'll talk you about the references from other maps used from each Circle.
+    One of the things I challenge myself, is to use maps that hadn't been used in my previous custom map, Puppeted Paradiso, to replace the 2 referenced maps that I criticized above,
+    and to rearrange most map references used.
+
+    So, the "map representation" from the original Infinite Inferno goes like:
+
+        Circle 1: Central Core
+        Circle 2: Vicious Valley
+        Circle 3: Elite Expasne
+        Circle 4: Glacial Gorge
+        Circle 5: Assorted Alcove (was a official map before being removed, though Infinite Inferno is created after the removal of Assorted Alcove)
+        Circle 6: Dangerous District
+        Circle 7: Magnetic Monopole
+        Circle 8: Grand Garden
+        Circle Infinity: Cyber Castle
+
+    However, the "map representation" from my map interpretation of Infinite Inferno due to those challenges stated above goes like:
+
+        Circle 1: Central Core (considered the beginning of your progression, so that's why its spot remains unchanged)
+        Circle 2: Grand Garden
+        Circle 3: Glacial Gorge
+        Circle 4: Dangerous District
+        Circle 5: Assorted Alcove (I like how Assorted Alcove is put in the middle, so it remains there)
+        Circle 6: Vicious Valley
+        Circle 7: Elite Expanse
+        Circle 8: Withering Wastland (the only other map I could think of other than the next Circle below)
+        Circle Infinity: Ominous Occult (the map feels like something similar to Central Core, but uses harder, and faster enemies. Also, I slightly reference its Hard version with its walls)
+
+    And also, for Circle Infinity, its area height has been decreased and length increased, as when playtesting it myself, I feel that a taller version of Ominous Occult doesn't feel right at all.
+    So, I just decreased the height, and it felt better.
+
+    Also also, the difficulty of the reinterpretation is raised a little bit from the original
+
+    And now lastly, to adress the third part of my criticism, I just replaced the exit portal at the end of Infinite Elevator with a teleporter, which is used,
+    similar to the teleporter used in the end of Security Gate A of Cyber Castle, to block players from accessing it until they collected all the heroes from which the Inferno reference.
+    So, it'll act as like a progression marker to a non-linear game, and to prevent ignorant players from just playing Infinite Inferno when they just created their account.
+    Maybe, when attemping to enter the map without completing the requirement, you will just get a message with a fraction that shows your progression to unlocking the map, and a clue of what
+    map you should go next.
+
+Well, thank you for reading this.
+I... pretty much have nothing else to say other than...
+Have a great day... I guess.
+
+Legacy Out.
+        
+        
+    
+
      
