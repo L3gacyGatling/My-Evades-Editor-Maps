@@ -20,9 +20,9 @@ areas:
         properties:
           minimum_speed: 10
         x: 0
-        y: 0
+        y: 64
         width: 320
-        height: 480
+        height: 352
       - type: active
         x: last_right
         y: 0
@@ -52,6 +52,22 @@ areas:
           y: 0
         width: 64
         height: last_height
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 500
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -500
+        width: 320
+        height: 64
   - name: Aisle 2
     x: last_right
     y: 0
