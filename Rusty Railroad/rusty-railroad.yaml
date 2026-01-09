@@ -17,10 +17,12 @@ areas:
     y: 0
     zones:
       - type: safe
+        properties:
+          minimum_speed: 300
         x: 0
-        y: 0
+        y: 64
         width: 320
-        height: 480
+        height: 352
       - type: active
         x: 320
         y: 0
@@ -70,8 +72,8 @@ areas:
       - type: dummy
         properties:
           background_color:
-            - 110
-            - 190
+            - 10
+            - 130
             - 10
             - 200
         x: 3488
@@ -81,13 +83,29 @@ areas:
       - type: dummy
         properties:
           background_color:
-            - 110
-            - 190
+            - 10
+            - 130
             - 10
             - 200
         x: 3488
         y: 352
         width: 160
+        height: 64
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -500
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 500
+        width: 320
         height: 64
     assets:
       - type: wall
@@ -1508,15 +1526,15 @@ areas:
     assets:
       - type: wall
         x: 0
-        y: 0
+        y: -32
         width: 4576
-        height: 160
+        height: 192
         texture: null
       - type: wall
         x: 0
         y: 896
         width: 4576
-        height: 160
+        height: 192
         texture: null
       - type: wall
         x: 4640
@@ -12478,13 +12496,13 @@ areas:
         x: 768
         y: 896
         width: 4576
-        height: 160
+        height: 192
         texture: null
       - type: wall
         x: 768
-        y: 0
+        y: -32
         width: 4576
-        height: 160
+        height: 192
         texture: null
       - type: wall
         x: 0
@@ -16087,7 +16105,7 @@ areas:
       - type: safe
         x: 4576
         y: 160
-        width: 576
+        width: 672
         height: 576
       - type: exit
         x: 0
@@ -16117,48 +16135,14 @@ areas:
           y: -170
         width: 352
         height: 64
-      - type: dummy
-        properties:
-          background_color:
-            - 0
-            - 0
-            - 0
-            - 70
-          texture: wooden
-        x: 5152
-        y: 288
-        width: 96
-        height: 160
       - type: exit
         x: 5248
-        y: 288
+        y: 160
         translate:
           x: 170
           y: 0
         width: 64
-        height: 160
-      - type: dummy
-        properties:
-          background_color:
-            - 255
-            - 255
-            - 0
-            - 255
-        x: 5152
-        y: 448
-        width: 160
-        height: 64
-      - type: dummy
-        properties:
-          background_color:
-            - 255
-            - 255
-            - 0
-            - 255
-        x: 5152
-        y: 224
-        width: 160
-        height: 64
+        height: 416
       - type: safe
         x: 4576
         y: 0
@@ -16170,9 +16154,9 @@ areas:
         width: 160
         height: 160
       - type: safe
-        x: 5152
+        x: 5248
         y: 576
-        width: 160
+        width: 64
         height: 160
     assets:
       - type: wall
@@ -16187,30 +16171,6 @@ areas:
         width: 96
         height: 160
         texture: wooden
-      - type: wall
-        x: 5152
-        y: 160
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 5152
-        y: 512
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 5152
-        y: 224
-        width: 160
-        height: 64
-        texture: null
-      - type: wall
-        x: 5152
-        y: 448
-        width: 160
-        height: 64
-        texture: null
   - name: Destination
     properties:
       background_color:
@@ -16220,7 +16180,7 @@ areas:
         - 25
       death_timer: 60000
       texture: wooden
-      lighting: 0.7
+      lighting: 0.5
       spawns_pellets: false
       pellet_count: 0
       title_stroke_color:
@@ -16228,89 +16188,22 @@ areas:
         - 80
         - 50
         - 255
-    x: 119456
+    x: 120256
     y: -2880
     zones:
       - type: safe
-        x: 992
-        y: 1920
-        width: 1632
-        height: 480
-      - type: safe
-        x: 96
-        y: 2656
-        width: 736
-        height: 992
-      - type: safe
-        x: 832
+        x: 32
         y: 3392
-        width: 1952
+        width: 1984
         height: 256
-      - type: active
-        properties:
-          background_color:
-            - 0
-            - 0
-            - 0
-            - 100
-          spawns_pellets: false
-        x: 0
-        y: 1664
-        width: 992
-        height: 992
-        spawner:
-          - x: 496
-            y: 2160
-            radius: 18
-            angle: 90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - x: 496
-            y: 2160
-            radius: 18
-            angle: -90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - x: 496
-            y: 2160
-            radius: 18
-            angle: 360
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - radius: 25
-            speed: 120
-            count: 4
-            types:
-              - snowman
-          - radius: 40
-            speed: 180
-            count: 3
-            types:
-              - dasher
-          - radius: 18
-            speed: 150
-            count: 6
-            types:
-              - phantom
       - type: exit
-        x: 1632
+        x: 832
         y: 3584
         translate:
           x: 0
           y: 170
         width: 352
         height: 64
-      - type: safe
-        x: 2784
-        y: 2656
-        width: 736
-        height: 992
       - type: active
         properties:
           background_color:
@@ -16319,106 +16212,31 @@ areas:
             - 0
             - 100
           spawns_pellets: false
-        x: 1376
-        y: 2400
-        width: 864
-        height: 992
+        x: 544
+        y: 480
+        width: 928
+        height: 2912
         spawner:
-          - radius: 35
-            speed: 30
-            count: 10
+          - radius: 60
+            speed: 120
+            count: 20
             types:
               - grass
-          - radius: 35
-            speed: 120
-            count: 5
-            types:
-              - turning
-          - radius: 18
-            speed: 90
-            count: 4
-            types:
-              - glowy
-          - x: 1808
-            y: 2896
-            radius: 18
-            angle: 90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - x: 1808
-            y: 2896
-            radius: 18
-            angle: -90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-      - type: safe
-        x: 2848
-        y: 0
-        width: 544
-        height: 1664
-      - type: safe
-        x: 224
-        y: 0
-        width: 544
-        height: 1664
-      - type: safe
-        x: 768
-        y: 0
-        width: 2080
-        height: 480
-      - type: active
-        properties:
-          background_color:
-            - 0
-            - 0
-            - 0
-            - 100
-          spawns_pellets: false
-        x: 928
-        y: 480
-        width: 1760
-        height: 992
-        spawner:
-          - x: 1808
-            y: 976
-            radius: 18
-            angle: 90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - x: 1808
-            y: 976
-            radius: 18
-            angle: -90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - radius: 60
-            speed: 210
-            count: 4
-            types:
-              - tree
-          - radius: 35
-            speed: 150
-            count: 10
-            types:
-              - fake_pumpkin
           - radius: 22
-            speed: 150
-            count: 9
+            speed: 180
+            count: 15
             types:
               - firefly
+          - radius: 15
+            speed: 120
+            count: 12
+            types:
+              - seedling
       - type: safe
-        x: 1536
-        y: 1472
-        width: 544
-        height: 448
+        x: 0
+        y: 0
+        width: 2016
+        height: 480
       - type: exit
         properties:
           background_color:
@@ -16426,245 +16244,145 @@ areas:
             - 0
             - 0
             - 150
-        x: 1600
+        x: 800
         y: 0
         translate:
           x: 0
           y: -170
         width: 448
         height: 64
-      - type: active
-        properties:
-          background_color:
-            - 0
-            - 0
-            - 0
-            - 100
-          spawns_pellets: false
-        x: 2624
-        y: 1664
-        width: 992
-        height: 992
-        spawner:
-          - x: 3120
-            y: 2160
-            radius: 18
-            angle: 90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - x: 3120
-            y: 2160
-            radius: 18
-            angle: -90
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - x: 3120
-            y: 2160
-            radius: 18
-            angle: 180
-            speed: 180
-            effect_radius: 250
-            types:
-              - barrier
-          - radius: 35
-            speed: 90
-            count: 4
-            types:
-              - sand
-          - radius: 30
-            speed: 150
-            count: 3
-            types:
-              - crumbling
-          - radius: 18
-            speed: 60
-            count: 6
-            types:
-              - fire_trail
     assets:
       - type: wall
-        x: 2240
-        y: 2400
-        width: 384
-        height: 256
-        texture: wooden
-      - type: wall
-        x: 2336
-        y: 2752
-        width: 352
-        height: 544
-        texture: leaves
-      - type: wall
-        x: 992
-        y: 2400
-        width: 384
-        height: 256
-        texture: wooden
-      - type: wall
-        x: 2080
+        x: 0
         y: 1472
         width: 544
-        height: 448
+        height: 928
         texture: wooden
       - type: wall
-        x: 2624
-        y: 1472
-        width: 224
-        height: 192
-        texture: wooden
-      - type: wall
-        x: 2720
-        y: 544
-        width: 96
-        height: 864
-        texture: leaves
-      - type: wall
-        x: 992
-        y: 1472
-        width: 544
-        height: 448
-        texture: wooden
-      - type: wall
-        x: 768
-        y: 1472
-        width: 224
-        height: 192
-        texture: wooden
-      - type: wall
-        x: 800
-        y: 544
-        width: 96
-        height: 864
-        texture: leaves
-      - type: wall
-        x: 3392
-        y: 0
-        width: 224
-        height: 1664
-        texture: wooden
-      - type: wall
-        x: 0
-        y: 0
-        width: 224
-        height: 1664
-        texture: wooden
-      - type: wall
-        x: 0
-        y: 2656
-        width: 96
-        height: 992
-        texture: wooden
-      - type: wall
-        x: 3520
-        y: 2656
-        width: 96
-        height: 992
-        texture: wooden
-      - type: wall
-        x: 768
-        y: 1408
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 768
-        y: 480
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 896
-        y: 544
-        width: 32
-        height: 864
-        texture: wooden
-      - type: wall
-        x: 768
-        y: 544
-        width: 32
-        height: 864
-        texture: wooden
-      - type: wall
-        x: 2688
-        y: 480
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 2816
-        y: 544
-        width: 32
-        height: 864
-        texture: wooden
-      - type: wall
-        x: 2688
-        y: 544
-        width: 32
-        height: 864
-        texture: wooden
-      - type: wall
-        x: 2688
-        y: 1408
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 928
-        y: 2752
+        x: 96
+        y: 576
         width: 352
-        height: 544
+        height: 800
         texture: leaves
       - type: wall
-        x: 2336
-        y: 2656
+        x: 96
+        y: 480
         width: 352
         height: 96
         texture: wooden
       - type: wall
-        x: 2336
+        x: 448
+        y: 480
+        width: 96
+        height: 992
+        texture: wooden
+      - type: wall
+        x: 96
+        y: 1376
+        width: 352
+        height: 96
+        texture: wooden
+      - type: wall
+        x: 0
+        y: 480
+        width: 96
+        height: 992
+        texture: wooden
+      - type: wall
+        x: 1568
+        y: 576
+        width: 352
+        height: 800
+        texture: leaves
+      - type: wall
+        x: 1568
+        y: 480
+        width: 352
+        height: 96
+        texture: wooden
+      - type: wall
+        x: 1920
+        y: 480
+        width: 96
+        height: 992
+        texture: wooden
+      - type: wall
+        x: 1568
+        y: 1376
+        width: 352
+        height: 96
+        texture: wooden
+      - type: wall
+        x: 1472
+        y: 480
+        width: 96
+        height: 992
+        texture: wooden
+      - type: wall
+        x: 96
+        y: 2496
+        width: 352
+        height: 800
+        texture: leaves
+      - type: wall
+        x: 96
+        y: 2400
+        width: 352
+        height: 96
+        texture: wooden
+      - type: wall
+        x: 448
+        y: 2400
+        width: 96
+        height: 992
+        texture: wooden
+      - type: wall
+        x: 96
         y: 3296
         width: 352
         height: 96
         texture: wooden
       - type: wall
-        x: 2240
-        y: 2656
+        x: 0
+        y: 2400
         width: 96
-        height: 736
+        height: 992
         texture: wooden
       - type: wall
-        x: 2688
-        y: 2656
-        width: 96
-        height: 736
+        x: 1472
+        y: 1472
+        width: 544
+        height: 928
         texture: wooden
       - type: wall
-        x: 928
-        y: 2656
+        x: 1568
+        y: 2496
+        width: 352
+        height: 800
+        texture: leaves
+      - type: wall
+        x: 1568
+        y: 2400
         width: 352
         height: 96
         texture: wooden
       - type: wall
-        x: 1280
-        y: 2656
+        x: 1920
+        y: 2400
         width: 96
-        height: 736
+        height: 992
         texture: wooden
       - type: wall
-        x: 928
+        x: 1568
         y: 3296
         width: 352
         height: 96
         texture: wooden
       - type: wall
-        x: 832
-        y: 2656
+        x: 1472
+        y: 2400
         width: 96
-        height: 736
+        height: 992
         texture: wooden
   - properties:
       pellet_count: 20
@@ -16674,6 +16392,7 @@ areas:
         - 50
         - 255
       texture: normal
+      lighting: 0.5
     x: 120864
     y: -3712
     zones:
@@ -16683,121 +16402,62 @@ areas:
         x: 0
         y: 0
         width: 832
-        height: 832
+        height: 768
       - type: exit
         properties:
           background_color:
             - 0
             - 0
             - 0
-            - 50
-        x: 192
+            - 25
+        x: 0
         y: 768
         translate:
           x: 0
           y: 3500
-        width: 448
+        width: 832
         height: 64
   - properties:
-      pellet_count: 100
       title_stroke_color:
         - 223
         - 117
         - 81
         - 242
+      lighting: 0.5
     x: 121696
     y: 768
     zones:
       - type: victory
-        x: 160
+        x: 64
         y: 0
-        width: 5792
+        width: 4512
         height: 736
       - type: removal
-        x: 5952
+        x: 4576
         y: 0
         width: 160
         height: 736
-      - type: dummy
-        properties:
-          background_color:
-            - 0
-            - 0
-            - 0
-            - 100
-          texture: wooden
-        x: 64
-        y: 288
-        width: 96
-        height: 160
       - type: exit
         properties:
           background_color:
             - 0
             - 0
             - 0
-            - 70
+            - 25
         x: 0
-        y: 288
+        y: 160
         translate:
           x: -170
           y: 0
         width: 64
-        height: 160
-      - type: dummy
-        properties:
-          background_color:
-            - 255
-            - 255
-            - 0
-            - 255
-        x: 0
-        y: 448
-        width: 160
-        height: 64
-      - type: dummy
-        properties:
-          background_color:
-            - 255
-            - 255
-            - 0
-            - 255
-        x: 0
-        y: 224
-        width: 160
-        height: 64
+        height: 416
       - type: victory
         x: 0
         y: 0
-        width: 160
+        width: 64
         height: 160
       - type: victory
         x: 0
         y: 576
-        width: 160
+        width: 64
         height: 160
-    assets:
-      - type: wall
-        x: 0
-        y: 160
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 0
-        y: 512
-        width: 160
-        height: 64
-        texture: wooden
-      - type: wall
-        x: 0
-        y: 224
-        width: 160
-        height: 64
-        texture: null
-      - type: wall
-        x: 0
-        y: 448
-        width: 160
-        height: 64
-        texture: null
