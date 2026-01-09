@@ -1,0 +1,377 @@
+name: Lusterless Labyrinth (Lantern ver.)
+properties:
+  title_stroke_color:
+    - 175
+    - 95
+    - 4
+    - 255
+  background_color:
+    - 175
+    - 95
+    - 4
+    - 95
+  friction: 0.75
+  lighting: 0
+areas:
+  - name: Course Entrance
+    properties:
+      lighting: 1
+    x: 0
+    y: 0
+    zones:
+      - type: safe
+        properties:
+          minimum_speed: 300
+        x: 0
+        y: 64
+        width: 320
+        height: 352
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+      - type: safe
+        properties:
+          minimum_speed: 300
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 160
+        width: 320
+        height: 64
+    assets:
+      - type: image_background
+        image_name: door_1
+        alpha: 0.801
+        x: 2976
+        y: 0
+        width: 224
+        height: 480
+  - name: Course 1
+    properties:
+      minimum_speed: 300
+      applies_lantern: true
+    x: 3200
+    y: 0
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 2560
+        height: 480
+        spawner:
+          - radius: 40
+            speed: 120
+            count: 7
+            types:
+              - switch
+          - radius: 0
+            speed: 210
+            count: 10
+            effect_radius: 190
+            types:
+              - slowing
+          - radius: 19
+            speed: 165
+            count: 15
+            types:
+              - switch
+      - type: safe
+        x: 2880
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 3136
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: exit
+        x: 320
+        y: 160
+        translate:
+          x: -581
+          y: 0
+        width: 160
+        height: 160
+      - type: exit
+        x: 576
+        y: 320
+        translate:
+          x: -800
+          y: 0
+        width: 96
+        height: 160
+      - type: exit
+        x: 640
+        y: 96
+        translate:
+          x: -900
+          y: 0
+        width: 160
+        height: 96
+      - type: exit
+        x: 768
+        y: 288
+        translate:
+          x: -1000
+          y: 0
+        width: 32
+        height: 96
+      - type: exit
+        x: 960
+        y: 0
+        translate:
+          x: -1100
+          y: 0
+        width: 32
+        height: 128
+      - type: exit
+        x: 896
+        y: 192
+        translate:
+          x: -1046
+          y: 0
+        width: 32
+        height: 96
+      - type: exit
+        x: 480
+        y: 0
+        translate:
+          x: -653
+          y: 0
+        width: 64
+        height: 64
+      - type: exit
+        x: 448
+        y: 416
+        translate:
+          x: -616
+          y: 0
+        width: 64
+        height: 64
+      - type: exit
+        x: 1088
+        y: 96
+        translate:
+          x: -1350
+          y: 0
+        width: 160
+        height: 224
+      - type: exit
+        x: 992
+        y: 416
+        translate:
+          x: -1220
+          y: 0
+        width: 96
+        height: 64
+      - type: exit
+        x: 1728
+        y: 160
+        translate:
+          x: -2000
+          y: 0
+        width: 64
+        height: 160
+      - type: exit
+        x: 2016
+        y: 0
+        translate:
+          x: -2200
+          y: 0
+        width: 64
+        height: 224
+      - type: exit
+        x: 1440
+        y: 0
+        translate:
+          x: -1621
+          y: 0
+        width: 64
+        height: 160
+      - type: exit
+        x: 1600
+        y: 64
+        translate:
+          x: -1800
+          y: 0
+        width: 32
+        height: 96
+      - type: exit
+        x: 1888
+        y: 64
+        translate:
+          x: -2100
+          y: 0
+        width: 32
+        height: 96
+      - type: exit
+        x: 2432
+        y: 160
+        translate:
+          x: -2706
+          y: 0
+        width: 96
+        height: 320
+      - type: exit
+        x: 2080
+        y: 64
+        translate:
+          x: -2300
+          y: 0
+        width: 128
+        height: 32
+      - type: exit
+        x: 2720
+        y: 320
+        translate:
+          x: -2900
+          y: 0
+        width: 96
+        height: 32
+      - type: exit
+        x: 1728
+        y: 0
+        translate:
+          x: -1900
+          y: 0
+        width: 64
+        height: 64
+      - type: exit
+        x: 2656
+        y: 64
+        translate:
+          x: -2800
+          y: 0
+        width: 32
+        height: 64
+      - type: exit
+        x: 2816
+        y: 0
+        translate:
+          x: -3000
+          y: 0
+        width: 64
+        height: 192
+      - type: exit
+        x: 2816
+        y: 320
+        translate:
+          x: -3000
+          y: 0
+        width: 64
+        height: 160
+      - type: exit
+        x: 2528
+        y: 224
+        translate:
+          x: -2750
+          y: 0
+        width: 96
+        height: 192
+      - type: exit
+        x: 2336
+        y: 160
+        translate:
+          x: -2606
+          y: 0
+        width: 96
+        height: 320
+      - type: exit
+        x: 1376
+        y: 320
+        translate:
+          x: -1650
+          y: 0
+        width: 160
+        height: 160
+      - type: exit
+        x: 1536
+        y: 320
+        translate:
+          x: -1800
+          y: 0
+        width: 160
+        height: 160
+      - type: exit
+        x: 1696
+        y: 320
+        translate:
+          x: -1950
+          y: 0
+        width: 160
+        height: 160
+      - type: exit
+        x: 1856
+        y: 320
+        translate:
+          x: -2110
+          y: 0
+        width: 160
+        height: 160
+      - type: exit
+        x: 2016
+        y: 320
+        translate:
+          x: -2300
+          y: 0
+        width: 160
+        height: 160
+    assets:
+      - type: image_background
+        image_name: door_2
+        alpha: 0.801
+        x: 0
+        y: 0
+        width: 224
+        height: 480
+      - type: light_region
+        x: 0
+        y: -96
+        width: 384
+        height: 672
+      - type: light_region
+        x: 2816
+        y: -96
+        width: 384
+        height: 672
