@@ -21,10 +21,12 @@ areas:
     y: -128
     zones:
       - type: safe
+        properties:
+          minimum_speed: 300
         x: 0
-        y: 0
+        y: 64
         width: 320
-        height: 480
+        height: 352
       - type: active
         x: 320
         y: 0
@@ -60,6 +62,22 @@ areas:
           y: 0
         width: 64
         height: 480
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 500
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -500
+        width: 320
+        height: 64
   - name: Temperature 52°F
     properties:
       snow: 0.5
@@ -388,7 +406,7 @@ areas:
             count: 15
             types:
               - dasher
-          - radius: 58
+          - radius: 52
             speed: 150
             count: 6
             types:
@@ -642,9 +660,9 @@ areas:
             count: 8
             types:
               - snowman
-          - radius: 20
+          - radius: 16
             speed: 225
-            count: 25
+            count: 23
             types:
               - icicle
             horizontal: true
@@ -842,7 +860,7 @@ areas:
             count: 13
             types:
               - snowman
-          - radius: 35
+          - radius: 23
             speed: 225
             count: 15
             types:
@@ -1245,27 +1263,27 @@ areas:
             move_clockwise: false
           - radius: 65
             speed: 135
-            count: 6
+            count: 4
             types:
               - phantom
           - radius: 25
             speed: 165
-            count: 22
+            count: 16
             types:
               - phantom
           - radius: 18
             speed: 150
-            count: 15
+            count: 11
             types:
               - icicle
           - radius: 35
             speed: 120
-            count: 12
+            count: 8
             types:
               - icicle
           - radius: 17
             speed: 210
-            count: 10
+            count: 8
             types:
               - phantom
       - type: safe
@@ -1312,14 +1330,14 @@ areas:
             types:
               - wall
             move_clockwise: false
-          - radius: 23
+          - radius: 18
             speed: 300
-            count: 16
+            count: 13
             types:
               - dasher
           - radius: 13
-            speed: 90
-            count: 14
+            speed: 135
+            count: 10
             types:
               - snowman
           - radius: 20
@@ -1328,8 +1346,8 @@ areas:
             types:
               - wind_sniper
           - radius: 17
-            speed: 60
-            count: 15
+            speed: 210
+            count: 11
             types:
               - icicle
       - type: safe
@@ -1377,13 +1395,13 @@ areas:
               - wall
             move_clockwise: false
           - radius: 30
-            speed: 120
-            count: 15
+            speed: 150
+            count: 9
             types:
               - wind_sniper
           - radius: 20
-            speed: 180
-            count: 11
+            speed: 240
+            count: 10
             types:
               - snowman
           - radius: 18
@@ -1392,7 +1410,7 @@ areas:
             types:
               - phantom
           - radius: 20
-            speed: 60
+            speed: 210
             count: 13
             types:
               - icicle
@@ -1443,31 +1461,31 @@ areas:
             move_clockwise: false
           - radius: 25
             speed: 150
-            count: 15
+            count: 10
             types:
               - phantom
           - radius: 15
             speed: 180
-            count: 10
+            count: 6
             types:
               - phantom
           - radius: 50
-            speed: 60
+            speed: 90
             count: 4
             types:
               - wind_sniper
           - radius: 21
             speed: 240
-            count: 8
+            count: 10
             types:
               - dasher
-          - radius: 35
-            speed: 60
+          - radius: 30
+            speed: 120
             count: 9
             types:
               - icicle
-          - radius: 23
-            speed: 90
+          - radius: 18
+            speed: 150
             count: 11
             types:
               - icicle
@@ -1597,32 +1615,27 @@ areas:
             shot_interval: 150
             pattern: twin
             projectile_speed: 500
-          - radius: 25
+          - radius: 17
             speed: 225
             count: 10
             types:
               - dasher
-          - radius: 25
+          - radius: 22
             speed: 180
             count: 3
             types:
               - snowman
-          - radius: 23
+          - radius: 18
             speed: 150
-            count: 8
+            count: 6
             types:
               - phantom
-          - radius: 18
-            speed: 180
-            count: 20
+          - radius: 14
+            speed: 195
+            count: 15
             types:
               - icicle
             horizontal: true
-          - radius: 16
-            speed: 180
-            count: 10
-            types:
-              - phantom
       - type: safe
         x: 2880
         y: 0
@@ -1748,9 +1761,9 @@ areas:
             shot_interval: 300
             pattern: twin
             projectile_speed: 210
-          - radius: 18
+          - radius: 15
             speed: 120
-            count: 18
+            count: 12
             types:
               - icicle
       - type: safe
@@ -1870,14 +1883,14 @@ areas:
             types:
               - icicle
           - radius: 18
-            speed: 150
-            count: 15
+            speed: 210
+            count: 10
             types:
               - icicle
             horizontal: true
-          - radius: 15
+          - radius: 18
             speed: 180
-            count: 15
+            count: 10
             types:
               - phantom
       - type: safe
@@ -1968,14 +1981,14 @@ areas:
             pattern: cone_edges
             projectile_duration: 3000
             projectile_speed: 120
-          - radius: 40
+          - radius: 30
             speed: 270
             count: 10
             types:
               - dasher
           - radius: 12
             speed: 210
-            count: 16
+            count: 13
             types:
               - snowman
           - radius: 23
@@ -1989,13 +2002,13 @@ areas:
             types:
               - wind_sniper
           - radius: 20
-            speed: 120
-            count: 12
+            speed: 150
+            count: 9
             types:
               - icicle
-          - radius: 25
-            speed: 150
-            count: 15
+          - radius: 18
+            speed: 210
+            count: 11
             types:
               - icicle
             horizontal: true
@@ -2072,7 +2085,7 @@ areas:
         spawner:
           - radius: 20
             speed: 180
-            count: 25
+            count: 18
             types:
               - wind_ghost
       - type: safe
