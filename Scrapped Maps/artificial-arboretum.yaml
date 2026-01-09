@@ -1,0 +1,2063 @@
+name: Artificial Arboretum
+properties:
+  title_stroke_color:
+    - 90
+    - 200
+    - 40
+    - 205
+  background_color:
+    - 70
+    - 180
+    - 0
+    - 90
+  pellet_multiplier: 3
+  death_timer: 60000
+areas:
+  - name: Overgrown Walkway
+    x: 0
+    y: 0
+    zones:
+      - type: safe
+        properties:
+          minimum_speed: 300
+        x: 0
+        y: 64
+        width: 480
+        height: 256
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: active
+        x: 0
+        y: 320
+        width: 480
+        height: 2560
+      - type: safe
+        x: 0
+        y: 2880
+        width: 480
+        height: 256
+      - type: exit
+        x: 0
+        y: 3136
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+  - name: Lush Garden
+    x: -864
+    y: 3200
+    zones:
+      - type: safe
+        x: 864
+        y: 64
+        width: 480
+        height: 256
+      - type: exit
+        x: 864
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: active
+        x: 320
+        y: 320
+        width: 1568
+        height: 2656
+      - type: safe
+        x: 1888
+        y: 2496
+        width: 256
+        height: 480
+      - type: exit
+        x: 2144
+        y: 2496
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 864
+        width: 256
+        height: 480
+      - type: exit
+        x: 0
+        y: 864
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 0
+        y: 0
+        width: 864
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 32
+        y: 32
+        width: 800
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 64
+        y: 64
+        width: 736
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 0
+        y: 2976
+        width: 2208
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 32
+        y: 3008
+        width: 2144
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 64
+        y: 3040
+        width: 2080
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 1344
+        y: 0
+        width: 864
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 1376
+        y: 32
+        width: 800
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 1408
+        y: 64
+        width: 736
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 1888
+        y: 320
+        width: 320
+        height: 2176
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 1920
+        y: 288
+        width: 256
+        height: 2176
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 1952
+        y: 256
+        width: 192
+        height: 2176
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 0
+        y: 1344
+        width: 320
+        height: 1632
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 32
+        y: 1376
+        width: 256
+        height: 1632
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 64
+        y: 1408
+        width: 192
+        height: 1632
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 0
+        y: 320
+        width: 320
+        height: 544
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 32
+        y: 288
+        width: 256
+        height: 544
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 64
+        y: 256
+        width: 192
+        height: 544
+    assets:
+      - type: wall
+        x: -32
+        y: -32
+        width: 352
+        height: 896
+        texture: null
+      - type: wall
+        x: 320
+        y: -32
+        width: 544
+        height: 352
+        texture: null
+      - type: wall
+        x: 1888
+        y: 320
+        width: 352
+        height: 2176
+        texture: null
+      - type: wall
+        x: 1344
+        y: -32
+        width: 896
+        height: 352
+        texture: null
+      - type: wall
+        x: -32
+        y: 1344
+        width: 352
+        height: 1984
+        texture: null
+      - type: wall
+        x: 320
+        y: 2976
+        width: 1920
+        height: 352
+        texture: null
+  - name: West Wing 1
+    x: -5408
+    y: 4064
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 4224
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 3904
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 4480
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: West Wing 2
+    x: -9952
+    y: 4064
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 480
+      - type: safe
+        x: 4224
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 3904
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 4480
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+  - name: Empty Plots
+    x: -14176
+    y: 3200
+    zones:
+      - type: safe
+        x: 3904
+        y: 864
+        width: 256
+        height: 480
+      - type: exit
+        x: 4160
+        y: 864
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 480
+      - type: active
+        x: 320
+        y: 320
+        width: 3584
+        height: 1376
+      - type: safe
+        x: 320
+        y: 1696
+        width: 480
+        height: 256
+      - type: exit
+        x: 320
+        y: 1952
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+      - type: safe
+        x: 1792
+        y: 64
+        width: 480
+        height: 256
+      - type: exit
+        x: 1792
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 3904
+        y: 0
+        width: 320
+        height: 864
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 3936
+        y: 32
+        width: 256
+        height: 800
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 3968
+        y: 64
+        width: 192
+        height: 736
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 0
+        y: 0
+        width: 320
+        height: 2016
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 32
+        y: 32
+        width: 256
+        height: 1952
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 64
+        y: 64
+        width: 192
+        height: 1888
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 3904
+        y: 1344
+        width: 320
+        height: 672
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 3936
+        y: 1376
+        width: 256
+        height: 608
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 3968
+        y: 1408
+        width: 192
+        height: 544
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 2656
+        y: 1696
+        width: 1248
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 2688
+        y: 1728
+        width: 1248
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 2720
+        y: 1760
+        width: 1248
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 2272
+        y: 0
+        width: 1632
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 2304
+        y: 32
+        width: 1632
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 2336
+        y: 64
+        width: 1632
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 320
+        y: 0
+        width: 1472
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 320
+        y: 32
+        width: 1440
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 256
+        y: 64
+        width: 1472
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 800
+        y: 1696
+        width: 1376
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 832
+        y: 1728
+        width: 1312
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 864
+        y: 1760
+        width: 1248
+        height: 192
+      - type: safe
+        x: 2176
+        y: 1696
+        width: 480
+        height: 256
+      - type: exit
+        x: 2176
+        y: 1952
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 2912
+        y: 608
+        width: 640
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 2944
+        y: 640
+        width: 576
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 2912
+        y: 1248
+        width: 640
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 2944
+        y: 1280
+        width: 576
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 1920
+        y: 1248
+        width: 640
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 1952
+        y: 1280
+        width: 576
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 1920
+        y: 608
+        width: 640
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 1952
+        y: 640
+        width: 576
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 928
+        y: 1248
+        width: 640
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 960
+        y: 1280
+        width: 576
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 928
+        y: 608
+        width: 640
+        height: 160
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 960
+        y: 640
+        width: 576
+        height: 96
+      - type: dummy
+        properties:
+          background_color:
+            - 155
+            - 103
+            - 60
+            - 255
+        x: 416
+        y: 608
+        width: 160
+        height: 800
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 46
+            - 34
+            - 255
+        x: 448
+        y: 640
+        width: 96
+        height: 736
+    assets:
+      - type: wall
+        x: 320
+        y: -32
+        width: 1472
+        height: 352
+        texture: null
+      - type: wall
+        x: 3904
+        y: 320
+        width: 352
+        height: 544
+        texture: null
+      - type: wall
+        x: 2656
+        y: 1696
+        width: 1248
+        height: 352
+        texture: null
+      - type: wall
+        x: 3904
+        y: 1344
+        width: 352
+        height: 704
+        texture: null
+      - type: wall
+        x: 2272
+        y: -32
+        width: 1984
+        height: 352
+        texture: null
+      - type: wall
+        x: -32
+        y: -32
+        width: 352
+        height: 2080
+        texture: null
+      - type: wall
+        x: 800
+        y: 1696
+        width: 1376
+        height: 352
+        texture: null
+      - type: wall
+        x: 2912
+        y: 1248
+        width: 640
+        height: 160
+        texture: null
+      - type: wall
+        x: 2912
+        y: 608
+        width: 640
+        height: 160
+        texture: null
+      - type: wall
+        x: 1920
+        y: 1248
+        width: 640
+        height: 160
+        texture: null
+      - type: wall
+        x: 1920
+        y: 608
+        width: 640
+        height: 160
+        texture: null
+      - type: wall
+        x: 928
+        y: 608
+        width: 640
+        height: 160
+        texture: null
+      - type: wall
+        x: 928
+        y: 1248
+        width: 640
+        height: 160
+        texture: null
+      - type: wall
+        x: 416
+        y: 608
+        width: 160
+        height: 800
+        texture: null
+  - name: Shallow Timberland
+    x: -12000
+    y: 5216
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: safe
+        x: 0
+        y: 64
+        width: 480
+        height: 256
+      - type: active
+        x: 0
+        y: 320
+        width: 480
+        height: 2080
+      - type: safe
+        x: 0
+        y: 2400
+        width: 480
+        height: 256
+      - type: exit
+        x: 0
+        y: 2656
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+  - name: Timberland's End
+    x: -12000
+    y: 7936
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: safe
+        x: 0
+        y: 64
+        width: 480
+        height: 256
+      - type: active
+        x: 0
+        y: 320
+        width: 2848
+        height: 1536
+      - type: safe
+        x: 0
+        y: 1856
+        width: 480
+        height: 320
+      - type: safe
+        x: 2848
+        y: 992
+        width: 192
+        height: 192
+      - type: exit
+        x: 2848
+        y: 992
+        translate:
+          x: 0
+          y: 0
+        width: 192
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 105
+            - 0
+            - 125
+        x: 2848
+        y: 960
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 70
+            - 115
+            - 30
+            - 98
+        x: 2880
+        y: 992
+        width: 192
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 50
+            - 145
+            - 0
+            - 75
+        x: 2912
+        y: 1024
+        width: 128
+        height: 128
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 2848
+        y: 1216
+        width: 320
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 2880
+        y: 1184
+        width: 256
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 2912
+        y: 1152
+        width: 192
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 2848
+        y: 0
+        width: 320
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 2880
+        y: 32
+        width: 256
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 2912
+        y: 64
+        width: 192
+        height: 960
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 480
+        y: 1856
+        width: 2368
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 512
+        y: 1888
+        width: 2368
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 544
+        y: 1920
+        width: 2368
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 480
+        y: 0
+        width: 2368
+        height: 320
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 512
+        y: 32
+        width: 2368
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 544
+        y: 64
+        width: 2368
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 95
+        x: 3104
+        y: 992
+        width: 32
+        height: 192
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 105
+            - 0
+            - 120
+        x: 3136
+        y: 960
+        width: 32
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 20
+            - 145
+            - 0
+            - 85
+        x: 3040
+        y: 992
+        width: 64
+        height: 192
+    assets:
+      - type: wall
+        x: 2848
+        y: 1184
+        width: 352
+        height: 1024
+        texture: null
+      - type: wall
+        x: 2848
+        y: -32
+        width: 352
+        height: 1024
+        texture: null
+      - type: wall
+        x: 3040
+        y: 992
+        width: 160
+        height: 192
+        texture: null
+      - type: wall
+        x: 480
+        y: 1856
+        width: 2368
+        height: 352
+        texture: null
+      - type: wall
+        x: 480
+        y: -32
+        width: 2368
+        height: 352
+        texture: null
+  - name: Mossy Hallway
+    x: -13856
+    y: 5216
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: safe
+        x: 0
+        y: 64
+        width: 480
+        height: 256
+      - type: active
+        x: 0
+        y: 320
+        width: 480
+        height: 2848
+      - type: safe
+        x: 0
+        y: 3168
+        width: 480
+        height: 256
+      - type: exit
+        x: 0
+        y: 3424
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+  - name: Greenhouse Entrance
+    x: -16864
+    y: 8704
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 3168
+        y: 64
+        width: 320
+        height: 576
+      - type: active
+        x: 320
+        y: 0
+        width: 2848
+        height: 640
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 640
+      - type: exit
+        x: 3296
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 192
+        height: 64
+      - type: safe
+        x: 3168
+        y: 0
+        width: 128
+        height: 64
+      - type: safe
+        x: 0
+        y: 224
+        width: 64
+        height: 416
+  - name: Greenhouse 1
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -17344
+    y: 8704
+    zones:
+      - type: exit
+        x: 416
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 0
+        width: 416
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 480
+        height: 1632
+      - type: safe
+        x: 0
+        y: 1952
+        width: 480
+        height: 256
+      - type: exit
+        x: 0
+        y: 2208
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+      - type: safe
+        x: 416
+        y: 224
+        width: 64
+        height: 96
+  - name: Greenhouse 2
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -20544
+    y: 10976
+    zones:
+      - type: exit
+        x: 3456
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 224
+        height: 64
+      - type: safe
+        x: 3360
+        y: 64
+        width: 320
+        height: 512
+      - type: active
+        x: 320
+        y: 0
+        width: 3040
+        height: 576
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 576
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 576
+      - type: safe
+        x: 3360
+        y: 0
+        width: 96
+        height: 64
+  - name: Greenhouse 3
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -24224
+    y: 10976
+    zones:
+      - type: exit
+        x: 3616
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 576
+      - type: safe
+        x: 3360
+        y: 0
+        width: 256
+        height: 576
+      - type: active
+        x: 320
+        y: 0
+        width: 3040
+        height: 576
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 576
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 576
+  - name: Greenhouse 4
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -24864
+    y: 10976
+    zones:
+      - type: exit
+        x: 576
+        y: 0
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 224
+      - type: safe
+        x: 0
+        y: 0
+        width: 576
+        height: 320
+      - type: active
+        x: 0
+        y: 320
+        width: 640
+        height: 2656
+      - type: safe
+        x: 0
+        y: 2976
+        width: 640
+        height: 256
+      - type: exit
+        x: 0
+        y: 3232
+        translate:
+          x: 0
+          y: 160
+        width: 640
+        height: 64
+      - type: safe
+        x: 576
+        y: 224
+        width: 64
+        height: 96
+  - name: Greenhouse 5
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -24864
+    y: 14272
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 224
+        height: 64
+      - type: safe
+        x: 0
+        y: 64
+        width: 320
+        height: 512
+      - type: active
+        x: 320
+        y: 0
+        width: 6400
+        height: 576
+      - type: safe
+        x: 6720
+        y: 0
+        width: 256
+        height: 576
+      - type: safe
+        x: 224
+        y: 0
+        width: 96
+        height: 64
+      - type: exit
+        properties:
+          background_color:
+            - 60
+            - 100
+            - 20
+            - 100
+        x: 7008
+        y: 544
+        translate:
+          x: -6700
+          y: 2000
+        width: 32
+        height: 32
+      - type: exit
+        x: 6976
+        y: 128
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 320
+      - type: safe
+        x: 6976
+        y: 0
+        width: 64
+        height: 128
+      - type: safe
+        x: 6976
+        y: 448
+        width: 64
+        height: 128
+  - name: Master Greenhouse
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -17824
+    y: 13600
+    zones:
+      - type: exit
+        x: 0
+        y: 800
+        translate:
+          x: -160
+          y: 0
+        width: 64
+        height: 320
+      - type: safe
+        x: 64
+        y: 672
+        width: 256
+        height: 576
+      - type: active
+        x: 320
+        y: 0
+        width: 3584
+        height: 1920
+      - type: safe
+        x: 3904
+        y: 672
+        width: 256
+        height: 576
+      - type: teleport
+        x: 4160
+        y: 672
+        translate:
+          x: 160
+          y: 0
+        width: 64
+        height: 576
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 3328
+        y: 128
+        width: 192
+        height: 1664
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 1984
+        y: 416
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 1984
+        y: 1216
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 1088
+        y: 1600
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 1120
+        y: 64
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 2848
+        y: 64
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 2848
+        y: 1600
+        width: 256
+        height: 256
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 2592
+        y: 800
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 1344
+        y: 800
+        width: 288
+        height: 288
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 2048
+        y: 1696
+        width: 128
+        height: 128
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 704
+        y: 128
+        width: 192
+        height: 1664
+      - type: dummy
+        properties:
+          background_color:
+            - 0
+            - 0
+            - 0
+            - 0
+        x: 2048
+        y: 96
+        width: 128
+        height: 128
+      - type: dummy
+        properties:
+          background_color:
+            - 80
+            - 90
+            - 20
+            - 130
+        x: 0
+        y: 1248
+        width: 320
+        height: 672
+      - type: dummy
+        properties:
+          background_color:
+            - 90
+            - 80
+            - 20
+            - 110
+        x: 32
+        y: 1280
+        width: 256
+        height: 608
+      - type: dummy
+        properties:
+          background_color:
+            - 100
+            - 100
+            - 20
+            - 90
+        x: 64
+        y: 1312
+        width: 192
+        height: 544
+      - type: dummy
+        properties:
+          background_color:
+            - 80
+            - 90
+            - 20
+            - 130
+        x: 0
+        y: 0
+        width: 320
+        height: 672
+      - type: dummy
+        properties:
+          background_color:
+            - 90
+            - 80
+            - 20
+            - 110
+        x: 32
+        y: 32
+        width: 256
+        height: 608
+      - type: dummy
+        properties:
+          background_color:
+            - 100
+            - 100
+            - 20
+            - 90
+        x: 64
+        y: 64
+        width: 192
+        height: 544
+      - type: dummy
+        properties:
+          background_color:
+            - 80
+            - 90
+            - 20
+            - 130
+        x: 3904
+        y: 1248
+        width: 320
+        height: 672
+      - type: dummy
+        properties:
+          background_color:
+            - 90
+            - 80
+            - 20
+            - 110
+        x: 3936
+        y: 1280
+        width: 256
+        height: 608
+      - type: dummy
+        properties:
+          background_color:
+            - 100
+            - 100
+            - 20
+            - 90
+        x: 3968
+        y: 1312
+        width: 192
+        height: 544
+      - type: dummy
+        properties:
+          background_color:
+            - 80
+            - 90
+            - 20
+            - 130
+        x: 3904
+        y: 0
+        width: 320
+        height: 672
+      - type: dummy
+        properties:
+          background_color:
+            - 90
+            - 80
+            - 20
+            - 110
+        x: 3936
+        y: 32
+        width: 256
+        height: 608
+      - type: dummy
+        properties:
+          background_color:
+            - 100
+            - 100
+            - 20
+            - 90
+        x: 3968
+        y: 64
+        width: 192
+        height: 544
+      - type: safe
+        x: 0
+        y: 672
+        width: 64
+        height: 128
+      - type: safe
+        x: 0
+        y: 1120
+        width: 64
+        height: 128
+    assets:
+      - type: wall
+        x: -32
+        y: 1248
+        width: 352
+        height: 704
+        texture: null
+      - type: wall
+        x: -32
+        y: -32
+        width: 352
+        height: 704
+        texture: null
+      - type: wall
+        x: 3904
+        y: 1248
+        width: 352
+        height: 704
+        texture: null
+      - type: wall
+        x: 3904
+        y: -32
+        width: 352
+        height: 704
+        texture: null
+  - name: One Way Exit
+    properties:
+      background_color:
+        - 80
+        - 100
+        - 20
+        - 130
+      title_stroke_color:
+        - 80
+        - 120
+        - 20
+        - 255
+    x: -24736
+    y: 16576
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 6700
+          y: -2254
+        width: 64
+        height: 480
+      - type: safe
+        x: 64
+        y: 0
+        width: 256
+        height: 480
+      - type: active
+        x: 320
+        y: 0
+        width: 1248
+        height: 480
+      - type: safe
+        x: 1568
+        y: 0
+        width: 256
+        height: 480
+      - type: exit
+        x: 1824
+        y: 224
+        translate:
+          x: 11000
+          y: -6950
+        width: 64
+        height: 256
+      - type: exit
+        x: 1824
+        y: 0
+        translate:
+          x: 11000
+          y: -6724
+        width: 64
+        height: 224
+  - name: Floral Bridge
+    x: -12384
+    y: 704
+    zones:
+      - type: exit
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -160
+        width: 480
+        height: 64
+      - type: safe
+        x: 0
+        y: 2240
+        width: 480
+        height: 256
+      - type: active
+        x: 0
+        y: 320
+        width: 480
+        height: 1920
+      - type: safe
+        x: 0
+        y: 64
+        width: 480
+        height: 256
+      - type: exit
+        x: 0
+        y: 2496
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+  - name: Floral Garden
+    x: -12512
+    y: -352
+    zones:
+      - type: safe
+        x: 128
+        y: 736
+        width: 480
+        height: 256
+      - type: active
+        x: 0
+        y: 0
+        width: 736
+        height: 736
+      - type: exit
+        x: 128
+        y: 992
+        translate:
+          x: 0
+          y: 160
+        width: 480
+        height: 64
+    assets:
+      - type: wall
+        x: 608
+        y: 736
+        width: 160
+        height: 352
+        texture: null
+      - type: wall
+        x: -32
+        y: 736
+        width: 160
+        height: 352
+        texture: null
