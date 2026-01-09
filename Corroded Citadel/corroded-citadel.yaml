@@ -16,9 +16,9 @@ areas:
     zones:
       - type: safe
         x: 0
-        y: 0
+        y: 64
         width: 320
-        height: 480
+        height: 352
       - type: active
         x: 320
         y: 0
@@ -43,6 +43,22 @@ areas:
           y: 0
         width: 64
         height: 480
+      - type: teleport
+        x: 0
+        y: 416
+        translate:
+          x: 0
+          y: 500
+        width: 320
+        height: 64
+      - type: teleport
+        x: 0
+        y: 0
+        translate:
+          x: 0
+          y: -500
+        width: 320
+        height: 64
   - x: last_right
     y: last_y
     zones:
@@ -2553,5 +2569,5 @@ areas:
       - type: removal
         x: 5056
         y: 0
-        width: 64
+        width: 128
         height: 1056
